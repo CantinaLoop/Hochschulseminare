@@ -6,9 +6,10 @@ institute: HMTM Hannover
 date: 12 10 2026
 date-format: "DD.MM.YYYY"
 from: markdown+emoji
+bibliography: references.bib
 format: 
    revealjs:
-       lang: de
+       lang: de-DE
        title-slide-attributes:
          data-background-color: "#0FA3B1"
          data-footer: Test
@@ -23,7 +24,7 @@ format:
        #navigation-mode: vertical
        controls-layout: bottom-right
        controls-tutorial: true
-       toc: false
+       toc: true
        toc-depth: 2
        toc-title: Inhalt
        theme: hmtmh
@@ -50,9 +51,16 @@ filters:
   - reveal-header
 ---
 
-## Test
 
 ## Herzlich willkommen! {background-color="#0FA3B1"}
+
+#### Test
+
+[@richter2014] 
+
+Blah Blah [see @ernst2013, S. 33-35; also @grout2019, Kap. 1]
+
+@richter2014 [pp. 33] sagt Blah blah
 
 #### Über mich {.smaller}
 
@@ -65,11 +73,11 @@ filters:
 ::: {.nonincremental}
 - Studium:
    - Kirchen- und Schulmusik (HMDK Stuttgart)
-   - Bachelor Operngesang + Gesang (HfM Karlsruhe)
+   - Bachelor Operngesang + Bachelor Gesang (HfM Karlsruhe)
    - Master Gesang in freiberuflicher Tätigkeit (HMTM Hannover)
 :::
 
-- Lehre: HMTM Hannover, HfK Bremen, Universität Osnabrück
+- Lehre: HMTM Hannover, HfK Bremen, Universität Osnabrück (bis 2025)
 
 
 . . .
@@ -90,11 +98,6 @@ Stellen Sie sich kurz vor:
 - Was haben Sie für Erwartungen an den Kurs?
 - Was interessiert Sie besonders? Gibt es Wunschthemen?
 
-:::{.notes}
-- Mit den Master Freiberuflich sehen wir uns auch im Kurs "Hospitation und Unterrichtspraxis", den Henryk Böhm und ich gemeinsam machen.
-- Quasi praktische Umsetzung dessen, was hier vor allem im Methodik-Teil zur Sprache kommt.
-:::
-
 ## Organisation {background-color="#0FA3B1"}
 
 #### Didaktik und Methodik Gesang I + II {.smaller}
@@ -107,8 +110,8 @@ Stellen Sie sich kurz vor:
     (2 Semester für "Zusatzqualifikation Gesangspädagogik")
 - **Lehrform**: 
     - Vorlesung/Seminar über 4 Semester
-        - **Kursteil I**: WS 25/26 - SS 26
         - **Kursteil II**: WS 26/27 - SS 27
+        - **Kursteil I**: WS 27/28 - SS 28
     - Nicht-konsekutiv: Kursteile I + II bauen inhaltlich nicht grundlegend aufeinander auf
     - Einstieg jedes WS möglich
 
@@ -125,8 +128,9 @@ Stellen Sie sich kurz vor:
   - Klausur nach jedem Kursteil (immer Ende Sommersemester):
     - 120 Min. "closed book", benotet
     - Inhalt: 
-      - Alle Themen des aktuellen Kursteils (Folien, Protokolle, Notizen etc.)
-      - Fragen von Dr. Rosslau zu seinen Vorlesungen
+      - Auswahl (ca. 30 Fragen) aus Katalog von ca. 90 bekannten Grundfragen
+      - Grundlage: Vorlesungen, Folien, Protokolle
+      - Pro Themenbereich zusätzlich 1-2 unbekannte Transferfragen
 
 #### Weitere Kurse im Modul
 
@@ -149,7 +153,9 @@ Je nach Vorbildung:
 
 ## Semesterausblick {background-color="#0FA3B1"}
 
-#### "Maximal"-Inhalte Methodik/Didaktik I (WS25/26 - SS26)
+#### "Maximal"-Inhalte Methodik/Didaktik II (WS26/27 - SS27)
+
+<br>
 
 . . .
 
@@ -174,7 +180,11 @@ Funktionen des Larynx – Aufbau und Funktion der Ansatzräume – "Stütz"-Begr
 
 . . .
 
-#### "Maximal"-Inhalte Methodik/Didaktik I (WS25/26 - SS26)
+#### "Maximal"-Inhalte Methodik/Didaktik II (WS26/27 - SS27)
+
+<br>
+
+. . .
 
 **Methodik**
 
@@ -198,17 +208,17 @@ Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen
 
 :::{.column width="33%" .fragment}
 ![](https://images.thalia.media/-/BF2000-2000/9d3d2396811e474284c85af40b2aeeba/die-stimme-gebundene-ausgabe-bernhard-richter.jpeg)
-<div style="font-size: 25px">(Richter 2014)^[Richter, Bernhard. Die Stimme: Grundlagen, künstlerische Praxis, Gesunderhaltung. 2., Durchges. Aufl. Henschel, 2014.]</div>
+<div style="font-size: 25px">@richter2014</div>
 :::
 
 :::{.column width="33%" .fragment}
 ![](https://images.thalia.media/-/BF2000-2000/a9fdcbe1e03a4e1e9fb03e13598358a7/lehren-und-lernen-im-instrumentalunterricht-taschenbuch-anselm-ernst.jpeg)
-<div style="font-size: 25px; margin-top: 15px">(Ernst 2013)^[Ernst, Anselm. Lehren und Lernen im Instrumentalunterricht: ein pädagogisches Handbuch für die Praxis. Schott Music, 2013.]</div>
+<div style="font-size: 25px; margin-top: 15px">@ernst2013</div>
 :::
 
 :::{.column width="33%" .fragment}
 ![](https://bdg-online.org/wp-content/uploads/2025/06/lehrplan_gesang2025.jpg)
-<div style="font-size: 25px">(VdM 2025)^[Verband Deutscher Musikschulen und Bundesverband Deutscher Gesangspädagogen, Hrsg. Lehrplan Gesang: Klassik und Populäre Stile. 1. Auflage. Verband deutscher Musikschulen, 2025.]</div>
+<div style="font-size: 25px">@verbanddeutschermusikschulenLehrplanGesangKlassik2025</div>
 :::
 
 ::::
@@ -355,4 +365,6 @@ Gerrit van Honthorst (1592-1656): Die Kupplerin (c.1625)
 #### Übung: Was nehmen Sie wahr?
 
 {{< video Medien/Schwalbe.mp3 >}}
+
+- - -
 
