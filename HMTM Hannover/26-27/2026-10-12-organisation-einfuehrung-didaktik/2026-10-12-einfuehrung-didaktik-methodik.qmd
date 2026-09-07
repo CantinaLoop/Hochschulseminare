@@ -62,6 +62,8 @@ Blah Blah [see @ernst2013, S. 33-35; also @grout2019, Kap. 1]
 
 @richter2014 [pp. 33] sagt Blah blah
 
+@kexp2017 Videotest
+
 #### Über mich {.smaller}
 
 **Dozent:** Julian Popken
@@ -218,7 +220,7 @@ Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen
 
 :::{.column width="33%" .fragment}
 ![](https://bdg-online.org/wp-content/uploads/2025/06/lehrplan_gesang2025.jpg)
-<div style="font-size: 25px">@verbanddeutschermusikschulenLehrplanGesangKlassik2025</div>
+<div style="font-size: 25px">@vdm2025</div>
 :::
 
 ::::
@@ -254,7 +256,7 @@ Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen
 {{< video https://www.youtube.com/embed/4Sya_GIxsw0?si=K57BznFR8UGRFIqn&amp;start=26 width="100%" height="80%" >}}
 
 :::{style="font-size: 20px; margin-top: -60px"}
-*Jacques Houdek - My friend | Eurovision Song Contest 2017* ([Youtube](https://www.youtube.com/watch?v=4Sya_GIxsw0)) ^[Eurovision Song Contest, Reg. Jacques Houdek - My Friend (LIVE) | Croatia 🇭🇷 | Grand Final | Eurovision 2017. 2017. 3:15. https://www.youtube.com/watch?v=4Sya_GIxsw0.]
+@kexp2017
 :::
 
 ---
@@ -367,4 +369,7 @@ Gerrit van Honthorst (1592-1656): Die Kupplerin (c.1625)
 {{< video Medien/Schwalbe.mp3 >}}
 
 - - -
+
+#### Zitierte Quellen {.allowframebreaks}
+
 
