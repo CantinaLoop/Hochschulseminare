@@ -6,7 +6,11 @@ institute: HMTM Hannover
 date: 12 10 2026
 date-format: "DD.MM.YYYY"
 from: markdown+emoji
+#validate-yaml: true
+#citeproc: true
 bibliography: references.bib
+    #monografien: monografien.bib
+    #medien: medien.bib
 format: 
    revealjs:
        lang: de-DE
@@ -49,6 +53,8 @@ reveal-plugins:
   - RevealConfetti
 filters:
   - reveal-header
+  - confetti
+  #- multibib
 ---
 
 
@@ -56,13 +62,7 @@ filters:
 
 #### Test
 
-[@richter2014] 
-
-Blah Blah [see @ernst2013, S. 33-35; also @grout2019, Kap. 1]
-
-@richter2014 [pp. 33] sagt Blah blah
-
-@kexp2017 Videotest
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch"></iframe>
 
 #### Über mich {.smaller}
 
@@ -129,10 +129,9 @@ Stellen Sie sich kurz vor:
 - **Prüfungsleistung**
   - Klausur nach jedem Kursteil (immer Ende Sommersemester):
     - 120 Min. "closed book", benotet
-    - Inhalt: 
-      - Auswahl (ca. 30 Fragen) aus Katalog von ca. 90 bekannten Grundfragen
-      - Grundlage: Vorlesungen, Folien, Protokolle
-      - Pro Themenbereich zusätzlich 1-2 unbekannte Transferfragen
+    - Auswahl (ca. 30 Fragen) aus Katalog von ca. 90 bekannten Grundfragen
+    - Grundlage: Vorlesungen, Folien, Protokolle
+    - Pro Themenbereich zusätzlich 1-2 unbekannte Transferfragen
 
 #### Weitere Kurse im Modul
 
@@ -253,10 +252,10 @@ Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen
 
 #### Was macht (nicht-)klassischen Gesang aus?
 
-{{< video https://www.youtube.com/embed/4Sya_GIxsw0?si=K57BznFR8UGRFIqn&amp;start=26 width="100%" height="80%" >}}
+{{< video https://www.youtube.com/embed/B_ymY0xG0LI?si=pO3GQsFOLCAIdyRW&amp;start=907 width="100%" height="80%" >}}
 
 :::{style="font-size: 20px; margin-top: -60px"}
-@kexp2017
+@nprmusic2019
 :::
 
 ---
@@ -266,17 +265,17 @@ Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen
 {{< video https://www.youtube-nocookie.com/embed/AFgzzWT3zX4?si=M9Pi0FAL5KhpO1vB&amp;start=1949 width="100%" height="80%" >}}
 
 :::{style="font-size: 20px; margin-top: -60px"}
-*Le Mystère des Voix Bulgares - Ergen Deda* ([Youtube](https://www.youtube.com/watch?v=4Sya_GIxsw0)) ^[KEXP, Reg. Le Mystere des Voix Bulgares - Full Performance (Live on KEXP). 2017. 44:54. https://www.youtube.com/watch?v=AFgzzWT3zX4.]
+@kexp2017
 :::
 
 ---
 
 #### Was macht (nicht-)klassischen Gesang aus?
 
-{{< video https://www.youtube.com/watch?v=DTHB9OvWnRg width="100%" height="80%" >}}
+{{< video https://youtu.be/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&;start=142 width="100%" height="80%" poster="https://youtube.com" >}}
 
 :::{style="font-size: 20px; margin-top: -60px"}
-*Schubert: Fierrabras - Duett Emma, König Karl | Julia Kleiter & Georg Zeppenfeld* ([Youtube](https://www.youtube.com/watch?v=DTHB9OvWnRg)) ^[medici.tv, Reg. Julia Kleiter and Georg Zeppenfeld  - Schubert, Fierrabras, duet Emma and King Karl. 2014. 2:53. https://www.youtube.com/watch?v=DTHB9OvWnRg.]
+@staatsoperstuttgart2023
 :::
 
 ####
@@ -347,7 +346,7 @@ Gerrit van Honthorst (1592-1656): Die Kupplerin (c.1625)
 ::: {.callout-warning}
 ## Methodik: Gesangslehre muss eine Vielzahl verschiedener Perspektiven zulassen.
 - Gesang als hochkomplexes System: Wir müssen vereinfachen (können).
-- Sehr viele Aspekte sind nicht (abschließend) erforscht.
+- Sehr viele Aspekte sind nicht abschließend erforscht.
 - In vielen Bereichen gibt es kein klares "richtig" oder "falsch".
 - Ständiges Üben: Unklarheiten einordnen, Widersprüchlichkeiten aushalten.
 - Offen, neugierig und respektvoll ggü. anderen, evtl. abweichenden Lehrmeinungen.
@@ -360,16 +359,15 @@ Gerrit van Honthorst (1592-1656): Die Kupplerin (c.1625)
 
 *"Der Schüler ist die Methode"* <span style="font-size: 20px"> (Franziska Martienssen-Lohmann)^[Martienssen-Lohmann, Franziska: Ausbildung der Gesangsstimme. Rudolf Erdmann Musikverlag, Wiesbaden 1957, S. 17. Auch Peter Heilbut (1920-2005) zugeschrieben.]</span>
 
-#### Übung: Was nehmen Sie wahr?
 
-{{< video https://www.youtube.com/watch?v=FY0FFDZaYw8 width="100%" height="80%" >}}
+#### Quellen / Medien {.scrollable .smaller}
 
-#### Übung: Was nehmen Sie wahr?
+<!--###### Monografien 
+::: {#refs-monografien}
+:::
 
-{{< video Medien/Schwalbe.mp3 >}}
-
-- - -
-
-#### Zitierte Quellen {.allowframebreaks}
+###### Medien
+::: {#refs-medien}
+:::-->
 
 
