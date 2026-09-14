@@ -130,8 +130,8 @@ Stellen Sie sich kurz vor:
   - Klausur nach jedem Kursteil (immer Ende Sommersemester):
     - 120 Min. "closed book", benotet
     - Auswahl (ca. 30 Fragen) aus Katalog von ca. 90 bekannten Grundfragen
-    - Grundlage: Vorlesungen, Folien, Protokolle
     - Pro Themenbereich zusätzlich 1-2 unbekannte Transferfragen
+    - Grundlage: Vorlesungen, Folien, Protokolle
 
 #### Weitere Kurse im Modul
 
@@ -296,18 +296,18 @@ besser:
 
 #### {.smaller}
 
-![](Medien/Honthorst, Gerrit van - Anbetung des Kindes c1620.jpg){fig-align="left" .lightbox width=80%}
+![](https://www.kunstkopie.de/kunst/gerrit_van_honthorst/Anbetung-der-Hirten.jpg){fig-align="left" .lightbox width=80%}
 
 :::{style="font-size: 20px; margin-top: -40px"}
-Gerrit van Honthorst (1592-1656): Die Anbetung des Kindes (c.1620)
+@honthorst1622 - Die Anbetung des Kindes
 :::
 
 ---
 
-![](Medien/Honthorst, Gerrit van - Die Kupplerin 1625.jpg){fig-align="left" .lightbox width=80%}
+![](https://cdn.thenetexperts.info/image/authenticated/s--njUtcYpZ--/q_80/artworks/GERARD-VAN-HONTHORST-1592_DER-LIEDERLICHE-STUDENT-391_206690_CC-BY-SA_BSTGS.jpg){fig-align="left" .lightbox width=80%}
 
 :::{style="font-size: 20px; margin-top: -50px"}
-Gerrit van Honthorst (1592-1656): Die Kupplerin (c.1625)
+@honthorst1625 - Der liederliche Student
 :::
 
 ---
