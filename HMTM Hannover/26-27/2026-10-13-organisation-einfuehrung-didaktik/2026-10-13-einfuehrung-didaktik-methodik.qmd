@@ -3,7 +3,7 @@ title: EINFÜHRUNG
 subtitle: Didaktik/Methodik Gesang
 author: Julian Popken
 institute: HMTM Hannover
-date: 12 10 2026
+date: 13 10 2026
 date-format: "DD.MM.YYYY"
 from: markdown+emoji
 #validate-yaml: true
@@ -37,7 +37,7 @@ format:
        background-transition: fade
        incremental: true
        logo: medien/00-HMTMH-Logo-1.png
-       footer: Einführung Didaktik/Methodik Gesang | 12.10.2026 | Julian Popken
+       footer: Einführung Didaktik/Methodik Gesang | 13.10.2026 | Julian Popken
        footer-logo-link: https://hmtm-hannover.de
        #header: Einführung Didaktik/Methodik
        #header-logo: Medien/00-HMTMH-Logo-1.png

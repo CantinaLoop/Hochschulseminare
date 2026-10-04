@@ -129,9 +129,10 @@ Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
 flowchart LR
   A[Hauptfach I<br>Semester 1 + 2<br>1 SWS] --> B{Prüfung:<br>ca. 15 Min.}
   B --> C[Hauptfach II<br>Semester 3 + 4<br>1 SWS]
-  C --> D[Schwerpunktfach 1/I<br>Semester 5 + 6<br>1 SWS]
-  C --> E[Zuwahlfach 1/I<br>Semester 5 + 6<br>0,75 SWS]
-  C --> F{Abwahl!?<br>Prüfung: }
+  C --> D{Prüfung<br>ca. 15 Min.}
+  D --> E[Schwerpunktfach 1/I<br>Semester 5 + 6<br>1 SWS]
+  D --> F[Zuwahlfach 1/I<br>Semester 5 + 6<br>0,75 SWS]
+  D --> G{Abwahl!?<br>Prüfung: }
 ```
 
 #### Stichpunkte Gesang im FüBa
@@ -152,3 +153,5 @@ flowchart LR
 
 
 ## Singen! {background-color="#0FA3B1"}
+
+#### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"}
