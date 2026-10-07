@@ -55,7 +55,7 @@ filters:
 
 ## Was macht klassischen/populären Gesang aus? {background-color="#0FA3B1"}
 
-#### Was macht (nicht-)klassischen Gesang aus?
+#### Was macht klassischen/populären Gesang aus?
 
 {{< video https://www.youtube.com/embed/B_ymY0xG0LI?si=pO3GQsFOLCAIdyRW&amp;start=907 width="100%" height="80%" >}}
 
@@ -65,7 +65,7 @@ filters:
 
 ---
 
-#### Was macht (nicht-)klassischen Gesang aus?
+#### Was macht klassischen/populären Gesang aus?
 
 {{< video https://www.youtube-nocookie.com/embed/AFgzzWT3zX4?si=M9Pi0FAL5KhpO1vB&amp;start=1949 width="100%" height="80%" >}}
 
@@ -75,7 +75,7 @@ filters:
 
 ---
 
-#### Was macht (nicht-)klassischen Gesang aus?
+#### Was macht klassischen/populären Gesang aus?
 
 {{< video https://youtu.be/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&;start=142 width="100%" height="80%" poster="https://youtube.com" >}}
 
@@ -109,7 +109,7 @@ Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
 
 - Verstärkt (in der Regel)
 - Überwiegend textgesteuert
-- Neben dichter auch luftige/verhauchte Phonation
+- Neben "klassischer" auch luftige/verhauchte Phonation etc.
 - Neben Registerausgleich auch Registerbetonung/-trennung
 - Vielfältige Gesangstechniken/Stilmittel:
    - Twang, Belt, Vocal Fry, Growl, Flips etc.
@@ -123,25 +123,13 @@ Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
 
 ## Organisatorisches {background-color="#0FA3B1"}
 
-#### Gesang als Hauptfach
-
-```{mermaid}
-flowchart LR
-  A[Hauptfach I<br>Semester 1 + 2<br>1 SWS] --> B{Prüfung:<br>ca. 15 Min.}
-  B --> C[Hauptfach II<br>Semester 3 + 4<br>1 SWS]
-  C --> D{Prüfung<br>ca. 15 Min.}
-  D --> E[Schwerpunktfach 1/I<br>Semester 5 + 6<br>1 SWS]
-  D --> F[Zuwahlfach 1/I<br>Semester 5 + 6<br>0,75 SWS]
-  D --> G{Abwahl!?<br>Prüfung: }
-```
-
 #### Stichpunkte Gesang im FüBa
 
 - Obligatorisch (mind. 4 Semester)
 
-- Vertiefung möglich (Schwerpunktfach u. a.)
+- Vertiefung möglich (Schwerpunktfach, Zuwahlfach u. a.)
 
-- "Aulastunde" Do, 14-15 Uhr (HF, NF nach Absprache)
+- "Aulastunde" bei Matthias Minnich Do, 14-15 Uhr Raum 202 (HF, NF nach Absprache)
 
 - Korrepetition (HF, NF nach Absprache)
 
