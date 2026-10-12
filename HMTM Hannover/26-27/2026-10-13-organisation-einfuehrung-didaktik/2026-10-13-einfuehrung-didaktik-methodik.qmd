@@ -60,10 +60,6 @@ filters:
 
 ## Herzlich willkommen! {background-color="#0FA3B1"}
 
-#### Test
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch"></iframe>
-
 #### Über mich {.smaller}
 
 **Dozent:** Julian Popken
@@ -165,18 +161,17 @@ Je nach Vorbildung:
 . . . 
 
 ::: {.callout}
-## Akustische Voraussetzungen
-u.a. Schallbegriff – Obertöne, Teiltöne, Harmonische etc. – Primärer Kehlkopfklang – Resonanzbegriff –
-Formanten – Vokaldreieck – Formantstrategien
+## Geschichte der Gesangspädagogik
+Übersicht über Forschungsstand zu Methoden, Stimmidealen und Stimmtheorien <br>
+Antike – Mittelalter – Renaissance –  Belcanto 18. - 20. Jhd. – Vorstellung/Diskussion neuerer Literatur
 :::
 
 . . .
 
 ::: {.callout}
-## Anatomie und Physiologie der Singstimme
-u.a. Quelle-Filter-Modell (Fant u. a.) und seine Grenzen – Vertiefung: Atemkreislauf und
--muskulatur – Vertiefung: Aufbau und
-Funktionen des Larynx – Aufbau und Funktion der Ansatzräume – "Stütz"-Begriff – Register – Stimmstörungen – Stimmfächer
+## Systematik von Gesangstechniken und deren Vermittlung
+Schwerpunkt Belcanto ab Barock: Rezitative - Canto fiorito - Portamento - Koloraturen - Kadenzen etc.
+Umgang mit zeitgenössischer Musik und ihren Techniken: Improvisation - Performance
 :::
 
 . . .
@@ -359,6 +354,13 @@ besser:
 
 *"Der Schüler ist die Methode"* <span style="font-size: 20px"> (Franziska Martienssen-Lohmann)^[Martienssen-Lohmann, Franziska: Ausbildung der Gesangsstimme. Rudolf Erdmann Musikverlag, Wiesbaden 1957, S. 17. Auch Peter Heilbut (1920-2005) zugeschrieben.]</span>
 
+#### Was nehmen Sie wahr?
+
+{{< video https://www.youtube.com/watch?v=nxTdD_eaJaE width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+*Frederik Vahle/Dietlind Grabe: Annes Schlaflied (Anne Kaffekanne)* [@schlangenlinien1984]
+:::
 
 #### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"} 
 
