@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Vorlesung Didaktik/Methodik"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Übersicht
+      - text: "HMTMH 26/27"
+        menu:
+          - href: 2026-10-08-praesentation-fuebawoche/index.qmd
+            text: "Präsentation FüBa-Woche"
+          - href: 2026-10-13-organisation-einfuehrung-didaktik/index.qmd
+            text: "Einführung Didaktik + Methodik Gesang"
+
+format:
+  html:
+    theme: cosmo
