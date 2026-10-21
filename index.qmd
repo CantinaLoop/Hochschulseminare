@@ -2,7 +2,7 @@
 title: "Meine Präsentationen"
 listing:
   contents: 
-    - "2026-*/*.qmd" # Findet alle .qmd-Dateien in Ordnern, die mit 2026- beginnen
+    - "2026-*.qmd" # Findet alle .qmd-Dateien in Ordnern, die mit 2026- beginnen
   type: table        # Optionen: default, grid, table
   sort: "date desc"  # Sortierung (falls 'date' in den Präsentationen definiert ist)
   categories: false
