@@ -1,5 +1,5 @@
 ---
-title: "Meine Präsentationen"
+title: "Präsentationen"
 listing:
   contents: 
     - "2026-*/*.qmd" # Findet alle .qmd-Dateien in Ordnern, die mit 2026- beginnen
@@ -8,4 +8,4 @@ listing:
   categories: false
 ---
 
-Willkommen auf meiner Übersichtsseite für Präsentationen.
+Übersichtsseite für Präsentationen

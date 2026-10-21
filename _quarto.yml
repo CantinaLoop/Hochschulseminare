@@ -12,10 +12,12 @@ website:
         menu:
           - href: 2026-10-08-praesentation-fuebawoche/index.qmd
             text: "Präsentation FüBa-Woche"
-            target: _blank
           - href: 2026-10-13-organisation-einfuehrung-didaktik/index.qmd
             text: "Einführung Didaktik + Methodik Gesang"
-            target: _blank
+      - text: "HfK 26/27"
+        menu:
+          - href: 2026-10-30-organisation-einfuehrung-didaktik/index.qmd
+            text: "Einführung Didaktik + Methodik Gesang"
 
 format:
   html:
