@@ -103,8 +103,6 @@ Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
 :::{.column width="50%" .fragment}
 **"Contemporary commercial music"** (CCM)
 
-. . .
-
 (sehr **stilabhängig**):
 
 - Verstärkt (in der Regel)
