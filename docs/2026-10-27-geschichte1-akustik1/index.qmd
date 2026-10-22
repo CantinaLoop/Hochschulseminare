@@ -1,0 +1,69 @@
+---
+title: Geschichte I + Akustik I
+subtitle: Didaktik/Methodik Gesang
+author: Julian Popken
+institute: HMTM Hannover
+date: 27 10 2026
+date-format: "DD.MM.YYYY"
+from: markdown+emoji
+#validate-yaml: true
+#citeproc: true
+bibliography: ../references.bib
+    #monografien: monografien.bib
+    #medien: medien.bib
+format: 
+   revealjs:
+       lang: de-DE
+       title-slide-attributes:
+         #data-background-color: "#0FA3B1"
+         data-footer: Test
+         data-background-image: "../assets/degas_la-repetition-de-chant_1877.png"
+         data-background-size: "cover"
+         data-background-opacity: "0.4"
+       #width: 1920
+       #height: 1020
+       slide-number: c
+       slide-level: 4
+       sc-sb-title: true
+       chalkboard: 
+         buttons: false
+       #subtitle-as-header: true
+       #navigation-mode: vertical
+       controls-layout: bottom-right
+       controls-tutorial: true
+       toc: true
+       toc-depth: 2
+       toc-title: Inhalt
+       theme: hmtmh
+       #transition: slide
+       #transition-speed: fast
+       background-transition: fade
+       incremental: true
+       logo: ../assets/00-HMTMH-Logo-1.png
+       footer: Geschichte I + Akustik I | 27.10.2026 | Julian Popken
+       footer-logo-link: https://hmtm-hannover.de
+       #header: Einführung Didaktik/Methodik
+       #header-logo: Medien/00-HMTMH-Logo-1.png
+       #header-logo-link: https://hmtm-hannover.de
+       auto-stretch: true
+       #center: true
+       #cap-location: margin
+       #link-external-icon: true
+       link-external-newwindow: true
+       reference-location: document
+       
+reveal-plugins:
+  - RevealConfetti
+filters:
+  - reveal-header
+  - confetti
+  #- multibib
+---
+
+## Organisation {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+#### Learning Management System / Protokolle
+
+→ [Kurs im LMS der HMTMH](https://lms.hmtm-hannover.de/course/view.php?id=437)
+
+#### {background-iframe="https://bdg-online.org/" background-interactive=true}
