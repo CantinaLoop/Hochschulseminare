@@ -6,7 +6,7 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
 <link href="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/sc-sb-title-1.0.0/sc_sb_title.js" defer="true"></script>
@@ -14,7 +14,7 @@
 <script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Julian Popken">
   <title>Vorlesung Didaktik/Methodik – EINFÜHRUNG</title>
@@ -27,10 +27,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -164,7 +167,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Julian Popken 
+Julian Popken
 </div>
         <p class="quarto-title-affiliation">
             HMTM Hannover
@@ -375,7 +378,7 @@ Julian Popken
 <div class="column fragment" style="width:33%;">
 <img data-src="https://images.thalia.media/-/BF2000-2000/9d3d2396811e474284c85af40b2aeeba/die-stimme-gebundene-ausgabe-bernhard-richter.jpeg">
 <div style="font-size: 25px">
-<span class="citation" data-cites="richter2014">Richter (<a href="#/quellen-medien" role="doc-biblioref" onclick="">2014</a>)</span>
+<span class="citation" data-cites="richter2014">Richter (<a href="#/quellen-medien" role="doc-biblioref" onclick="">2023</a>)</span>
 </div>
 </div><div class="column fragment" style="width:33%;">
 <img data-src="https://images.thalia.media/-/BF2000-2000/a9fdcbe1e03a4e1e9fb03e13598358a7/lehren-und-lernen-im-instrumentalunterricht-taschenbuch-anselm-ernst.jpeg">
@@ -438,7 +441,7 @@ Julian Popken
 <h4>Was macht (nicht-)klassischen Gesang aus?</h4>
 <iframe data-external="1" src="https://www.youtube.com/embed/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&amp;;start=142" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 <div style="font-size: 20px; margin-top: -60px">
-<p>Wagner: <em>Götterdämmerung - 2. Aufzug, 3. Szene</em> <span class="citation" data-cites="staatsoperstuttgart2023">(<a href="#/quellen-medien" role="doc-biblioref" onclick="">Staatsoper Stuttgart 2023</a>)</span></p>
+<p>Wagner: <em>Götterdämmerung - 2. Aufzug, 3. Szene</em> <span class="citation" data-cites="staatsoperstuttgart2023">(<a href="#/quellen-medien" role="doc-biblioref" onclick=""><strong>staatsoperstuttgart2023?</strong></a>)</span></p>
 </div>
 </section>
 <section id="section-1" class="slide level4">
@@ -555,6 +558,9 @@ Julian Popken
 <source src="../assets/Schwalbe.mp3" type="audio/mpeg">
 Ihr Browser unterstützt kein Audio-Element. </audio>
 </section>
+<div style="font-size: 20px; margin-top: 10px">
+<p><span class="citation" data-cites="carus2010">(Brahms: <a href="#/quellen-medien" role="doc-biblioref" onclick=""><span>„Die <span>Schwälble</span> Ziehet Fort“</span> 2010</a>)</span></p>
+</div>
 </section>
 <section id="quellen-medien" class="slide level4 scrollable smaller" data-visibility="uncounted">
 <h4>Quellen / Medien</h4>
@@ -582,6 +588,9 @@ Ihr Browser unterstützt kein Audio-Element. </audio>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-carus2010" class="csl-entry" role="listitem">
+<span>„Die <span>Schwälble</span> Ziehet Fort“</span>. 2010. Carus. <a href="https://www.liederprojekt.org/lied29151-Die_Schwaelble_ziehet_fort.html">https://www.liederprojekt.org/lied29151-Die_Schwaelble_ziehet_fort.html</a>.
+</div>
 <div id="ref-ernst2013" class="csl-entry" role="listitem">
 Ernst, Anselm. 2013. <em>Lehren und Lernen im Instrumentalunterricht: ein pädagogisches Handbuch für die Praxis</em>. Schott Music.
 </div>
@@ -598,10 +607,7 @@ KEXP. 2017. <em>Le <span>Mystere</span> Des <span>Voix Bulgares</span> - <span>F
 NPR Music. 2019. <em>Moonchild: <span>NPR Music Tiny Desk Concert</span></em>. <a href="https://www.youtube.com/watch?v=B_ymY0xG0LI">https://www.youtube.com/watch?v=B_ymY0xG0LI</a>.
 </div>
 <div id="ref-richter2014" class="csl-entry" role="listitem">
-Richter, Bernhard. 2014. <em>Die Stimme: Grundlagen, künstlerische Praxis, Gesunderhaltung</em>. 2., durchges. Aufl. Henschel.
-</div>
-<div id="ref-staatsoperstuttgart2023" class="csl-entry" role="listitem">
-Staatsoper Stuttgart. 2023. <em>Richard <span>Wagner</span>: <span>Götterdämmerung</span> – <span>II</span>. <span>Aufzug</span>, <span>III</span>. <span>Szene</span></em>. <a href="https://www.youtube.com/watch?v=rkNS0iWKHOM">https://www.youtube.com/watch?v=rkNS0iWKHOM</a>.
+Richter, Bernhard. 2023. <em>Die Stimme: Grundlagen, künstlerische Praxis, Gesunderhaltung</em>. 2., durchges. Aufl. Henschel. <a href="https://www.youtube.com/watch?v=rkNS0iWKHOM">https://www.youtube.com/watch?v=rkNS0iWKHOM</a>.
 </div>
 <div id="ref-vdm2025" class="csl-entry" role="listitem">
 VdM, und BDG, Hrsg. 2025. <em>Lehrplan Gesang: Klassik und Populäre Stile</em>. 1. Auflage. Verband deutscher Musikschulen.

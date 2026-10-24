@@ -371,6 +371,12 @@ besser:
   </audio>
 </section>
 
+
+
+:::{style="font-size: 20px; margin-top: 10px"}
+[Brahms: @carus2010]
+:::
+
 #### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"} 
 
 <!--###### Monografien 
