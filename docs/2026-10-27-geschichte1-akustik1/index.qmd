@@ -64,6 +64,56 @@ filters:
 
 #### Learning Management System / Protokolle
 
+<br>
+
+. . . 
+
 → [Kurs im LMS der HMTMH](https://lms.hmtm-hannover.de/course/view.php?id=437)
 
+<br>
+
+. . .
+
+→ **Protokolle** bitte immer bis **Mo, 18 Uhr** senden an: 
+
+[julian.popken@hmtm-hannover.de](mailto:Julian.Popken@hmtm-hannover.de) 
+
+und 
+
+[stachurad@stud.hmtm-hannover.de](mailto:stachurad@stud.hmtm-hannover.de)
+
 #### {background-iframe="https://bdg-online.org/" background-interactive=true}
+
+## Geschichte der Gesangspädagogik I - Antike
+
+### Historische Quellen Westeuropäischer Musik
+
+
+#### 
+
+Karten
+
+:::{.notes}
+- Westeuropäische Kultur der Amerikas und Europas in Abgrenzung zu (fern)-östlichen Kulturen. 
+- Wichtigste Regionen für unsere Mathematik, Kalender, Astronomie, Medizin: Mesopotamien, Ägypten und vor allem: Griechisch, Römisch
+- Unsere Philosophie: Platon und Aristoteles
+- Wichtig: Quasi Zufall, könnten je nach Entwicklung auch andere Zivilisationen stärker gewesen sein.
+- Griechische Schriften stärkste Quelle für heutiges Musikverständnis.
+- Musik ist Kunst in der Zeit und daher nicht permanent. 
+- Spuren also:
+:::
+
+#### Materielle/physische Überreste
+
+- Musikinstrumente, Aufführungsorte
+
+#### Bildliche Darstellungen
+
+- Darstellungen von MusikerInnen, Instrumenten, Aufführungen
+
+#### Schriftwerke über Musik und MusikerInnen
+  
+
+#### Musik selbst
+
+- Notation, Mündliche Tradition, Tonaufnahmen (seit ca. 1870)

@@ -362,6 +362,15 @@ besser:
 *Frederik Vahle/Dietlind Grabe: Annes Schlaflied (Anne Kaffekanne)* [@schlangenlinien1984]
 :::
 
+#### Was nehmen Sie wahr?
+
+<section>
+  <audio controls>
+    <source src="../assets/Schwalbe.mp3" type="audio/mpeg">
+    Ihr Browser unterstützt kein Audio-Element.
+  </audio>
+</section>
+
 #### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"} 
 
 <!--###### Monografien 
