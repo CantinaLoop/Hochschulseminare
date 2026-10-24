@@ -54,9 +54,11 @@ format:
        
 reveal-plugins:
   - RevealConfetti
+  - editable
 filters:
   - reveal-header
   - confetti
+  - editable
   #- multibib
 ---
 
