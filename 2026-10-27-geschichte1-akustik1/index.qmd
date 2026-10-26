@@ -89,12 +89,21 @@ und
 
 ## Geschichte der Gesangspädagogik I - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
 
-### Historische Quellen Westeuropäischer Musik
+### Westeuropäische Musik: <br> Welche Quellen gibt es?
 
+#### Wiederholung: Geschichte der ganzen Welt (Selbststudium)
+
+. . .
+
+<iframe width="1120" height="500" src="https://www.youtube.com/embed/xuCn8ux2gbs?si=wE6_uLhOtgO0Y1Tz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Bill Wurtz: *history of the entire world, i guess* ([Youtube 2017](https://www.youtube.com/watch?v=xuCn8ux2gbs))
+:::
 
 #### Antiker Naher Osten
 
-![](../assets/burkholder_karte-naher-osten-antike_s6.png)
+![](../assets/burkholder_karte-naher-osten-antike_s6.png){width="80%"}
 
 :::{style="font-size: 20px; margin-top: -30px"}
 [@grout2019, 6]
@@ -105,9 +114,9 @@ und
 - Wichtigste Regionen für unsere Mathematik, Kalender, Astronomie, Medizin: Mesopotamien, Ägypten und vor allem: Antikes Griechenland, Römisches Reich
 :::
 
-#### Griechische Siedlungen ca. 550 v. u. Z.
+#### Griechische Siedlungen (ca. 550 v. u. Z.)
 
-![](../assets/burkholder_griechen-550vchr_s8.png)
+![](../assets/burkholder_griechen-550vchr_s8.png){width="80%"}
 
 :::{style="font-size: 20px; margin-top: -30px"}
 [@grout2019, 8]
@@ -129,13 +138,45 @@ und
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch"></iframe>
 
-#### 
+#### Hohle Fels Schelklingen (ca. 40.000 v. u. Z.)
 
-![](../assets/burkholder_floete-steinzeit-40000vchr_s5.png)
+::::{.columns}
 
-####
+:::{.column width="50%" .fragment}
+![](https://upload.wikimedia.org/wikipedia/commons/a/a3/Hohler_Fels.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=original){width="70%"}
 
-![](../assets/burkholder_stierharfe-friedhof-ur-nachbau-2500vchr_s7.png)
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[Wikimedia](https://upload.wikimedia.org/wikipedia/commons/a/a3/Hohler_Fels.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
+:::
+
+
+
+:::
+
+:::{.column width="50%" .fragment}
+![](../assets/burkholder_floete-steinzeit-40000vchr_s5.png){width="35%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 5]
+:::
+:::
+
+::::
+
+:::{.notes}
+Die Karsthöhle Hohler Fels liegt etwa einen Kilometer östlich des Stadtkerns von Schelklingen im baden-württembergischen Alb-Donau-Kreis in Deutschland. Sie ist seit dem 19. Jahrhundert einer der bedeutendsten archäologischen Fundplätze des Jungpaläolithikums in Mitteleuropa.
+
+Front view of a bone flute made from the radius (wing bone) of a griffon vulture, unearthed in 2008 at Hohle Fels Cave in the Ach Valley in Swabia (southwestern Germany) and estimated to date from about 40,000 to 42,000 years ago. With five finger holes, it is the most complete of the early flutes yet recovered.
+:::
+
+#### Nachbau sumerische Stierleier (ca. 2500 v. u. Z.)
+
+![](../assets/burkholder_stierharfe-friedhof-ur-nachbau-2500vchr_s7.png){.r-stretch}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 7]
+:::
 
 #### Klangliche Annäherung
 
@@ -169,13 +210,24 @@ From the standpoint of a singer, I have performed these texts in a loud, declara
 
 . . .
 
-![](../assets/burkholder_wandbild-siegesfeier-harfe_2600vchr_s7.png)
+![](../assets/burkholder_wandbild-siegesfeier-harfe_2600vchr_s7.png){width="60%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 7]
+:::
 
 ### Schriftwerke über Musik und MusikerInnen
 
-#### Beispiel: Enheduanna (ca. 2300 v. Chr.)
+- Beispiel: Enheduanna (ca. 2300 v. Chr.)
 
-![](../assets/enheduanna_scheibe-opfergabe_2300vchr.webp)
+. . .
+
+![](../assets/enheduanna_scheibe-opfergabe_2300vchr.webp){width="60%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 10]
+:::
+
 
 :::{.notes}
 Enheduanna (ca. 2300 v. Chr.): Sie war eine mesopotamische Prinzessin und Hohepriesterin des Mondgottes Nanna im sumerischen Ur. Sie verfasste religiöse Hymnen, die sie mit ihrem Namen versah, und gilt damit als älteste namentlich überlieferte Dichterin und Liedschöpferin der Welt.
@@ -183,16 +235,63 @@ Enheduanna (ca. 2300 v. Chr.): Sie war eine mesopotamische Prinzessin und Hohepr
   
 
 
+:::{.notes}
+- Unsere Philosophie: Platon und Aristoteles
+- Wichtig: Quasi Zufall, könnten je nach Entwicklung auch andere Zivilisationen stärker gewesen sein.
+- Griechische Schriften stärkste Quelle für heutiges Musikverständnis.
+- Musik ist Kunst in der Zeit und daher nicht permanent. 
+- Spuren also:
+:::
+
+### Materielle/physische Überreste
+
+- Musikinstrumente, Aufführungsorte
+
 ### Musik selbst
 
 - Notation, Mündliche Tradition, Tonaufnahmen (seit ca. 1870)
 
 
 
-#### Früheste Notation eines kompletten Werkes <br> (ca. 1400-1250 v. Chr.) 
+#### Früheste Notation eines kompletten Werkes <br> (ca. 1400-1250 v. u. Z.) 
 
-![](../assets/burkholder_tafel-notation-ugarit-1400vchr_s8.png)
+![](../assets/burkholder_tafel-notation-ugarit-1400vchr_s8.png){width="80%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 8]
+:::
 
 :::{.notes}
 The oldest nearly complete piece, from ca. 1400-1250 BCE, is on a tablet shown in Figure 1.5 that was found at Ugarit, a merchant city-state on the Syrian coast. Scholars have proposed possible transcriptions for the music, but the notation is too poorly understood to be read with confidence. Despite the invention of notation, most music was either played from memory or improvised. Musicians most likely did not play or sing from notation, as modern performers do, but used it as a written record from which a melody could be reconstructed, as cooks use a recipe.
 :::
+
+#### Früheste Aufnahmen
+
+<br>
+
+. . .
+
+**1860**: Edouard-Leon Scott de Martinville (Phonautograph)
+
+"Au clair de la lune"
+
+<section>
+  <audio controls>
+    <source src="https://www.firstsounds.org/sounds/Scott-Feaster-No-36.mp3" type="audio/mpeg">
+    Ihr Browser unterstützt kein Audio-Element.
+  </audio>
+</section>
+
+**1878**: Thomas Edison (Phonograph)
+
+"Mary had a little lamb"
+
+<section>
+  <audio controls>
+    <source src="https://upload.wikimedia.org/wikipedia/commons/6/63/Thomas_Edison_Mary_had_lamb.ogg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" type="audio/mpeg">
+    Ihr Browser unterstützt kein Audio-Element.
+  </audio>
+</section>
+
+
+#### Quellen/Medien
