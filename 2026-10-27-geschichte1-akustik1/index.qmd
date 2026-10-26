@@ -44,7 +44,7 @@ format:
        footer: Geschichte I + Akustik I | 27.10.2026 | Julian Popken
        footer-logo-link: https://hmtm-hannover.de
        #header: Einführung Didaktik/Methodik
-       #header-logo: Medien/00-HMTMH-Logo-1.png
+       #header-logo: ../assets/00-HMTMH-Logo-1.png
        #header-logo-link: https://hmtm-hannover.de
        auto-stretch: true
        #center: true
@@ -293,5 +293,179 @@ The oldest nearly complete piece, from ca. 1400-1250 BCE, is on a tablet shown i
   </audio>
 </section>
 
+## Akustik I
+
+#### Grundbegriffe
+
+Akustik
+: Lehre vom Schall und seiner Ausbreitung
+
+<br>
+
+Schall
+: Mechanische Schwingung in einem elastischen Medium (Gas, Flüssigkeit, Festkörper)
+: Breitet sich _radial_ von einer Schallquelle aus
+: Ausbreitung in Schallwellen: Molekülabstand nimmt periodisch ab und zu
+
+####
+
+![](../assets/Physikalische Grundlagen 01.png){width="80%"}
+
+<span style="font-size: 20px">Quelle: Meyer, Jürgen: <em>Akustik und musikalische Aufführungspraxis.</em> Frankfurt. 4. Auflage, 2004.</span>
+
+#### Warum würden wir im All niemanden singen hören?
+
+![](../assets/all.jpg)
+
+#### Das menschliche Ohr^[https://img.poweredcache.net/das-hoerhaus.de/wp-content/uploads/2016/05/Wie_f_DasOhr.jpg?rs=fill&w=585&h=600&ssl=1]
+
+![](https://img.poweredcache.net/das-hoerhaus.de/wp-content/uploads/2016/05/Wie_f_DasOhr.jpg?rs=fill&w=585&h=600&ssl=1)
+
+:::{.notes}
+Die Ohrmuschel sammelt das Signal (Geräusche, Stimmen) und bringt es über den Gehörgang, den Du dir als Tunnel vorstellen kannst, zum Trommelfell. Das Trommelfell bewegt sich wenn das Signal darauf trifft vor und zurück. Es ist ein Häutchen das den Gehörgang verschließt.
+
+Hinter dem Trommelfell liegen drei winzige Gehörknöchelchen: Hammer, Amboss und Steigbügel. Diese sind wie eine Kette verbunden. Die Gehörknöchelchen machen das Signal lauter und geben es ans Innenohr weiter.
+
+Das Innenohr kannst Du dir als Schnecke (Fachbegriff: Cochlear) vorstellen die mit Flüssigkeit gefüllt ist. In dieser Schnecke sind überall kleine Härchen. Wenn das Signal auf die Härchen (Haarsinneszellen) trifft bewegen Sie sich. Dadurch wird das Signal über den Hörnerv an dein Gehirn weitergeleitet und dort verarbeitet, dass heißt: Du hörst etwas.
+
+Wenn die Härchen abgebrochen sind oder fehlen, hörst Du nicht mehr gut.
+
+Außerdem ist an Dein Innenohr das Gleichgewichtsorgan angebunden, das sorgt dafür das Du dein Gleichgewicht halten kannst. Wenn du es durcheinander bringst wird Dir schwindlig z. B. wenn du dich lange auf dem Karussel drehst.
+:::
+
+
+
+### Wellenformen^[Grafiken Wellenformen: „Wellentypen - Transversalwelle (Animation) | LEIFIphysik“. Zugegriffen 20. Oktober 2025. https://www.leifiphysik.de/mechanik/mechanische-wellen/downloads/wellentypen-transversalwelle-animation.]
+
+. . .
+
+**Transversalwelle** (Seil, Geigensaite)
+
+::::{.columns}
+
+:::{.column width="60%"}
+- Teilchen werden im rechten Winkel zur Ausbreitungsrichtung ausgelenkt.
+:::
+
+:::{.column width="40%" .fragment}
+![](../assets/wellentypen-transversalwelle-animation-bild.gif){width="50%"}
+:::
+
+::::
+
+- Die einzelnen Teilchen bewegen sich an feststehendem Ort auf und ab.
+
+- Nur das Wellenmuster bewegt sich weiter.
+
+#### Longitudinalwelle (Schall)
+
+::::{.columns}
+
+:::{.column width="60%"}
+- Teilchen werden parallel zur Ausbreitungsrichtung ausgelenkt.
+:::
+
+:::{.column width="40%" .fragment}
+![](../assets/wellentypen-longitudinalwelle-animation-bild.gif){width="50%"}
+:::
+
+::::
+
+- Die einzelnen Teilchen bewegen sich in/gegen die Ausbreitungsrichtung vor bzw. zurück.
+
+- Die Ausbreitung des Schalls erfolgt _radial_ von der Schallquelle. (Nicht wie in der Grafik).
+
+#### Kombination Longitudinal- + Transversalwelle (Wasser)
+
+::::{.columns}
+
+:::{.column width="60%"}
+- Teilchen auf Wasseroberfläche bewegen sich sowohl vor und zurück als auch hoch und runter.
+:::
+
+:::{.column width="40%" .fragment}
+![](../assets/wellentypen-wasserwelle-animation-bild.gif){width="50%"}
+:::
+
+::::
+
+- Die einzelnen Teilchen beschreiben in vollständiger Bewegung eine kreisförmige Linie. 
+
+- Eine Ente auf der Wasseroberfläche bliebe ungefähr am gleichen Ort.
+
+#### 
+
+![](../assets/Physikalische Grundlagen 02.png)
+
+<span style="font-size: 20px">Quelle: Hall, Donald E.: <em>Musikalische Akustik. Ein Handbuch.</em> Main, 1997.</span>
+
+#### Amplitude
+
+- Maß der Auslenkung = Schalldruck
+- Angegeben in Dezibel (**dB**) = Logarithmischer Maßstab
+
+<br>
+
+- Orchesterfortissimo: 90 - 100 dB
+- Orchesterpianissimo: 40 - 45 dB
+- OpernsängerIn: bis 105 dB (Formanten)
+
+:::{.notes}
+Logarithmischer Maßstab (Logarithmus: die Zahl mit der man eine Basiszahl potenzieren
+muss, um die vorgegebene Zahl Numerus zu erhalten).
+:::
+
+#### Wellenlänge (**λ**)
+
+- Abstand zwischen zwei Wellenhügeln (Druck- oder Verdichtungsmaxima).
+- Je größer die Wellenlänge, desto tiefer der Ton.
+
+. . .
+
+$$
+Wellenlänge = \frac{Schallgeschwindigkeit}{Frequenz}
+$$
+
+. . .
+
+$$
+λ = \frac{c}{f}
+$$
+
+#### Frequenz (**f**)
+
+- Anzahl der Druckschwankungen bzw. Schwingungen pro Sekunde.
+- Gemessen in **Hertz** (=Hz).
+- Abhängig von Wellenlänge **λ** und Schallgeschwindigkeit **c** 
+- Berechnung bei trockener Luft, 20°C:
+
+. . .
+
+$$
+f = \frac{c}{λ}
+$$
+
+#### Frequenzbeispiele
+
+![](../assets/Physikalische Grundlagen 04.png)
+
+#### Ausnutzung von Hörgrenzen
+
+<iframe data-preload class="r-stretch" src="../assets/Mosquito Flyer (D) Stand 3 2025 DIGI.pdf"></iframe>
+
+<span style="font-size: 20px">Quelle: <span>[Antivandalismus.de](https://www.antivandalismus.de/)</span>
+
+#### Schallgeschwindigkeit (**c**)
+
+- Fortpflanzungsgeschwindigkeit, mit der sich Druckschwankungen über den Luftraum ausbreiten.
+- In der Luft u. a. abhängig von der Temperatur, **c** nimmt bei ansteigender Temperatur zu. (Beispiel Freiluftaufführungen, etwa über einem Gewässer.)
+
+#### Schallgeschwindigkeit in verschiedenen Medien
+
+![](../assets/Physikalische Grundlagen 06.png){width="35%"}
+
+#### Fragen?
+
+![](../assets/Omega.jpg){.r-stretch}
 
 #### Quellen/Medien
