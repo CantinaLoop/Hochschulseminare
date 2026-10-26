@@ -6,12 +6,15 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
 <link href="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/sc-sb-title-1.0.0/sc_sb_title.js" defer="true"></script>
-<link href="../site_libs/quarto-contrib/grid-no-htext-1.0.0/grid_no_htext.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.38">
+<link href="../site_libs/quarto-contrib/grid-no-htext-1.0.0/grid_no_htext.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
 
   <meta name="author" content="Julian Popken">
   <title>Vorlesung Didaktik/Methodik – Geschichte I + Akustik I</title>
@@ -24,10 +27,13 @@
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
     */
-    code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -35,7 +41,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-6fb681a4d01bc4290acd21addd28092a.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -132,9 +157,9 @@
   </style>
   <script>
   window._input_file = new TextDecoder('utf-8').decode(
-    Uint8Array.from(atob('LS0tCnRpdGxlOiBHZXNjaGljaHRlIEkgKyBBa3VzdGlrIEkKc3VidGl0bGU6IERpZGFrdGlrL01ldGhvZGlrIEdlc2FuZwphdXRob3I6IEp1bGlhbiBQb3BrZW4KaW5zdGl0dXRlOiBITVRNIEhhbm5vdmVyCmRhdGU6IDI3IDEwIDIwMjYKZGF0ZS1mb3JtYXQ6ICJERC5NTS5ZWVlZIgpmcm9tOiBtYXJrZG93bitlbW9qaQojdmFsaWRhdGUteWFtbDogdHJ1ZQojY2l0ZXByb2M6IHRydWUKYmlibGlvZ3JhcGh5OiAuLi9yZWZlcmVuY2VzLmJpYgogICAgI21vbm9ncmFmaWVuOiBtb25vZ3JhZmllbi5iaWIKICAgICNtZWRpZW46IG1lZGllbi5iaWIKZm9ybWF0OiAKICAgcmV2ZWFsanM6CiAgICAgICBsYW5nOiBkZS1ERQogICAgICAgdGl0bGUtc2xpZGUtYXR0cmlidXRlczoKICAgICAgICAgI2RhdGEtYmFja2dyb3VuZC1jb2xvcjogIiMwRkEzQjEiCiAgICAgICAgIGRhdGEtZm9vdGVyOiBUZXN0CiAgICAgICAgIGRhdGEtYmFja2dyb3VuZC1pbWFnZTogIi4uL2Fzc2V0cy9kZWdhc19sYS1yZXBldGl0aW9uLWRlLWNoYW50XzE4NzcucG5nIgogICAgICAgICBkYXRhLWJhY2tncm91bmQtc2l6ZTogImNvdmVyIgogICAgICAgICBkYXRhLWJhY2tncm91bmQtb3BhY2l0eTogIjAuNCIKICAgICAgICN3aWR0aDogMTkyMAogICAgICAgI2hlaWdodDogMTAyMAogICAgICAgc2xpZGUtbnVtYmVyOiBjCiAgICAgICBzbGlkZS1sZXZlbDogNAogICAgICAgc2Mtc2ItdGl0bGU6IHRydWUKICAgICAgIGNoYWxrYm9hcmQ6IAogICAgICAgICBidXR0b25zOiBmYWxzZQogICAgICAgI3N1YnRpdGxlLWFzLWhlYWRlcjogdHJ1ZQogICAgICAgI25hdmlnYXRpb24tbW9kZTogdmVydGljYWwKICAgICAgIGNvbnRyb2xzLWxheW91dDogYm90dG9tLXJpZ2h0CiAgICAgICBjb250cm9scy10dXRvcmlhbDogdHJ1ZQogICAgICAgdG9jOiB0cnVlCiAgICAgICB0b2MtZGVwdGg6IDIKICAgICAgIHRvYy10aXRsZTogSW5oYWx0CiAgICAgICB0aGVtZTogaG10bWgKICAgICAgICN0cmFuc2l0aW9uOiBzbGlkZQogICAgICAgI3RyYW5zaXRpb24tc3BlZWQ6IGZhc3QKICAgICAgIGJhY2tncm91bmQtdHJhbnNpdGlvbjogZmFkZQogICAgICAgaW5jcmVtZW50YWw6IHRydWUKICAgICAgIGxvZ286IC4uL2Fzc2V0cy8wMC1ITVRNSC1Mb2dvLTEucG5nCiAgICAgICBmb290ZXI6IEdlc2NoaWNodGUgSSArIEFrdXN0aWsgSSB8IDI3LjEwLjIwMjYgfCBKdWxpYW4gUG9wa2VuCiAgICAgICBmb290ZXItbG9nby1saW5rOiBodHRwczovL2htdG0taGFubm92ZXIuZGUKICAgICAgICNoZWFkZXI6IEVpbmbDvGhydW5nIERpZGFrdGlrL01ldGhvZGlrCiAgICAgICAjaGVhZGVyLWxvZ286IE1lZGllbi8wMC1ITVRNSC1Mb2dvLTEucG5nCiAgICAgICAjaGVhZGVyLWxvZ28tbGluazogaHR0cHM6Ly9obXRtLWhhbm5vdmVyLmRlCiAgICAgICBhdXRvLXN0cmV0Y2g6IHRydWUKICAgICAgICNjZW50ZXI6IHRydWUKICAgICAgICNjYXAtbG9jYXRpb246IG1hcmdpbgogICAgICAgI2xpbmstZXh0ZXJuYWwtaWNvbjogdHJ1ZQogICAgICAgbGluay1leHRlcm5hbC1uZXd3aW5kb3c6IHRydWUKICAgICAgIHJlZmVyZW5jZS1sb2NhdGlvbjogZG9jdW1lbnQKICAgICAgIApyZXZlYWwtcGx1Z2luczoKICAtIFJldmVhbENvbmZldHRpCiAgLSBlZGl0YWJsZQpmaWx0ZXJzOgogIC0gcmV2ZWFsLWhlYWRlcgogIC0gY29uZmV0dGkKICAtIGVkaXRhYmxlCiAgIy0gbXVsdGliaWIKLS0tCgojIyBPcmdhbmlzYXRpb24ge2JhY2tncm91bmQtaW1hZ2U9Ii4uL2Fzc2V0cy9kZWdhc19sYS1yZXBldGl0aW9uLWRlLWNoYW50XzE4NzcucG5nIiBiYWNrZ3JvdW5kLW9wYWNpdHk9IjAuNCJ9CgojIyMjIExlYXJuaW5nIE1hbmFnZW1lbnQgU3lzdGVtIC8gUHJvdG9rb2xsZQoKPGJyPgoKLiAuIC4gCgrihpIgW0t1cnMgaW0gTE1TIGRlciBITVRNSF0oaHR0cHM6Ly9sbXMuaG10bS1oYW5ub3Zlci5kZS9jb3Vyc2Uvdmlldy5waHA/aWQ9NDM3KQoKPGJyPgoKLiAuIC4KCuKGkiAqKlByb3Rva29sbGUqKiBiaXR0ZSBpbW1lciBiaXMgKipNbywgMTggVWhyKiogc2VuZGVuIGFuOiAKCltqdWxpYW4ucG9wa2VuQGhtdG0taGFubm92ZXIuZGVdKG1haWx0bzpKdWxpYW4uUG9wa2VuQGhtdG0taGFubm92ZXIuZGUpIAoKdW5kIAoKW3N0YWNodXJhZEBzdHVkLmhtdG0taGFubm92ZXIuZGVdKG1haWx0bzpzdGFjaHVyYWRAc3R1ZC5obXRtLWhhbm5vdmVyLmRlKQoKIyMjIyB7YmFja2dyb3VuZC1pZnJhbWU9Imh0dHBzOi8vYmRnLW9ubGluZS5vcmcvIiBiYWNrZ3JvdW5kLWludGVyYWN0aXZlPXRydWV9CgojIyBHZXNjaGljaHRlIGRlciBHZXNhbmdzcMOkZGFnb2dpayBJIC0gQW50aWtlCgojIyMgSGlzdG9yaXNjaGUgUXVlbGxlbiBXZXN0ZXVyb3DDpGlzY2hlciBNdXNpawoKCiMjIyMgCgpLYXJ0ZW4KCjo6Onsubm90ZXN9Ci0gV2VzdGV1cm9ww6Rpc2NoZSBLdWx0dXIgZGVyIEFtZXJpa2FzIHVuZCBFdXJvcGFzIGluIEFiZ3Jlbnp1bmcgenUgKGZlcm4pLcO2c3RsaWNoZW4gS3VsdHVyZW4uIAotIFdpY2h0aWdzdGUgUmVnaW9uZW4gZsO8ciB1bnNlcmUgTWF0aGVtYXRpaywgS2FsZW5kZXIsIEFzdHJvbm9taWUsIE1lZGl6aW46IE1lc29wb3RhbWllbiwgw4RneXB0ZW4gdW5kIHZvciBhbGxlbTogQW50aWtlcyBHcmllY2hlbmxhbmQsIFLDtm1pc2NoZXMgUmVpY2gKLSBVbnNlcmUgUGhpbG9zb3BoaWU6IFBsYXRvbiB1bmQgQXJpc3RvdGVsZXMKLSBXaWNodGlnOiBRdWFzaSBadWZhbGwsIGvDtm5udGVuIGplIG5hY2ggRW50d2lja2x1bmcgYXVjaCBhbmRlcmUgWml2aWxpc2F0aW9uZW4gc3TDpHJrZXIgZ2V3ZXNlbiBzZWluLgotIEdyaWVjaGlzY2hlIFNjaHJpZnRlbiBzdMOkcmtzdGUgUXVlbGxlIGbDvHIgaGV1dGlnZXMgTXVzaWt2ZXJzdMOkbmRuaXMuCi0gTXVzaWsgaXN0IEt1bnN0IGluIGRlciBaZWl0IHVuZCBkYWhlciBuaWNodCBwZXJtYW5lbnQuIAotIFNwdXJlbiBhbHNvOgo6OjoKCiMjIyMgTWF0ZXJpZWxsZS9waHlzaXNjaGUgw5xiZXJyZXN0ZQoKLSBNdXNpa2luc3RydW1lbnRlLCBBdWZmw7xocnVuZ3NvcnRlCgojIyMjIEJpbGRsaWNoZSBEYXJzdGVsbHVuZ2VuCgotIERhcnN0ZWxsdW5nZW4gdm9uIE11c2lrZXJJbm5lbiwgSW5zdHJ1bWVudGVuLCBBdWZmw7xocnVuZ2VuCgojIyMjIFNjaHJpZnR3ZXJrZSDDvGJlciBNdXNpayB1bmQgTXVzaWtlcklubmVuCiAgCgojIyMjIE11c2lrIHNlbGJzdAoKLSBOb3RhdGlvbiwgTcO8bmRsaWNoZSBUcmFkaXRpb24sIFRvbmF1Zm5haG1lbiAoc2VpdCBjYS4gMTg3MCkK'), function(c) { return c.charCodeAt(0); })
+    Uint8Array.from(atob('LS0tCnRpdGxlOiBHZXNjaGljaHRlIEkgKyBBa3VzdGlrIEkKc3VidGl0bGU6IERpZGFrdGlrL01ldGhvZGlrIEdlc2FuZwphdXRob3I6IEp1bGlhbiBQb3BrZW4KaW5zdGl0dXRlOiBITVRNIEhhbm5vdmVyCmRhdGU6IDI3IDEwIDIwMjYKZGF0ZS1mb3JtYXQ6ICJERC5NTS5ZWVlZIgpmcm9tOiBtYXJrZG93bitlbW9qaQojdmFsaWRhdGUteWFtbDogdHJ1ZQojY2l0ZXByb2M6IHRydWUKYmlibGlvZ3JhcGh5OiAuLi9yZWZlcmVuY2VzLmJpYgogICAgI21vbm9ncmFmaWVuOiBtb25vZ3JhZmllbi5iaWIKICAgICNtZWRpZW46IG1lZGllbi5iaWIKZm9ybWF0OiAKICAgcmV2ZWFsanM6CiAgICAgICBsYW5nOiBkZS1ERQogICAgICAgdGl0bGUtc2xpZGUtYXR0cmlidXRlczoKICAgICAgICAgI2RhdGEtYmFja2dyb3VuZC1jb2xvcjogIiMwRkEzQjEiCiAgICAgICAgIGRhdGEtZm9vdGVyOiBUZXN0CiAgICAgICAgIGRhdGEtYmFja2dyb3VuZC1pbWFnZTogIi4uL2Fzc2V0cy9kZWdhc19sYS1yZXBldGl0aW9uLWRlLWNoYW50XzE4NzcucG5nIgogICAgICAgICBkYXRhLWJhY2tncm91bmQtc2l6ZTogImNvdmVyIgogICAgICAgICBkYXRhLWJhY2tncm91bmQtb3BhY2l0eTogIjAuNCIKICAgICAgICN3aWR0aDogMTkyMAogICAgICAgI2hlaWdodDogMTAyMAogICAgICAgc2xpZGUtbnVtYmVyOiBjCiAgICAgICBzbGlkZS1sZXZlbDogNAogICAgICAgc2Mtc2ItdGl0bGU6IHRydWUKICAgICAgIGNoYWxrYm9hcmQ6IAogICAgICAgICBidXR0b25zOiBmYWxzZQogICAgICAgbGlnaHRib3g6IHRydWUKICAgICAgICNzdWJ0aXRsZS1hcy1oZWFkZXI6IHRydWUKICAgICAgICNuYXZpZ2F0aW9uLW1vZGU6IHZlcnRpY2FsCiAgICAgICBjb250cm9scy1sYXlvdXQ6IGJvdHRvbS1yaWdodAogICAgICAgY29udHJvbHMtdHV0b3JpYWw6IHRydWUKICAgICAgIHRvYzogdHJ1ZQogICAgICAgdG9jLWRlcHRoOiAyCiAgICAgICB0b2MtdGl0bGU6IEluaGFsdAogICAgICAgdGhlbWU6IGhtdG1oCiAgICAgICAjdHJhbnNpdGlvbjogc2xpZGUKICAgICAgICN0cmFuc2l0aW9uLXNwZWVkOiBmYXN0CiAgICAgICBiYWNrZ3JvdW5kLXRyYW5zaXRpb246IGZhZGUKICAgICAgIGluY3JlbWVudGFsOiB0cnVlCiAgICAgICBsb2dvOiAuLi9hc3NldHMvMDAtSE1UTUgtTG9nby0xLnBuZwogICAgICAgZm9vdGVyOiBHZXNjaGljaHRlIEkgKyBBa3VzdGlrIEkgfCAyNy4xMC4yMDI2IHwgSnVsaWFuIFBvcGtlbgogICAgICAgZm9vdGVyLWxvZ28tbGluazogaHR0cHM6Ly9obXRtLWhhbm5vdmVyLmRlCiAgICAgICAjaGVhZGVyOiBFaW5mw7xocnVuZyBEaWRha3Rpay9NZXRob2RpawogICAgICAgI2hlYWRlci1sb2dvOiBNZWRpZW4vMDAtSE1UTUgtTG9nby0xLnBuZwogICAgICAgI2hlYWRlci1sb2dvLWxpbms6IGh0dHBzOi8vaG10bS1oYW5ub3Zlci5kZQogICAgICAgYXV0by1zdHJldGNoOiB0cnVlCiAgICAgICAjY2VudGVyOiB0cnVlCiAgICAgICAjY2FwLWxvY2F0aW9uOiBtYXJnaW4KICAgICAgICNsaW5rLWV4dGVybmFsLWljb246IHRydWUKICAgICAgIGxpbmstZXh0ZXJuYWwtbmV3d2luZG93OiB0cnVlCiAgICAgICByZWZlcmVuY2UtbG9jYXRpb246IGRvY3VtZW50CiAgICAgICAKcmV2ZWFsLXBsdWdpbnM6CiAgLSBSZXZlYWxDb25mZXR0aQogIC0gZWRpdGFibGUKZmlsdGVyczoKICAtIHJldmVhbC1oZWFkZXIKICAtIGNvbmZldHRpCiAgLSBlZGl0YWJsZQogICMtIG11bHRpYmliCi0tLQoKIyMgT3JnYW5pc2F0aW9uIHtiYWNrZ3JvdW5kLWltYWdlPSIuLi9hc3NldHMvZGVnYXNfbGEtcmVwZXRpdGlvbi1kZS1jaGFudF8xODc3LnBuZyIgYmFja2dyb3VuZC1vcGFjaXR5PSIwLjQifQoKIyMjIyBMZWFybmluZyBNYW5hZ2VtZW50IFN5c3RlbSAvIFByb3Rva29sbGUKCjxicj4KCi4gLiAuIAoK4oaSIFtLdXJzIGltIExNUyBkZXIgSE1UTUhdKGh0dHBzOi8vbG1zLmhtdG0taGFubm92ZXIuZGUvY291cnNlL3ZpZXcucGhwP2lkPTQzNykKCjxicj4KCi4gLiAuCgrihpIgKipQcm90b2tvbGxlKiogYml0dGUgaW1tZXIgYmlzICoqTW8sIDE4IFVocioqIHNlbmRlbiBhbjogCgpbanVsaWFuLnBvcGtlbkBobXRtLWhhbm5vdmVyLmRlXShtYWlsdG86SnVsaWFuLlBvcGtlbkBobXRtLWhhbm5vdmVyLmRlKSAKCnVuZCAKCltzdGFjaHVyYWRAc3R1ZC5obXRtLWhhbm5vdmVyLmRlXShtYWlsdG86c3RhY2h1cmFkQHN0dWQuaG10bS1oYW5ub3Zlci5kZSkKCiMjIyMge2JhY2tncm91bmQtaWZyYW1lPSJodHRwczovL2JkZy1vbmxpbmUub3JnLyIgYmFja2dyb3VuZC1pbnRlcmFjdGl2ZT10cnVlfQoKIyMgR2VzY2hpY2h0ZSBkZXIgR2VzYW5nc3DDpGRhZ29naWsgSSAtIEFudGlrZSB7YmFja2dyb3VuZC1pbWFnZT0iLi4vYXNzZXRzL2RlZ2FzX2xhLXJlcGV0aXRpb24tZGUtY2hhbnRfMTg3Ny5wbmciIGJhY2tncm91bmQtb3BhY2l0eT0iMC40In0KCiMjIyBIaXN0b3Jpc2NoZSBRdWVsbGVuIFdlc3RldXJvcMOkaXNjaGVyIE11c2lrCgoKIyMjIyBBbnRpa2VyIE5haGVyIE9zdGVuCgohW10oLi4vYXNzZXRzL2J1cmtob2xkZXJfa2FydGUtbmFoZXItb3N0ZW4tYW50aWtlX3M2LnBuZykKCjo6OntzdHlsZT0iZm9udC1zaXplOiAyMHB4OyBtYXJnaW4tdG9wOiAtMzBweCJ9CltAZ3JvdXQyMDE5LCA2XQo6OjoKCjo6Onsubm90ZXN9Ci0gV2VzdGV1cm9ww6Rpc2NoZSBLdWx0dXIgZGVyIEFtZXJpa2FzIHVuZCBFdXJvcGFzIGluIEFiZ3Jlbnp1bmcgenUgKGZlcm4pLcO2c3RsaWNoZW4gS3VsdHVyZW4uIAotIFdpY2h0aWdzdGUgUmVnaW9uZW4gZsO8ciB1bnNlcmUgTWF0aGVtYXRpaywgS2FsZW5kZXIsIEFzdHJvbm9taWUsIE1lZGl6aW46IE1lc29wb3RhbWllbiwgw4RneXB0ZW4gdW5kIHZvciBhbGxlbTogQW50aWtlcyBHcmllY2hlbmxhbmQsIFLDtm1pc2NoZXMgUmVpY2gKOjo6CgojIyMjIEdyaWVjaGlzY2hlIFNpZWRsdW5nZW4gY2EuIDU1MCB2LiB1LiBaLgoKIVtdKC4uL2Fzc2V0cy9idXJraG9sZGVyX2dyaWVjaGVuLTU1MHZjaHJfczgucG5nKQoKOjo6e3N0eWxlPSJmb250LXNpemU6IDIwcHg7IG1hcmdpbi10b3A6IC0zMHB4In0KW0Bncm91dDIwMTksIDhdCjo6OgoKOjo6ey5ub3Rlc30KLSBVbnNlcmUgUGhpbG9zb3BoaWU6IFBsYXRvbiB1bmQgQXJpc3RvdGVsZXMKLSBXaWNodGlnOiBRdWFzaSBadWZhbGwsIGvDtm5udGVuIGplIG5hY2ggRW50d2lja2x1bmcgYXVjaCBhbmRlcmUgWml2aWxpc2F0aW9uZW4gc3TDpHJrZXIgZ2V3ZXNlbiBzZWluLgotIEdyaWVjaGlzY2hlIFNjaHJpZnRlbiBzdMOkcmtzdGUgUXVlbGxlIGbDvHIgaGV1dGlnZXMgTXVzaWt2ZXJzdMOkbmRuaXMuCi0gTXVzaWsgaXN0IEt1bnN0IGluIGRlciBaZWl0IHVuZCBkYWhlciBuaWNodCBwZXJtYW5lbnQuIAotIFNwdXJlbiBhbHNvOgo6OjoKCiMjIyBNYXRlcmllbGxlL3BoeXNpc2NoZSDDnGJlcnJlc3RlCgotIE11c2lraW5zdHJ1bWVudGUsIEF1ZmbDvGhydW5nc29ydGUKCi4gLiAuCgo8aWZyYW1lIHNyYz0iaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9tYXBzL2VtYmVkP3BiPSExbTE0ITFtMTIhMW0zITFkMTU1NTIyLjc3Njk2OTAwOTEhMmQ5Ljc2NjM2NDE5ODcwNTAwNyEzZDQ4LjM4MDEwMTI4MDczOTIyNSEybTMhMWYwITJmMCEzZjAhM20yITFpMTAyNCEyaTc2OCE0ZjEzLjEhNWUwITNtMiExc2RlITJzZGUhNHYxNzg5MzEwMDc2NzQyITVtMiExc2RlITJzZGUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjUwMCIgc3R5bGU9ImJvcmRlcjowOyIgYWxsb3dmdWxsc2NyZWVuPSIiIGxvYWRpbmc9ImxhenkiIHJlZmVycmVycG9saWN5PSJzdHJpY3Qtb3JpZ2luLXdoZW4tY3Jvc3Mtb3JpZ2luIiBjbGFzcz0ici1zdHJldGNoIj48L2lmcmFtZT4KCiMjIyMgCgohW10oLi4vYXNzZXRzL2J1cmtob2xkZXJfZmxvZXRlLXN0ZWluemVpdC00MDAwMHZjaHJfczUucG5nKQoKIyMjIwoKIVtdKC4uL2Fzc2V0cy9idXJraG9sZGVyX3N0aWVyaGFyZmUtZnJpZWRob2YtdXItbmFjaGJhdS0yNTAwdmNocl9zNy5wbmcpCgojIyMjIEtsYW5nbGljaGUgQW5uw6RoZXJ1bmcKCnt7PCB2aWRlbyBodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWREUkQzYy1XQWVjIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjgwJSIgPn19Cgo6Ojp7c3R5bGU9ImZvbnQtc2l6ZTogMjBweDsgbWFyZ2luLXRvcDogLTYwcHgifQpbQHBldGVycHJpbmdsZTIwMjJdCjo6OgoKOjo6ey5ub3Rlc30KVGhpcyB2aWRlbyBpcyBhIHBlcmZvcm1hbmNlIG9mIGEgU3VtZXJpYW4gaW5jYW50YXRpb24gYW5kIGxhbWVudCB1cG9uIHRoZSBkZWF0aCBvZiB0aGUgaGVybywgR0lMR0FNRVNILiBGb3IgdGhvc2Ugd2hvIGFyZSBpbnRlcmVzdGVkLCB0aGUgdHJhbnNsYXRpb24gYW5kIHRyYW5zbGl0ZXJhdGlvbiBvZiB0aGUgU3VtZXJpYW4gY3VuZWlmb3JtIHRhYmxldHMgY2FuIGJlIGZvdW5kIG9ubGluZSBhdCB0aGUgVW5pdmVyc2l0eSBvZiBPeGZvcmQgd2Vic2l0ZSAtIFRoZSBFbGVjdHJvbmljIFRleHQgQ29ycHVzIE9mIFN1bWVyaWFuIExpdGVyYXR1cmUuCgrigJxUaGUgR29sZCBMeXJlIG9mIFVy4oCdIHdhcyB1bmVhcnRoZWQgYnkgYXJjaGFlb2xvZ2lzdCwgU2lyIExlb25hcmQgV29vbGxleSwgaW4gdGhlIDE5MjDigJlzIGR1cmluZyBoaXMgZXhjYXZhdGlvbnMgaW4gdGhlIFN1bWVyaWFuIGNpdHkgb2YgVXIsIGluIG1vZGVybiBkYXkgSXJhcS4gVW5mb3J0dW5hdGVseSwgYXMgeW91IGNhbiBzZWUgZnJvbSB0aGUgcGhvdG8gYXQgdGhlIHRvcCBvZiB0aGUgdmlkZW8sIHRoZXJlIHdhcyBsaXR0bGUgbGVmdCBvZiB0aGUgbHlyZSBiZWNhdXNlIHRoZSBTdW1lcmlhbnMgc2ltcGx5IHB1dCBpdCBpbnRvIHRoZSBncm91bmQgNTAwMCB5ZWFycyBhZ28gYW5kIGNvdmVyZWQgaXQgb3ZlciB3aXRoIHRvbnMgb2YgZWFydGguIEluIHRoZSBpbnRlcnZlbmluZyBtaWxsZW5uaWEsIGV2ZXJ5dGhpbmcgdGhhdCB3YXMgZGVncmFkYWJsZSB0dXJuZWQgdG8gZHVzdCwgYW5kIG9ubHkgdGhlIGltcHJpbnQgb2YgdGhlIGluc3RydW1lbnQgd2FzIGxlZnQsIGFsb25nIHdpdGggdGhlIHN0b25lIG1vc2FpYyBkZWNvcmF0aW9ucywgdGhlIGZvdXIgdmlnbmV0dGVzIG1hZGUgb2Ygc2hlbGwsIGFuZCB0aGUgZ29sZC4gCgpUaGFua3MgdG8gdmVyeSBjYXJlZnVsIG1lYXN1cmVtZW50cyBhbmQgcGhvdG9zIHRha2VuIGJ5IFdvb2xsZXksIG11c2V1bSBjdXJhdG9ycyBoYXZlIGJlZW4gYWJsZSB0byByZWNvbnN0cnVjdCB0aGUgZnJhZ2lsZSBiaXRzIGFuZCBwaWVjZXMsIGFuZCB0aGUgaW5zdHJ1bWVudCBpcyBub3cgb24gZGlzcGxheSBpbiBCYWdoZGFkLiBXaGF0IHlvdSBzZWUgaW4gdGhpcyB2aWRlbyBpcyBteSBvd24gcmVwbGljYSwgbWFkZSBmcm9tIGNlZGFyIGxpa2UgdGhlIG9yaWdpbmFsLiBOZWVkbGVzcyB0byBzYXksIEkgdXNlZCBicmFzcyBzaGVldGluZyBpbnN0ZWFkIG9mIGdvbGQsIGJ1dCBpdCBpcyB1bmxpa2VseSB0aGF0IHRoZSBvcm5hbWVudGF0aW9uIHdvdWxkIGNoYW5nZSB0aGUgYmFzaWMgc291bmQgb2YgdGhlIGluc3RydW1lbnQuIAoKQSBseXJlIG9mIHRoaXMgc2l6ZSwgd2hvc2UgbG93ZXN0IG5vdGUgaXMgdGhlIHNhbWUgYXMgdGhlIGxvd2VzdCDigJhD4oCZIG9uIGEgcGlhbm8ga2V5Ym9hcmQsIHdvdWxkIHByb2JhYmx5IGhhdmUgYmVlbiB1c2VkIGFzIGEgZHJvbmUgaW5zdHJ1bWVudCwgYW5kIHdvdWxkIG5vdCBoYXZlIGJlZW4gdXNlZCB0byBwbGF5IG1lbG9kaWVzIGxpa2UgYSBoYXJwIG9yIGEgc21hbGxlciBseXJlLiBUaGUgYmVuY2gtc2hhcGVkIGJyaWRnZXMgdXNlZCBvbiB0aGVzZSBpbnN0cnVtZW50cywgc3VnZ2VzdCB0aGF0IHRoZXkgcHJvYmFibHkg4oCcYnV6emVk4oCdIGxpa2UgdGhlIG1vZGVybiBJbmRpYW4gdGFtYm91cmEsIG9yIHRoZSBFdGhpb3BpYW4g4oCcYmVnZW5h4oCdIGx5cmUuIFRoZSBidXp6aW5nIHNvdW5kIG1hZGUgcG9zc2libGUgYnkgdGhlIHdpZGUgZmxhdCBicmlkZ2UsIGdyZWF0bHkgaW5jcmVhc2VzIHRoZSB2b2x1bWUgb3V0cHV0IG9mIHRoZSBzdHJpbmcsIGFzIHdlbGwgYXMgdGhlIGRlY2F5IHRpbWUgb2YgdGhlIHZpYnJhdGlvbi4KClRoZSBsYXJnZSDigJxiYWxhZ+KAnSBkcnVtIHlvdSBzZWUgb24gbXkgbGVmdCBpbiB0aGUgdmlkZW8sIGlzIGZvdXIgZmVldCAoMTIwIGNtKSBpbiBkaWFtZXRlciwgYW5kIHdhcyBhIGNvbW1vbiBwZXJjdXNzaW9uIGluc3RydW1lbnQgaW4gU3VtZXIsIGFsdGhvdWdoIHRoZXJlIGFyZSBub25lIHRoYXQgaGF2ZSBzdXJ2aXZlZCB0aGUgYWdlcy4gVGhlc2UgZHJ1bXMgd2VyZSBhbiBpbnRlZ3JhbCBwYXJ0IG9mIGNlcmVtb25pZXMgdG8gc3VtbW9uIHRoZSBzb3VscyBpbiB0aGUg4oCcTmV0aGVyd29ybGTigJ0gYmVjYXVzZSwgYXMgeW91IGNhbiBoZWFyLCB0aGV5IG1ha2UgZW5vdWdoIG5vaXNlIOKAnHRvIHdha2UgdGhlIGRlYWTigJ0hIFRoZSBiZWxpZWYgaW4gYW4gYWZ0ZXJsaWZlIHdhcyBhbiBpbnRlZ3JhbCBwYXJ0IG9mIFN1bWVyaWFuIGN1bHR1cmUsIGFuZCBJIGhpZ2hseSByZWNvbW1lbmQgRHIuIElydmluZyBGaW5rZWzigJlzIHdvbmRlcmZ1bCBib29rIG9uIHRoZSBzdWJqZWN0LCBUSEUgRklSU1QgR0hPU1RTLgoKVGhlIHZpZGVvIG9mIG15IGZ1bGwgcGVyZm9ybWFuY2Ugd2FzIHRvbyBsb25nLCBzbyBJIGhhdmUgZWRpdGVkIGl0IGRvd24gdG8gYWJvdXQgOCBtaW51dGVzIChzdGlsbCB0b28gbG9uZyBJTU8pLiBNdWNoIG9mIHRoaXMgc29ydCBvZiBpbmNhbnRhdGlvbiB3YXMgcmVwZXRpdGlvbiwgYnV0IEkgc3VzcGVjdCB0aGUgYW5jaWVudCBTdW1lcmlhbnMgaGFkIGEgZ3JlYXRlciB0b2xlcmFuY2UgZm9yIGxvbmcsIGRyYXduLW91dCByaXR1YWxzIHRoYW4gbW9zdCBvZiB1cyBkbyB0b2RheS4gSSBjaG9wcGVkIHNldmVyYWwgbWludXRlcyBvdXQgb2YgdGhlIG1pZGRsZS4gCgpXZSBoYXZlIHRoZSBTdW1lcmlhbiBjdW5laWZvcm0gdGV4dHMsIGFzIHdlbGwgYXMgc29tZSBvZiB0aGUgbXVzaWNhbCBpbnN0cnVtZW50cywgYnV0IHdlIGRvIG5vdCBoYXZlIHRoZSBtZWxvZGllcyBiZWNhdXNlIHRoZSBTdW1lcmlhbnMgZGlkbuKAmXQgd3JpdGUgdGhlbSBkb3duLiBJIGJlbGlldmUgdGhhdCB0aGUgcGFydHMgdGhhdCB3ZXJlIHN1bmcgd2VyZSBwcm9iYWJseSBsYXJnZWx5IGltcHJvdmlzZWQsIGp1c3QgYXMgdGhleSBhcmUgdG9kYXkgaW4gdGhlIE1pZGRsZSBFYXN0IGFuZCB0aGUgSW5kaWFuIHN1YmNvbnRpbmVudC4gQW5jaWVudCBTdW1lcmlhbiB0ZWFjaGVycyBkaWQgbm90IHdyaXRlIGRvd24gdGhlaXIgbXVzaWMgYmVjYXVzZSB0aGV5IHRhdWdodCBtYWlubHkgYnkgbWVtb3J5IGFuZCBieSBlYXIuCgpGcm9tIHRoZSBzdGFuZHBvaW50IG9mIGEgc2luZ2VyLCBJIGhhdmUgcGVyZm9ybWVkIHRoZXNlIHRleHRzIGluIGEgbG91ZCwgZGVjbGFyYXRpdmUgc3R5bGUuIFRoZSBTdW1lcmlhbnMgZGlkIG5vdCBoYXZlIGFtcGxpZmljYXRpb24sIGFuZCBzaW5nZXJzIGhhZCB0byBiZSBoZWFyZCBieSBsYXJnZSBjcm93ZHMgYXQgdGVtcGxlIGdhdGhlcmluZ3MsIG9yIHNvbWV0aW1lcyBvdXRzaWRlLgo6OjoKCiMjIyBCaWxkbGljaGUgRGFyc3RlbGx1bmdlbgoKLSBEYXJzdGVsbHVuZ2VuIHZvbiBNdXNpa2VySW5uZW4sIEluc3RydW1lbnRlbiwgQXVmZsO8aHJ1bmdlbgoKLiAuIC4KCiFbXSguLi9hc3NldHMvYnVya2hvbGRlcl93YW5kYmlsZC1zaWVnZXNmZWllci1oYXJmZV8yNjAwdmNocl9zNy5wbmcpCgojIyMgU2NocmlmdHdlcmtlIMO8YmVyIE11c2lrIHVuZCBNdXNpa2VySW5uZW4KCiMjIyMgQmVpc3BpZWw6IEVuaGVkdWFubmEgKGNhLiAyMzAwIHYuIENoci4pCgohW10oLi4vYXNzZXRzL2VuaGVkdWFubmFfc2NoZWliZS1vcGZlcmdhYmVfMjMwMHZjaHIud2VicCkKCjo6Onsubm90ZXN9CkVuaGVkdWFubmEgKGNhLiAyMzAwIHYuIENoci4pOiBTaWUgd2FyIGVpbmUgbWVzb3BvdGFtaXNjaGUgUHJpbnplc3NpbiB1bmQgSG9oZXByaWVzdGVyaW4gZGVzIE1vbmRnb3R0ZXMgTmFubmEgaW0gc3VtZXJpc2NoZW4gVXIuIFNpZSB2ZXJmYXNzdGUgcmVsaWdpw7ZzZSBIeW1uZW4sIGRpZSBzaWUgbWl0IGlocmVtIE5hbWVuIHZlcnNhaCwgdW5kIGdpbHQgZGFtaXQgYWxzIMOkbHRlc3RlIG5hbWVudGxpY2ggw7xiZXJsaWVmZXJ0ZSBEaWNodGVyaW4gdW5kIExpZWRzY2jDtnBmZXJpbiBkZXIgV2VsdC4KOjo6CiAgCgoKIyMjIE11c2lrIHNlbGJzdAoKLSBOb3RhdGlvbiwgTcO8bmRsaWNoZSBUcmFkaXRpb24sIFRvbmF1Zm5haG1lbiAoc2VpdCBjYS4gMTg3MCkKCgoKIyMjIyBGcsO8aGVzdGUgTm90YXRpb24gZWluZXMga29tcGxldHRlbiBXZXJrZXMgPGJyPiAoY2EuIDE0MDAtMTI1MCB2LiBDaHIuKSAKCiFbXSguLi9hc3NldHMvYnVya2hvbGRlcl90YWZlbC1ub3RhdGlvbi11Z2FyaXQtMTQwMHZjaHJfczgucG5nKQoKOjo6ey5ub3Rlc30KVGhlIG9sZGVzdCBuZWFybHkgY29tcGxldGUgcGllY2UsIGZyb20gY2EuIDE0MDAtMTI1MCBCQ0UsIGlzIG9uIGEgdGFibGV0IHNob3duIGluIEZpZ3VyZSAxLjUgdGhhdCB3YXMgZm91bmQgYXQgVWdhcml0LCBhIG1lcmNoYW50IGNpdHktc3RhdGUgb24gdGhlIFN5cmlhbiBjb2FzdC4gU2Nob2xhcnMgaGF2ZSBwcm9wb3NlZCBwb3NzaWJsZSB0cmFuc2NyaXB0aW9ucyBmb3IgdGhlIG11c2ljLCBidXQgdGhlIG5vdGF0aW9uIGlzIHRvbyBwb29ybHkgdW5kZXJzdG9vZCB0byBiZSByZWFkIHdpdGggY29uZmlkZW5jZS4gRGVzcGl0ZSB0aGUgaW52ZW50aW9uIG9mIG5vdGF0aW9uLCBtb3N0IG11c2ljIHdhcyBlaXRoZXIgcGxheWVkIGZyb20gbWVtb3J5IG9yIGltcHJvdmlzZWQuIE11c2ljaWFucyBtb3N0IGxpa2VseSBkaWQgbm90IHBsYXkgb3Igc2luZyBmcm9tIG5vdGF0aW9uLCBhcyBtb2Rlcm4gcGVyZm9ybWVycyBkbywgYnV0IHVzZWQgaXQgYXMgYSB3cml0dGVuIHJlY29yZCBmcm9tIHdoaWNoIGEgbWVsb2R5IGNvdWxkIGJlIHJlY29uc3RydWN0ZWQsIGFzIGNvb2tzIHVzZSBhIHJlY2lwZS4KOjo6Cg=='), function(c) { return c.charCodeAt(0); })
   );
-  window._input_filename = '/home/julian/Dokumente/Hochschulseminare/2026-10-27-geschichte1-akustik1/index.qmd';
+  window._input_filename = '/home/Julian/Dokumente/Hochschulseminare/2026-10-27-geschichte1-akustik1/index.qmd';
   </script>
 </head>
 <body class="quarto-light">
@@ -148,7 +173,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Julian Popken 
+Julian Popken
 </div>
         <p class="quarto-title-affiliation">
             HMTM Hannover
@@ -189,7 +214,7 @@ Julian Popken
 <h4></h4>
 </section></section>
 <section>
-<section id="geschichte-der-gesangspädagogik-i---antike" class="title-slide slide level2 center">
+<section id="geschichte-der-gesangspädagogik-i---antike" class="title-slide slide level2 center" data-background-image="../assets/degas_la-repetition-de-chant_1877.png" data-background-opacity="0.4">
 <h2>Geschichte der Gesangspädagogik I - Antike</h2>
 
 </section>
@@ -197,13 +222,37 @@ Julian Popken
 <h3>Historische Quellen Westeuropäischer Musik</h3>
 
 </section>
-<section id="section-1" class="slide level4">
-<h4></h4>
-<p>Karten</p>
+<section id="antiker-naher-osten" class="slide level4">
+<h4>Antiker Naher Osten</h4>
+<p><a href="../assets/burkholder_karte-naher-osten-antike_s6.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="../assets/burkholder_karte-naher-osten-antike_s6.png"></a></p>
+<div style="font-size: 20px; margin-top: -30px">
+<p><span class="citation" data-cites="grout2019">(<a href="#/früheste-notation-eines-kompletten-werkes-ca.-1400-1250-v.-chr." role="doc-biblioref" onclick="">Grout u.&nbsp;a. 2019, 6</a>)</span></p>
+</div>
 <aside class="notes">
 <ul>
 <li>Westeuropäische Kultur der Amerikas und Europas in Abgrenzung zu (fern)-östlichen Kulturen.</li>
 <li>Wichtigste Regionen für unsere Mathematik, Kalender, Astronomie, Medizin: Mesopotamien, Ägypten und vor allem: Antikes Griechenland, Römisches Reich</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="griechische-siedlungen-ca.-550-v.-u.-z." class="slide level4">
+<h4>Griechische Siedlungen ca. 550 v. u. Z.</h4>
+<p><a href="../assets/burkholder_griechen-550vchr_s8.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="../assets/burkholder_griechen-550vchr_s8.png"></a></p>
+<div style="font-size: 20px; margin-top: -30px">
+<p><span class="citation" data-cites="grout2019">(<a href="#/früheste-notation-eines-kompletten-werkes-ca.-1400-1250-v.-chr." role="doc-biblioref" onclick="">Grout u.&nbsp;a. 2019, 8</a>)</span></p>
+</div>
+<aside class="notes">
+<ul>
 <li>Unsere Philosophie: Platon und Aristoteles</li>
 <li>Wichtig: Quasi Zufall, könnten je nach Entwicklung auch andere Zivilisationen stärker gewesen sein.</li>
 <li>Griechische Schriften stärkste Quelle für heutiges Musikverständnis.</li>
@@ -222,26 +271,107 @@ Julian Popken
           display:block!important;
       }</style></aside>
 </section>
-<section id="materiellephysische-überreste" class="slide level4">
-<h4>Materielle/physische Überreste</h4>
+
+<section id="materiellephysische-überreste" class="title-slide slide level3 center">
+<h3>Materielle/physische Überreste</h3>
 <ul>
 <li class="fragment">Musikinstrumente, Aufführungsorte</li>
 </ul>
+<div class="fragment">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch">
+</iframe>
+</div>
 </section>
-<section id="bildliche-darstellungen" class="slide level4">
-<h4>Bildliche Darstellungen</h4>
+<section id="section-1" class="slide level4">
+<h4></h4>
+<p><a href="../assets/burkholder_floete-steinzeit-40000vchr_s5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="../assets/burkholder_floete-steinzeit-40000vchr_s5.png"></a></p>
+</section>
+<section id="section-2" class="slide level4">
+<h4></h4>
+<p><a href="../assets/burkholder_stierharfe-friedhof-ur-nachbau-2500vchr_s7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="../assets/burkholder_stierharfe-friedhof-ur-nachbau-2500vchr_s7.png"></a></p>
+</section>
+<section id="klangliche-annäherung" class="slide level4">
+<h4>Klangliche Annäherung</h4>
+<iframe data-external="1" src="https://www.youtube.com/embed/dDRD3c-WAec" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div style="font-size: 20px; margin-top: -60px">
+<p><span class="citation" data-cites="peterpringle2022">(<a href="#/früheste-notation-eines-kompletten-werkes-ca.-1400-1250-v.-chr." role="doc-biblioref" onclick=""><em>Lament <span>For GILGAMESH</span>, <span>The Gold Lyre Of Ur</span></em> 2022</a>)</span></p>
+</div>
+<aside class="notes">
+<p>This video is a performance of a Sumerian incantation and lament upon the death of the hero, GILGAMESH. For those who are interested, the translation and transliteration of the Sumerian cuneiform tablets can be found online at the University of Oxford website - The Electronic Text Corpus Of Sumerian Literature.</p>
+<p>“The Gold Lyre of Ur” was unearthed by archaeologist, Sir Leonard Woolley, in the 1920’s during his excavations in the Sumerian city of Ur, in modern day Iraq. Unfortunately, as you can see from the photo at the top of the video, there was little left of the lyre because the Sumerians simply put it into the ground 5000 years ago and covered it over with tons of earth. In the intervening millennia, everything that was degradable turned to dust, and only the imprint of the instrument was left, along with the stone mosaic decorations, the four vignettes made of shell, and the gold.</p>
+<p>Thanks to very careful measurements and photos taken by Woolley, museum curators have been able to reconstruct the fragile bits and pieces, and the instrument is now on display in Baghdad. What you see in this video is my own replica, made from cedar like the original. Needless to say, I used brass sheeting instead of gold, but it is unlikely that the ornamentation would change the basic sound of the instrument.</p>
+<p>A lyre of this size, whose lowest note is the same as the lowest ‘C’ on a piano keyboard, would probably have been used as a drone instrument, and would not have been used to play melodies like a harp or a smaller lyre. The bench-shaped bridges used on these instruments, suggest that they probably “buzzed” like the modern Indian tamboura, or the Ethiopian “begena” lyre. The buzzing sound made possible by the wide flat bridge, greatly increases the volume output of the string, as well as the decay time of the vibration.</p>
+<p>The large “balag” drum you see on my left in the video, is four feet (120 cm) in diameter, and was a common percussion instrument in Sumer, although there are none that have survived the ages. These drums were an integral part of ceremonies to summon the souls in the “Netherworld” because, as you can hear, they make enough noise “to wake the dead”! The belief in an afterlife was an integral part of Sumerian culture, and I highly recommend Dr.&nbsp;Irving Finkel’s wonderful book on the subject, THE FIRST GHOSTS.</p>
+<p>The video of my full performance was too long, so I have edited it down to about 8 minutes (still too long IMO). Much of this sort of incantation was repetition, but I suspect the ancient Sumerians had a greater tolerance for long, drawn-out rituals than most of us do today. I chopped several minutes out of the middle.</p>
+<p>We have the Sumerian cuneiform texts, as well as some of the musical instruments, but we do not have the melodies because the Sumerians didn’t write them down. I believe that the parts that were sung were probably largely improvised, just as they are today in the Middle East and the Indian subcontinent. Ancient Sumerian teachers did not write down their music because they taught mainly by memory and by ear.</p>
+<p>From the standpoint of a singer, I have performed these texts in a loud, declarative style. The Sumerians did not have amplification, and singers had to be heard by large crowds at temple gatherings, or sometimes outside.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+
+<section id="bildliche-darstellungen" class="title-slide slide level3 center">
+<h3>Bildliche Darstellungen</h3>
 <ul>
 <li class="fragment">Darstellungen von MusikerInnen, Instrumenten, Aufführungen</li>
 </ul>
+<div class="fragment">
+<p><a href="../assets/burkholder_wandbild-siegesfeier-harfe_2600vchr_s7.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="../assets/burkholder_wandbild-siegesfeier-harfe_2600vchr_s7.png"></a></p>
+</div>
 </section>
-<section id="schriftwerke-über-musik-und-musikerinnen" class="slide level4">
-<h4>Schriftwerke über Musik und MusikerInnen</h4>
+
+<section id="schriftwerke-über-musik-und-musikerinnen" class="title-slide slide level3 center">
+<h3>Schriftwerke über Musik und MusikerInnen</h3>
+
 </section>
-<section id="musik-selbst" class="slide level4">
-<h4>Musik selbst</h4>
+<section id="beispiel-enheduanna-ca.-2300-v.-chr." class="slide level4">
+<h4>Beispiel: Enheduanna (ca. 2300 v. Chr.)</h4>
+<p><a href="../assets/enheduanna_scheibe-opfergabe_2300vchr.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="../assets/enheduanna_scheibe-opfergabe_2300vchr.webp"></a></p>
+<aside class="notes">
+<p>Enheduanna (ca. 2300 v. Chr.): Sie war eine mesopotamische Prinzessin und Hohepriesterin des Mondgottes Nanna im sumerischen Ur. Sie verfasste religiöse Hymnen, die sie mit ihrem Namen versah, und gilt damit als älteste namentlich überlieferte Dichterin und Liedschöpferin der Welt.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+
+<section id="musik-selbst" class="title-slide slide level3 center">
+<h3>Musik selbst</h3>
 <ul>
 <li class="fragment">Notation, Mündliche Tradition, Tonaufnahmen (seit ca. 1870)</li>
 </ul>
+</section>
+<section id="früheste-notation-eines-kompletten-werkes-ca.-1400-1250-v.-chr." class="slide level4 smaller scrollable">
+<h4>Früheste Notation eines kompletten Werkes <br> (ca. 1400-1250 v. Chr.)</h4>
+<p><a href="../assets/burkholder_tafel-notation-ugarit-1400vchr_s8.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="../assets/burkholder_tafel-notation-ugarit-1400vchr_s8.png"></a></p>
+<aside class="notes">
+<p>The oldest nearly complete piece, from ca. 1400-1250 BCE, is on a tablet shown in Figure 1.5 that was found at Ugarit, a merchant city-state on the Syrian coast. Scholars have proposed possible transcriptions for the music, but the notation is too poorly understood to be read with confidence. Despite the invention of notation, most music was either played from memory or improvised. Musicians most likely did not play or sing from notation, as modern performers do, but used it as a written record from which a melody could be reconstructed, as cooks use a recipe.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 
 <div class="reveal-header">
@@ -256,6 +386,14 @@ Julian Popken
 </div>
 <div class="sb-title">
 <p> </p>
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-grout2019" class="csl-entry" role="listitem">
+Grout, Donald Jay, J. Peter Burkholder, und Claude V. Palisca. 2019. <em>A History of Western Music</em>. Tenth edition. W. W. Norton.
+</div>
+<div id="ref-peterpringle2022" class="csl-entry" role="listitem">
+<em>Lament <span>For GILGAMESH</span>, <span>The Gold Lyre Of Ur</span></em>. 2022. <a href="https://www.youtube.com/watch?v=dDRD3c-WAec">https://www.youtube.com/watch?v=dDRD3c-WAec</a>.
 </div>
 </div>
 </section>
@@ -651,6 +789,38 @@ Julian Popken
         }
       });
       </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

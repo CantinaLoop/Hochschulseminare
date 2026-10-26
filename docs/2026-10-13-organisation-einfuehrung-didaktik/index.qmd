@@ -24,6 +24,7 @@ format:
        sc-sb-title: true
        chalkboard: 
          buttons: false
+       lightbox: true
        #subtitle-as-header: true
        #navigation-mode: vertical
        controls-layout: bottom-right
