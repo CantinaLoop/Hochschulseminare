@@ -378,6 +378,68 @@ besser:
 [Brahms: @carus2010]
 :::
 
+#### Formulierung von Zielen nach "S.M.A.R.T."^[Flandorfer P. Die SMART Methode verstehen und anwenden. Scribbr. Published 11. September 2023. https://www.scribbr.at/modelle-konzepte-at/smart-methode/] {.smaller}
+
+<br>
+
+- **S** pezifisch: 
+  - Das Ziel ist eindeutig definiert.
+
+- **M** essbar:
+  - Das Ziel ist messbar. (Teils schwierig bei Kunst in der Zeit.)
+
+- **A** ttraktiv:
+  - Das Ziel ist motivierend formuliert und von allen Beteiligten akzeptiert.
+
+- **R** ealistisch:
+  - Das Ziel ist umsetzbar.
+
+- **T** erminiert:
+  - Das Ziel hat eine Zeitvorgabe.
+
+#### Beispiel: Formulierung Grobziel nach "S.M.A.R.T."
+
+. . .
+
+> "Die ÜbungsschülerInnen sollen bis Ende des Wintersemesters 25/26 ein leichtes Gesangswerk aus dem Barock auswendig vortragen können und dieses im Rahmen eines SchülerInnenkonzertes am 27.01.2027 präsentieren. Individuelle stimmliche Ziele werden durch die betreuenden Studierenden festgelegt."
+
+#### Stundenentwurfstabelle nach Anselm Ernst -<br>Pro und Contra?
+
+<iframe data-preload class="r-stretch" src="../assets/Muster_Unterrichtsentwurf.pdf"></iframe>
+
+#### Empfehlung Anfängerliteratur Deutsch
+
+::::{.columns}
+
+:::{.column width="40%" .fragment}
+![](https://www.breitkopf.com/assets/files/_thumb600/EB_8848_U1.jpg)
+:::
+
+:::{.column .fragment}
+**Steffen Wolf** (*1971) <br>
+Wege zum Liedgesang - <br>
+ein deutscher "Vaccai"
+<br><br>
+Breitkopf
+:::
+
+::::
+
+####
+
+::::{.columns}
+
+
+:::{.column width="50%"}
+![](../assets/Wolf1.png)
+:::
+
+:::{.column width="50%"}
+![](../assets/Wolf2.png)
+:::
+
+::::
+
 #### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"} 
 
 <!--###### Monografien 

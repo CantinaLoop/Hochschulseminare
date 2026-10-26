@@ -293,7 +293,7 @@ The oldest nearly complete piece, from ca. 1400-1250 BCE, is on a tablet shown i
   </audio>
 </section>
 
-## Akustik I
+## Akustik I {background-color="#0FA3B1"}
 
 #### Grundbegriffe
 
@@ -317,9 +317,9 @@ Schall
 
 ![](../assets/all.jpg)
 
-#### Das menschliche Ohr^[https://img.poweredcache.net/das-hoerhaus.de/wp-content/uploads/2016/05/Wie_f_DasOhr.jpg?rs=fill&w=585&h=600&ssl=1]
+#### Das menschliche Ohr^[https://www.rottler.de/hs-fs/hubfs/Website/Blog/Blog_Aufbau_Ohr_1080x500.png?width=1080&height=500&name=Blog_Aufbau_Ohr_1080x500.png]
 
-![](https://img.poweredcache.net/das-hoerhaus.de/wp-content/uploads/2016/05/Wie_f_DasOhr.jpg?rs=fill&w=585&h=600&ssl=1)
+![](https://www.rottler.de/hs-fs/hubfs/Website/Blog/Blog_Aufbau_Ohr_1080x500.png?width=1080&height=500&name=Blog_Aufbau_Ohr_1080x500.png)
 
 :::{.notes}
 Die Ohrmuschel sammelt das Signal (Geräusche, Stimmen) und bringt es über den Gehörgang, den Du dir als Tunnel vorstellen kannst, zum Trommelfell. Das Trommelfell bewegt sich wenn das Signal darauf trifft vor und zurück. Es ist ein Häutchen das den Gehörgang verschließt.
