@@ -16,8 +16,6 @@ website:
             text: "Einführung Didaktik + Methodik Gesang"
           - href: 2026-10-27-geschichte1-akustik1/index.qmd
             text: "Geschichte I + Akustik I"
-          - href: 2026-10-30-organisation-einfuehrung-didaktik/index.qmd
-            text: "Einführung Didaktik + Methodik Gesang HfK"
       - text: "HfK 26/27"
         menu:
           - href: 2026-10-30-organisation-einfuehrung-didaktik/index.qmd
