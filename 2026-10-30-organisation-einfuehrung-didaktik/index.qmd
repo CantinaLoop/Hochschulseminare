@@ -1,0 +1,732 @@
+---
+title: EINFÜHRUNG
+subtitle: Didaktik/Methodik Gesang
+author: Julian Popken
+institute: HfK Bremen
+date: 30 10 2026
+date-format: "DD.MM.YYYY"
+from: markdown+emoji
+#validate-yaml: true
+#citeproc: true
+bibliography: ../references.bib
+    #monografien: monografien.bib
+    #medien: medien.bib
+format: 
+   revealjs:
+       lang: de-DE
+       title-slide-attributes:
+         data-background-color: "#0FA3B1"
+         data-footer: Test
+       #width: 1920
+       #height: 1020
+       slide-number: c
+       slide-level: 4
+       sc-sb-title: true
+       chalkboard: 
+         buttons: false
+       lightbox: true
+       #subtitle-as-header: true
+       #navigation-mode: vertical
+       controls-layout: bottom-right
+       controls-tutorial: true
+       toc: true
+       toc-depth: 2
+       toc-title: Inhalt
+       theme: default
+       #transition: slide
+       #transition-speed: fast
+       background-transition: fade
+       incremental: true
+       logo: ../assets/00-hfk-logo.png
+       footer: Einführung Didaktik/Methodik Gesang | 30.10.2026 | Julian Popken
+       footer-logo-link: https://www.hfk-bremen.de
+       #header: Einführung Didaktik/Methodik
+       #header-logo: Medien/00-HMTMH-Logo-1.png
+       #header-logo-link: https://hmtm-hannover.de
+       auto-stretch: true
+       #center: true
+       #cap-location: margin
+       #link-external-icon: true
+       link-external-newwindow: true
+       reference-location: document
+       
+reveal-plugins:
+  - RevealConfetti
+filters:
+  - reveal-header
+  - confetti
+  #- multibib
+---
+
+
+## Herzlich willkommen! {background-color="#0FA3B1"}
+
+#### Über mich {.smaller}
+
+**Dozent:** Julian Popken
+
+- Geboren/aufgewachsen in Leer (Ostfriesland) :teapot::cow: 
+
+. . .
+
+::: {.nonincremental}
+- Studium:
+   - Kirchen- und Schulmusik (HMDK Stuttgart)
+   - Bachelor Operngesang + Bachelor Gesang (HfM Karlsruhe)
+   - Master Gesang in freiberuflicher Tätigkeit (HMTM Hannover)
+:::
+
+- Lehre: HMTM Hannover, HfK Bremen, Universität Osnabrück (bis 2025)
+
+
+. . .
+
+::: {.nonincremental}
+- Kontakt:
+  - Mail: [jpopken@hfk-bremen.de](mailto:j.popken@hfk-bremen.de) <br>
+  - Mobil (Signal/Whatsapp): ``0170-7022541``
+:::
+
+### {center=true}
+
+Stellen Sie sich kurz vor:
+
+- Name, Studiengang...
+- Schon Unterrichtserfahrung als LehrerIn gesammelt?
+- Haben Sie aktuell SchülerInnen?
+- Was haben Sie für Erwartungen an den Kurs?
+- Was interessiert Sie besonders? Gibt es Wunschthemen?
+
+## Organisation {background-color="#0FA3B1"}
+
+#### 
+
+#### Fragen?
+
+<div class="tenor-gif-embed" data-postid="20634871" data-share-method="host" data-aspect-ratio="1.81818" data-width="100%"><a href="https://tenor.com/view/doing-the-math-thinking-gif-20634871">Doing The Math Thinking GIF</a>from <a href="https://tenor.com/search/doing+the+math-gifs">Doing The Math GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+## Semesterausblick {background-color="#0FA3B1"}
+
+#### "Maximal"-Inhalte Methodik/Didaktik II (WS26/27 - SS27)
+
+<br>
+
+. . .
+
+**Didaktik**
+
+. . . 
+
+::: {.callout}
+## Geschichte der Gesangspädagogik
+Übersicht über Forschungsstand zu Methoden, Stimmidealen und Stimmtheorien <br>
+Antike – Mittelalter – Renaissance –  Belcanto 18. - 20. Jhd. – Vorstellung/Diskussion neuerer Literatur
+:::
+
+. . .
+
+::: {.callout}
+## Systematik von Gesangstechniken und deren Vermittlung
+Schwerpunkt Belcanto ab Barock: Rezitative - Canto fiorito - Portamento - Koloraturen - Kadenzen etc.
+Umgang mit zeitgenössischer Musik und ihren Techniken: Improvisation - Performance
+:::
+
+. . .
+
+#### "Maximal"-Inhalte Methodik/Didaktik II (WS26/27 - SS27)
+
+<br>
+
+. . .
+
+**Methodik**
+
+. . .
+
+::: {.callout}
+## Beobachtung und Auswertung des Unterrichts
+Übungen diagnostisches Hören – technische Probleme erkennen und Funktionsebenen zuordnen – Einsingen und Übungen entwickeln – Entwickeln eigener Supervisionsmodelle – Erproben von achtsamer Unterrichts- und Feedbacksprache – Überblick über Techniken der CCM ("Contemporary Commercial Music")
+:::
+
+. . .
+
+::: {.callout}
+## Planung des Unterrichts
+Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen – Formulieren von Grobzielen/Feinzielen – Didaktisch-methodische Analyse – Literaturauswahl
+:::
+
+#### Literaturempfehlungen
+
+::::{.columns}
+
+:::{.column width="33%" .fragment}
+![](https://images.thalia.media/-/BF2000-2000/9d3d2396811e474284c85af40b2aeeba/die-stimme-gebundene-ausgabe-bernhard-richter.jpeg)
+<div style="font-size: 25px">@richter2014</div>
+:::
+
+:::{.column width="33%" .fragment}
+![](https://images.thalia.media/-/BF2000-2000/a9fdcbe1e03a4e1e9fb03e13598358a7/lehren-und-lernen-im-instrumentalunterricht-taschenbuch-anselm-ernst.jpeg)
+<div style="font-size: 25px; margin-top: 15px">@ernst2013</div>
+:::
+
+:::{.column width="33%" .fragment}
+![](https://bdg-online.org/wp-content/uploads/2025/06/lehrplan_gesang2025.jpg)
+<div style="font-size: 25px">@vdm2025</div>
+:::
+
+::::
+
+
+## Einführung Didaktik {background-color="#0FA3B1"}
+
+#### Grob gefragt: Was genau ist...
+
+<br>
+
+. . . 
+
+**Didaktik?**
+
+- Wissenschaft/Kunst des Lehrens und Lernens
+   - Leitfragen: "***Was?*** *Wozu? Warum?*"
+
+. . .
+
+**Methodik?**
+
+- Kunst/Lehre des "Wegs zu den Zielen"
+   - Leitfragen: "***Wie?*** *Auf welchem Weg?*"
+
+
+
+
+### Was macht klassischen Gesang aus? 
+
+#### Was macht (nicht-)klassischen Gesang aus?
+
+{{< video https://www.youtube.com/embed/B_ymY0xG0LI?si=pO3GQsFOLCAIdyRW&amp;start=907 width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+*Moonchild - The List* [@nprmusic2019]
+:::
+
+---
+
+#### Was macht (nicht-)klassischen Gesang aus?
+
+{{< video https://www.youtube-nocookie.com/embed/AFgzzWT3zX4?si=M9Pi0FAL5KhpO1vB&amp;start=1949 width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+*Le Mystère de Voix Bulgares - Ergen Deda* [@kexp2017]
+:::
+
+---
+
+#### Was macht (nicht-)klassischen Gesang aus?
+
+{{< video https://youtu.be/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&;start=142 width="100%" height="80%" poster="https://youtube.com" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
+:::
+
+####
+
+**Was macht klassischen Gesang aus?** 
+
+. . .
+
+<br>
+
+besser: 
+
+. . .
+
+<br>
+
+**Was macht den <span style="color: forestgreen;">westeuropäischen Kunstgesang</span> aus?**
+
+#### {.smaller}
+
+![](https://www.kunstkopie.de/kunst/gerrit_van_honthorst/Anbetung-der-Hirten.jpg){fig-align="left" .lightbox width=65%}
+
+:::{style="font-size: 20px; margin-top: -40px"}
+@honthorst1622 - Die Anbetung des Kindes
+:::
+
+---
+
+![](https://cdn.thenetexperts.info/image/authenticated/s--njUtcYpZ--/q_80/artworks/GERARD-VAN-HONTHORST-1592_DER-LIEDERLICHE-STUDENT-391_206690_CC-BY-SA_BSTGS.jpg){fig-align="left" .lightbox width=65%}
+
+:::{style="font-size: 20px; margin-top: -50px"}
+@honthorst1625 - Der liederliche Student
+:::
+
+---
+
+#### Chiaroscuro
+
+- ital. für "helldunkel" / fr. *clair-obscur*
+- Gestaltungsmittel in der Malerei der Spätrenaissance und des Barock
+- Dort: Starke Hell-Dunkel-Kontraste, dadurch quasi "leuchtender" Effekt
+
+. . .
+
+Übertragung als **Stimmideal** auf den Belcanto
+
+#### Was macht den westeuropäischen Kunstgesang aus? {.smaller}
+
+- Belcanto-Ideale (seit Barock!):
+    - Grund- und Obertonreichtum (*chiaroscuro*) 
+    - Verzierter Gesang (*canto fiorito*) 
+    - Legato / Vibrato u. a.
+- Verstärkung jener Obertöne, die im Orchesterklang wenig vorhanden sind:
+    - Generell Tiefstellung der Kehle
+    - Große Weite im Ansatzrohr
+    - Formantstrategien etc.
+
+. . .
+
+**Wichtig**: Ursprünglich "abendländisch" = Westeuropäische Perspektive!
+
+## Einführung Methodik {background-color="#0FA3B1"}
+
+#### Singen und Gesangslehre als hochkomplexes System
+
+. . .
+
+::: {.callout-warning}
+## Methodik: Gesangslehre muss eine Vielzahl verschiedener Perspektiven zulassen.
+- Gesang als hochkomplexes System: Wir müssen vereinfachen (können).
+- Sehr viele Aspekte sind nicht abschließend erforscht.
+- In vielen Bereichen gibt es kein klares "richtig" oder "falsch".
+- Ständiges Üben: Unklarheiten einordnen, Widersprüchlichkeiten aushalten.
+- Offen, neugierig und respektvoll ggü. anderen, evtl. abweichenden Lehrmeinungen.
+- Am Ende gilt: Wer nachhaltig gut singt/lehrt, hat "recht".
+:::
+
+. . .
+
+<br>
+
+*"Der Schüler ist die Methode"* <span style="font-size: 20px"> (Franziska Martienssen-Lohmann)^[Martienssen-Lohmann, Franziska: Ausbildung der Gesangsstimme. Rudolf Erdmann Musikverlag, Wiesbaden 1957, S. 17. Auch Peter Heilbut (1920-2005) zugeschrieben.]</span>
+
+#### Was nehmen Sie wahr?
+
+{{< video https://www.youtube.com/watch?v=nxTdD_eaJaE width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+[@schlangenlinien1984]
+:::
+
+#### Was nehmen Sie wahr?
+
+<section>
+  <audio controls>
+    <source src="../assets/Schwalbe.mp3" type="audio/mpeg">
+    Ihr Browser unterstützt kein Audio-Element.
+  </audio>
+</section>
+
+:::{style="font-size: 20px; margin-top: 10px"}
+[Brahms: @carus2010]
+:::
+
+#### Stundenentwurfstabelle nach Anselm Ernst -<br>Pro und Contra?
+
+<iframe data-preload class="r-stretch" src="../assets/Muster_Unterrichtsentwurf.pdf"></iframe>
+
+## Geschichte der Gesangspädagogik I - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+### Westeuropäische Musik: <br> Welche Quellen gibt es?
+
+#### Wiederholung: Geschichte der ganzen Welt (Selbststudium)
+
+. . .
+
+<iframe width="1120" height="500" src="https://www.youtube.com/embed/xuCn8ux2gbs?si=wE6_uLhOtgO0Y1Tz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Bill Wurtz: *history of the entire world, i guess* ([Youtube 2017](https://www.youtube.com/watch?v=xuCn8ux2gbs))
+:::
+
+#### Antiker Naher Osten
+
+![](../assets/burkholder_karte-naher-osten-antike_s6.png){width="80%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 6]
+:::
+
+:::{.notes}
+- Westeuropäische Kultur der Amerikas und Europas in Abgrenzung zu (fern)-östlichen Kulturen. 
+- Wichtigste Regionen für unsere Mathematik, Kalender, Astronomie, Medizin: Mesopotamien, Ägypten und vor allem: Antikes Griechenland, Römisches Reich
+:::
+
+#### Griechische Siedlungen (ca. 550 v. u. Z.)
+
+![](../assets/burkholder_griechen-550vchr_s8.png){width="80%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 8]
+:::
+
+:::{.notes}
+- Unsere Philosophie: Platon und Aristoteles
+- Wichtig: Quasi Zufall, könnten je nach Entwicklung auch andere Zivilisationen stärker gewesen sein.
+- Griechische Schriften stärkste Quelle für heutiges Musikverständnis.
+- Musik ist Kunst in der Zeit und daher nicht permanent. 
+- Spuren also:
+:::
+
+### Materielle/physische Überreste
+
+- Musikinstrumente, Aufführungsorte
+
+. . .
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch"></iframe>
+
+#### Hohle Fels Schelklingen (ca. 40.000 v. u. Z.)
+
+::::{.columns}
+
+:::{.column width="50%" .fragment}
+![](https://upload.wikimedia.org/wikipedia/commons/a/a3/Hohler_Fels.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=original){width="70%"}
+
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[Wikimedia](https://upload.wikimedia.org/wikipedia/commons/a/a3/Hohler_Fels.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
+:::
+
+
+
+:::
+
+:::{.column width="50%" .fragment}
+![](../assets/burkholder_floete-steinzeit-40000vchr_s5.png){width="35%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 5]
+:::
+:::
+
+::::
+
+:::{.notes}
+Die Karsthöhle Hohler Fels liegt etwa einen Kilometer östlich des Stadtkerns von Schelklingen im baden-württembergischen Alb-Donau-Kreis in Deutschland. Sie ist seit dem 19. Jahrhundert einer der bedeutendsten archäologischen Fundplätze des Jungpaläolithikums in Mitteleuropa.
+
+Front view of a bone flute made from the radius (wing bone) of a griffon vulture, unearthed in 2008 at Hohle Fels Cave in the Ach Valley in Swabia (southwestern Germany) and estimated to date from about 40,000 to 42,000 years ago. With five finger holes, it is the most complete of the early flutes yet recovered.
+:::
+
+#### Nachbau sumerische Stierleier (ca. 2500 v. u. Z.)
+
+![](../assets/burkholder_stierharfe-friedhof-ur-nachbau-2500vchr_s7.png){.r-stretch}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 7]
+:::
+
+#### Klangliche Annäherung
+
+{{< video https://www.youtube.com/watch?v=dDRD3c-WAec width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+[@peterpringle2022]
+:::
+
+:::{.notes}
+This video is a performance of a Sumerian incantation and lament upon the death of the hero, GILGAMESH. For those who are interested, the translation and transliteration of the Sumerian cuneiform tablets can be found online at the University of Oxford website - The Electronic Text Corpus Of Sumerian Literature.
+
+“The Gold Lyre of Ur” was unearthed by archaeologist, Sir Leonard Woolley, in the 1920’s during his excavations in the Sumerian city of Ur, in modern day Iraq. Unfortunately, as you can see from the photo at the top of the video, there was little left of the lyre because the Sumerians simply put it into the ground 5000 years ago and covered it over with tons of earth. In the intervening millennia, everything that was degradable turned to dust, and only the imprint of the instrument was left, along with the stone mosaic decorations, the four vignettes made of shell, and the gold. 
+
+Thanks to very careful measurements and photos taken by Woolley, museum curators have been able to reconstruct the fragile bits and pieces, and the instrument is now on display in Baghdad. What you see in this video is my own replica, made from cedar like the original. Needless to say, I used brass sheeting instead of gold, but it is unlikely that the ornamentation would change the basic sound of the instrument. 
+
+A lyre of this size, whose lowest note is the same as the lowest ‘C’ on a piano keyboard, would probably have been used as a drone instrument, and would not have been used to play melodies like a harp or a smaller lyre. The bench-shaped bridges used on these instruments, suggest that they probably “buzzed” like the modern Indian tamboura, or the Ethiopian “begena” lyre. The buzzing sound made possible by the wide flat bridge, greatly increases the volume output of the string, as well as the decay time of the vibration.
+
+The large “balag” drum you see on my left in the video, is four feet (120 cm) in diameter, and was a common percussion instrument in Sumer, although there are none that have survived the ages. These drums were an integral part of ceremonies to summon the souls in the “Netherworld” because, as you can hear, they make enough noise “to wake the dead”! The belief in an afterlife was an integral part of Sumerian culture, and I highly recommend Dr. Irving Finkel’s wonderful book on the subject, THE FIRST GHOSTS.
+
+The video of my full performance was too long, so I have edited it down to about 8 minutes (still too long IMO). Much of this sort of incantation was repetition, but I suspect the ancient Sumerians had a greater tolerance for long, drawn-out rituals than most of us do today. I chopped several minutes out of the middle. 
+
+We have the Sumerian cuneiform texts, as well as some of the musical instruments, but we do not have the melodies because the Sumerians didn’t write them down. I believe that the parts that were sung were probably largely improvised, just as they are today in the Middle East and the Indian subcontinent. Ancient Sumerian teachers did not write down their music because they taught mainly by memory and by ear.
+
+From the standpoint of a singer, I have performed these texts in a loud, declarative style. The Sumerians did not have amplification, and singers had to be heard by large crowds at temple gatherings, or sometimes outside.
+:::
+
+### Bildliche Darstellungen
+
+- Darstellungen von MusikerInnen, Instrumenten, Aufführungen
+
+. . .
+
+![](../assets/burkholder_wandbild-siegesfeier-harfe_2600vchr_s7.png){width="60%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 7]
+:::
+
+### Schriftwerke über Musik und MusikerInnen
+
+- Beispiel: Enheduanna (ca. 2300 v. Chr.)
+
+. . .
+
+![](../assets/enheduanna_scheibe-opfergabe_2300vchr.webp){width="60%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 10]
+:::
+
+
+:::{.notes}
+Enheduanna (ca. 2300 v. Chr.): Sie war eine mesopotamische Prinzessin und Hohepriesterin des Mondgottes Nanna im sumerischen Ur. Sie verfasste religiöse Hymnen, die sie mit ihrem Namen versah, und gilt damit als älteste namentlich überlieferte Dichterin und Liedschöpferin der Welt.
+:::
+  
+
+
+:::{.notes}
+- Unsere Philosophie: Platon und Aristoteles
+- Wichtig: Quasi Zufall, könnten je nach Entwicklung auch andere Zivilisationen stärker gewesen sein.
+- Griechische Schriften stärkste Quelle für heutiges Musikverständnis.
+- Musik ist Kunst in der Zeit und daher nicht permanent. 
+- Spuren also:
+:::
+
+### Materielle/physische Überreste
+
+- Musikinstrumente, Aufführungsorte
+
+### Musik selbst
+
+- Notation, Mündliche Tradition, Tonaufnahmen (seit ca. 1870)
+
+
+
+#### Früheste Notation eines kompletten Werkes <br> (ca. 1400-1250 v. u. Z.) 
+
+![](../assets/burkholder_tafel-notation-ugarit-1400vchr_s8.png){width="80%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019, 8]
+:::
+
+:::{.notes}
+The oldest nearly complete piece, from ca. 1400-1250 BCE, is on a tablet shown in Figure 1.5 that was found at Ugarit, a merchant city-state on the Syrian coast. Scholars have proposed possible transcriptions for the music, but the notation is too poorly understood to be read with confidence. Despite the invention of notation, most music was either played from memory or improvised. Musicians most likely did not play or sing from notation, as modern performers do, but used it as a written record from which a melody could be reconstructed, as cooks use a recipe.
+:::
+
+#### Früheste Aufnahmen
+
+<br>
+
+. . .
+
+**1860**: Edouard-Leon Scott de Martinville (Phonautograph)
+
+"Au clair de la lune"
+
+<section>
+  <audio controls>
+    <source src="https://www.firstsounds.org/sounds/Scott-Feaster-No-36.mp3" type="audio/mpeg">
+    Ihr Browser unterstützt kein Audio-Element.
+  </audio>
+</section>
+
+**1878**: Thomas Edison (Phonograph)
+
+"Mary had a little lamb"
+
+<section>
+  <audio controls>
+    <source src="https://upload.wikimedia.org/wikipedia/commons/6/63/Thomas_Edison_Mary_had_lamb.ogg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" type="audio/mpeg">
+    Ihr Browser unterstützt kein Audio-Element.
+  </audio>
+</section>
+
+## Akustik I {background-color="#0FA3B1"}
+
+#### Grundbegriffe
+
+Akustik
+: Lehre vom Schall und seiner Ausbreitung
+
+<br>
+
+Schall
+: Mechanische Schwingung in einem elastischen Medium (Gas, Flüssigkeit, Festkörper)
+: Breitet sich _radial_ von einer Schallquelle aus
+: Ausbreitung in Schallwellen: Molekülabstand nimmt periodisch ab und zu
+
+####
+
+![](../assets/Physikalische Grundlagen 01.png){width="80%"}
+
+<span style="font-size: 20px">Quelle: Meyer, Jürgen: <em>Akustik und musikalische Aufführungspraxis.</em> Frankfurt. 4. Auflage, 2004.</span>
+
+#### Warum würden wir im All niemanden singen hören?
+
+![](../assets/all.jpg)
+
+#### Das menschliche Ohr^[https://www.rottler.de/hs-fs/hubfs/Website/Blog/Blog_Aufbau_Ohr_1080x500.png?width=1080&height=500&name=Blog_Aufbau_Ohr_1080x500.png]
+
+![](https://www.rottler.de/hs-fs/hubfs/Website/Blog/Blog_Aufbau_Ohr_1080x500.png?width=1080&height=500&name=Blog_Aufbau_Ohr_1080x500.png)
+
+:::{.notes}
+Die Ohrmuschel sammelt das Signal (Geräusche, Stimmen) und bringt es über den Gehörgang, den Du dir als Tunnel vorstellen kannst, zum Trommelfell. Das Trommelfell bewegt sich wenn das Signal darauf trifft vor und zurück. Es ist ein Häutchen das den Gehörgang verschließt.
+
+Hinter dem Trommelfell liegen drei winzige Gehörknöchelchen: Hammer, Amboss und Steigbügel. Diese sind wie eine Kette verbunden. Die Gehörknöchelchen machen das Signal lauter und geben es ans Innenohr weiter.
+
+Das Innenohr kannst Du dir als Schnecke (Fachbegriff: Cochlear) vorstellen die mit Flüssigkeit gefüllt ist. In dieser Schnecke sind überall kleine Härchen. Wenn das Signal auf die Härchen (Haarsinneszellen) trifft bewegen Sie sich. Dadurch wird das Signal über den Hörnerv an dein Gehirn weitergeleitet und dort verarbeitet, dass heißt: Du hörst etwas.
+
+Wenn die Härchen abgebrochen sind oder fehlen, hörst Du nicht mehr gut.
+
+Außerdem ist an Dein Innenohr das Gleichgewichtsorgan angebunden, das sorgt dafür das Du dein Gleichgewicht halten kannst. Wenn du es durcheinander bringst wird Dir schwindlig z. B. wenn du dich lange auf dem Karussel drehst.
+:::
+
+
+
+### Wellenformen^[Grafiken Wellenformen: „Wellentypen - Transversalwelle (Animation) | LEIFIphysik“. Zugegriffen 20. Oktober 2025. https://www.leifiphysik.de/mechanik/mechanische-wellen/downloads/wellentypen-transversalwelle-animation.]
+
+. . .
+
+**Transversalwelle** (Seil, Geigensaite)
+
+::::{.columns}
+
+:::{.column width="60%"}
+- Teilchen werden im rechten Winkel zur Ausbreitungsrichtung ausgelenkt.
+:::
+
+:::{.column width="40%" .fragment}
+![](../assets/wellentypen-transversalwelle-animation-bild.gif){width="50%"}
+:::
+
+::::
+
+- Die einzelnen Teilchen bewegen sich an feststehendem Ort auf und ab.
+
+- Nur das Wellenmuster bewegt sich weiter.
+
+#### Longitudinalwelle (Schall)
+
+::::{.columns}
+
+:::{.column width="60%"}
+- Teilchen werden parallel zur Ausbreitungsrichtung ausgelenkt.
+:::
+
+:::{.column width="40%" .fragment}
+![](../assets/wellentypen-longitudinalwelle-animation-bild.gif){width="50%"}
+:::
+
+::::
+
+- Die einzelnen Teilchen bewegen sich in/gegen die Ausbreitungsrichtung vor bzw. zurück.
+
+- Die Ausbreitung des Schalls erfolgt _radial_ von der Schallquelle. (Nicht wie in der Grafik).
+
+#### Kombination Longitudinal- + Transversalwelle (Wasser)
+
+::::{.columns}
+
+:::{.column width="60%"}
+- Teilchen auf Wasseroberfläche bewegen sich sowohl vor und zurück als auch hoch und runter.
+:::
+
+:::{.column width="40%" .fragment}
+![](../assets/wellentypen-wasserwelle-animation-bild.gif){width="50%"}
+:::
+
+::::
+
+- Die einzelnen Teilchen beschreiben in vollständiger Bewegung eine kreisförmige Linie. 
+
+- Eine Ente auf der Wasseroberfläche bliebe ungefähr am gleichen Ort.
+
+#### 
+
+![](../assets/Physikalische Grundlagen 02.png)
+
+<span style="font-size: 20px">Quelle: Hall, Donald E.: <em>Musikalische Akustik. Ein Handbuch.</em> Main, 1997.</span>
+
+#### Amplitude
+
+- Maß der Auslenkung = Schalldruck
+- Angegeben in Dezibel (**dB**) = Logarithmischer Maßstab
+
+<br>
+
+- Orchesterfortissimo: 90 - 100 dB
+- Orchesterpianissimo: 40 - 45 dB
+- OpernsängerIn: bis 105 dB (Formanten)
+
+:::{.notes}
+Logarithmischer Maßstab (Logarithmus: die Zahl mit der man eine Basiszahl potenzieren
+muss, um die vorgegebene Zahl Numerus zu erhalten).
+:::
+
+#### Wellenlänge (**λ**)
+
+- Abstand zwischen zwei Wellenhügeln (Druck- oder Verdichtungsmaxima).
+- Je größer die Wellenlänge, desto tiefer der Ton.
+
+. . .
+
+$$
+Wellenlänge = \frac{Schallgeschwindigkeit}{Frequenz}
+$$
+
+. . .
+
+$$
+λ = \frac{c}{f}
+$$
+
+#### Frequenz (**f**)
+
+- Anzahl der Druckschwankungen bzw. Schwingungen pro Sekunde.
+- Gemessen in **Hertz** (=Hz).
+- Abhängig von Wellenlänge **λ** und Schallgeschwindigkeit **c** 
+- Berechnung bei trockener Luft, 20°C:
+
+. . .
+
+$$
+f = \frac{c}{λ}
+$$
+
+#### Frequenzbeispiele
+
+![](../assets/Physikalische Grundlagen 04.png)
+
+#### Ausnutzung von Hörgrenzen
+
+<iframe data-preload class="r-stretch" src="../assets/Mosquito Flyer (D) Stand 3 2025 DIGI.pdf"></iframe>
+
+<span style="font-size: 20px">Quelle: <span>[Antivandalismus.de](https://www.antivandalismus.de/)</span>
+
+#### Schallgeschwindigkeit (**c**)
+
+- Fortpflanzungsgeschwindigkeit, mit der sich Druckschwankungen über den Luftraum ausbreiten.
+- In der Luft u. a. abhängig von der Temperatur, **c** nimmt bei ansteigender Temperatur zu. (Beispiel Freiluftaufführungen, etwa über einem Gewässer.)
+
+#### Schallgeschwindigkeit in verschiedenen Medien
+
+![](../assets/Physikalische Grundlagen 06.png){width="35%"}
+
+#### Fragen?
+
+![](../assets/Omega.jpg){.r-stretch}
+
+
+
+#### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"} 
+
+<!--###### Monografien 
+::: {#refs-monografien}
+:::
+
+###### Medien
+::: {#refs-medien}
+:::-->
+
+

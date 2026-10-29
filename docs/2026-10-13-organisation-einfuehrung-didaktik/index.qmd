@@ -360,7 +360,7 @@ besser:
 {{< video https://www.youtube.com/watch?v=nxTdD_eaJaE width="100%" height="80%" >}}
 
 :::{style="font-size: 20px; margin-top: -60px"}
-*Frederik Vahle/Dietlind Grabe: Annes Schlaflied (Anne Kaffekanne)* [@schlangenlinien1984]
+[@schlangenlinien1984]
 :::
 
 #### Was nehmen Sie wahr?
