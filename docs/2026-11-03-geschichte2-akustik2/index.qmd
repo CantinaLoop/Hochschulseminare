@@ -369,7 +369,119 @@ Außerdem ist an Dein Innenohr das Gleichgewichtsorgan angebunden, das sorgt daf
 
 - Eine Ente auf der Wasseroberfläche bliebe ungefähr am gleichen Ort.
 
-## Fortsetzung Akustik
+## Geschichte II - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+#### Griechische Tragödie
+
+![](https://www.readersdigest.de/cdn/shop/articles/Theater_von_Epidauros_in_Griechenland_Peloponnes_1080x.jpg?v=1660901731){.r-stretch}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Theater von Epidauros, ca. 400 v. u. Z., Platz für 14.000 Zuschauer
+:::
+
+:::{.notes}
+- Ursprünglich Feiern zu Ehren des Gottes Dionysos (Wein)
+- Dionysoskult zum Staatskult erhoben - Große Dionysien als jährliches großes Fest
+- Gesungen, getanzt, Böcke geopfert - Tragos (Bock, Ziegenbock) und ode (Gesang) "Bocksgesang"
+- 534 v. Chr. erste Tragödie v. Thespis(singendem und tanzenden Chor wird ein Schauspieler gegenübergestellt)
+- später 2 Aischylos, dann 3 Sophokles
+- Chor spielt zentrale Rolle: Kommentierend, singend, tanzend in verschiedenen Formationen
+Im klassischen griechischen Theater (wie im berühmten Theater von Epidaurus) war der Chor das Herzstück. Die Sänger standen in der kreisförmigen Orchestra (dem Tanzplatz) und kommentierten singend und tanzend das Geschehen auf der Bühne.
+
+- Die Orchestra: ursprünglich Raum zum Tanzen/Singen um Altar von Dionysos, später Auftrittsraum für Chor und Schauspieler
+:::
+
+#### 
+
+::::{.columns}
+
+:::{.column width="50%" .fragment}
+![](https://a.1stdibscdn.com/greek-tragedy-black-terracotta-mask-france-1950s-for-sale/1121189/f_352846721689862228515/35284672_datamatics.jpg)
+:::
+
+:::{.column width="50%" .fragment .absolute top=150 right=20}
+![](https://ifigeneiaceramics.com/cdn/shop/files/Greek_Theater_Tragedy_Mask_Relief_terracotta_wall_Decor_24x20cm_2_1024x1024.jpg?v=1744998961)
+:::
+
+::::
+
+
+
+
+
+
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Nachbildungen griechischer Tragödienmasken
+:::
+
+:::{.notes}
+- Schauspieler (alles Männer) trugen Masken. Alles Nachbildungen von Vasen, Amphoren
+
+-   Die Maske gab ein starres, erschreckendes Aussehen.
+Die Individualität und Identität des Schauspielers wurde abgelegt.
+Sie vereinfachte dem Schauspieler das Rollenspiel.
+Eventuell zur akustischen Projektion.
+
+- Wie vorstellen? Wettbewerb dreier Tragödien hintereinander = mehrere Stunden. Leute aßen, sprachen, tranken währenddessen.
+
+:::
+
+
+
+
+
+#### Musikverständnis griech. Antike bis 5. Jhd. v. u. Z.
+
+- Musik als untrennbare Einheit von Wort, Ton und Tanz. Lehre als Ethos.
+- Ab ca. 5. Jhd. v. u. Z.: Professionalisierung und erste "Gesangsschulen". (Etwa d. "**Dionysische Verein**")
+- Steigende technische Anforderungen an die Stimme: Projektion, Textverständlichkeit
+
+
+:::{.notes}
+
+1
+- Philosophen wie Platon und Aristoteles ordneten der Musik eine direkte Wirkung auf das Gemüt und den Charakter zu (Ethos-Lehre). Richtiges Singen sollte Tugend, Disziplin und innere Harmonie fördern.
+• Der „musikalische Mensch“: Wer nicht singen und kein Saiteninstrument (wie die Lyra) spielen konnte, galt als ungebildet.
+• Methodik: Der Unterricht erfolgte rein mündlich und empirisch durch Nachahmung und ständige Wiederholung (Mimesis).
+
+2
+• *Die dionysischen Gilden:* Da die Laienchöre diesen Ansprüchen nicht mehr genügten, gründeten sich professionelle Vereinigungen. Um 500 v. Chr. entstand in Athen der Dionysische Verein. Diese Gilde bildete Schauspieler, Sänger und Musiker gezielt aus und gilt in der Forschung als die erste institutionalisierte Form einer Gesangspädagogik laut Wikipedia.
+
+Die dionysischen Vereine (historisch vor allem als dionysische Techniten bekannt) waren im antiken Griechenland und im Hellenismus berufsständische Vereinigungen von Künstlern und Mitwirkenden des Theaters und Kults.  
+:::
+
+#### Akustik: Theater von Epidauros
+
+<iframe width="100%" height="80%" src="https://www.youtube.com/embed/g7sYicYfPrs?si=z41-ImUMIwT-74yz&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[Youtube: Rick Steve's Europe]
+:::
+
+:::{.notes}
+- Kalksteine als Hochpassfilter
+:::
+
+#### Phonasken
+
+- Einzahl: Phonaske, von griechisch "phonaskéō = die Stimme üben"
+- Stimmlehrer und Rhetoriktrainer der griechisch-römischen Antike
+- Allgemeinbildung (!) durch regelmäßige Atem-, Deklamations- und Gesangsübungen
+
+:::{.notes}
+Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente Redner oder Schauspieler oft von einem Phonasken zu ihren Auftritten begleiten, um die Kehle zu schonen und die Tonhöhe zu kontrollieren. Vom römischen Politiker Gaius Gracchus ist beispielsweise bekannt, dass hinter ihm ein Sklave stand, der ihm mit einer Flöte oder Pfeife das richtige Register anzeigte.
+
+- Steinplatte auf Brust
+
+- 
+:::
+
+## Fortsetzung: Akustik II {background-color="#0FA3B1"}
 
 #### 
 
@@ -583,98 +695,5 @@ Dieser Primärschall wird anschließend durch die Resonanzräume des Rachens, de
 #### Fragen?
 
 ![](../assets/Omega.jpg){.r-stretch}
-
-
-## Geschichte II - Antike
-
-#### Griechische Tragödie
-
-![](https://www.readersdigest.de/cdn/shop/articles/Theater_von_Epidauros_in_Griechenland_Peloponnes_1080x.jpg?v=1660901731)
-
-:::{style="font-size: 20px; margin-top: -30px"}
-Theater von Epidauros, ca. 400 v. u. Z., Platz für 14.000 Zuschauer
-:::
-
-:::{.notes}
-- Ursprünglich Feiern zu Ehren des Gottes Dionysos (Wein)
-- Dionysoskult zum Staatskult erhoben - Große Dionysien als jährliches großes Fest
-- Gesungen, getanzt, Böcke geopfert - Tragos (Bock, Ziegenbock) und ode (Gesang) "Bocksgesang"
-- 534 v. Chr. erste Tragödie v. Thespis(singendem und tanzenden Chor wird ein Schauspieler gegenübergestellt)
-- später 2 Aischylos, dann 3 Sophokles
-- Chor spielt zentrale Rolle: Kommentierend, singend, tanzend in verschiedenen Formationen
-Im klassischen griechischen Theater (wie im berühmten Theater von Epidaurus) war der Chor das Herzstück. Die Sänger standen in der kreisförmigen Orchestra (dem Tanzplatz) und kommentierten singend und tanzend das Geschehen auf der Bühne.
-
-- Die Orchestra: ursprünglich Raum zum Tanzen/Singen um Altar von Dionysos, später Auftrittsraum für Chor und Schauspieler
-:::
-
-####
-
-![](https://a.1stdibscdn.com/greek-tragedy-black-terracotta-mask-france-1950s-for-sale/1121189/f_352846721689862228515/35284672_datamatics.jpg?width=768)
-
-- Schauspieler (alles Männer) trugen Masken. Alles Nachbildungen von Vasen, Amphoren
-
-:::{.notes}
--   Die Maske gab ein starres, erschreckendes Aussehen.
-Die Individualität und Identität des Schauspielers wurde abgelegt.
-Sie vereinfachte dem Schauspieler das Rollenspiel.
-Eventuell zur akustischen Projektion.
-
-- Wie vorstellen? Wettbewerb dreier Tragödien hintereinander = mehrere Stunden. Leute aßen, sprachen, tranken währenddessen.
-
-:::
-
-
-
-
-
-#### Musikverständnis griech. Antike bis 5. Jhd. v. u. Z.
-
-- Musik als untrennbare Einheit von Wort, Ton und Tanz. Lehre als Ethos.
-- Ab ca. 5. Jhd. v. u. Z.: Professionalisierung und erste "Gesangsschulen". (Etwa d. "**Dionysische Verein**")
-- Steigende technische Anforderungen an die Stimme: Projektion, Textverständlichkeit
-
-
-:::{.notes}
-
-1
-- Philosophen wie Platon und Aristoteles ordneten der Musik eine direkte Wirkung auf das Gemüt und den Charakter zu (Ethos-Lehre). Richtiges Singen sollte Tugend, Disziplin und innere Harmonie fördern.
-• Der „musikalische Mensch“: Wer nicht singen und kein Saiteninstrument (wie die Lyra) spielen konnte, galt als ungebildet.
-• Methodik: Der Unterricht erfolgte rein mündlich und empirisch durch Nachahmung und ständige Wiederholung (Mimesis).
-
-2
-• *Die dionysischen Gilden:* Da die Laienchöre diesen Ansprüchen nicht mehr genügten, gründeten sich professionelle Vereinigungen. Um 500 v. Chr. entstand in Athen der Dionysische Verein. Diese Gilde bildete Schauspieler, Sänger und Musiker gezielt aus und gilt in der Forschung als die erste institutionalisierte Form einer Gesangspädagogik laut Wikipedia.
-
-Die dionysischen Vereine (historisch vor allem als dionysische Techniten bekannt) waren im antiken Griechenland und im Hellenismus berufsständische Vereinigungen von Künstlern und Mitwirkenden des Theaters und Kults.  
-:::
-
-#### Akustik: Theater von Epidauros
-
-<iframe width="100%" height="80%" src="https://www.youtube.com/embed/g7sYicYfPrs?si=z41-ImUMIwT-74yz&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-
-
-:::{style="font-size: 20px; margin-top: -30px"}
-[Youtube: Rick Steve's Europe]
-:::
-
-:::{.notes}
-- Kalksteine als Hochpassfilter
-:::
-
-#### Phonasken
-
-- Einzahl: Phonaske, von griechisch "phonaskéō = die Stimme üben"
-- Stimmlehrer und Rhetoriktrainer der griechisch-römischen Antike
-- Allgemeinbildung (!) durch regelmäßige Atem-, Deklamations- und Gesangsübungen
-
-:::{.notes}
-Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente Redner oder Schauspieler oft von einem Phonasken zu ihren Auftritten begleiten, um die Kehle zu schonen und die Tonhöhe zu kontrollieren. Vom römischen Politiker Gaius Gracchus ist beispielsweise bekannt, dass hinter ihm ein Sklave stand, der ihm mit einer Flöte oder Pfeife das richtige Register anzeigte.
-
-- Steinplatte auf Brust
-
-- 
-:::
 
 #### Quellen/Medien
