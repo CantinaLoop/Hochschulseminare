@@ -269,7 +269,7 @@ The oldest nearly complete piece, from ca. 1400-1250 BCE, is on a tablet shown i
   </audio>
 </section>
 
-## Akustik I {background-color="#0FA3B1"}
+### Akustik I {background-color="#0FA3B1"}
 
 #### Grundbegriffe
 
@@ -481,7 +481,7 @@ Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente 
 - 
 :::
 
-## Fortsetzung: Akustik II {background-color="#0FA3B1"}
+## Akustik II {background-color="#0FA3B1"}
 
 #### 
 
