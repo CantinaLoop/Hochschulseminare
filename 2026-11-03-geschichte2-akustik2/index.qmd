@@ -25,8 +25,8 @@ format:
        slide-number: c
        slide-level: 4
        sc-sb-title: true
-       chalkboard: 
-         buttons: false
+       chalkboard: false
+         #buttons: false
        lightbox: true
        #subtitle-as-header: true
        #navigation-mode: vertical
