@@ -3,7 +3,7 @@ title: Geschichte I + Akustik I
 subtitle: Didaktik/Methodik Gesang
 author: Julian Popken
 institute: HfK Bremen
-date: 12 11 2026
+date: 13 11 2026
 date-format: "DD.MM.YYYY"
 from: markdown+emoji
 #validate-yaml: true
@@ -41,7 +41,7 @@ format:
        background-transition: fade
        incremental: true
        logo: ../assets/00-hfk-logo.png
-       footer: Geschichte I + Akustik I | 12.11.2026 | Julian Popken
+       footer: Geschichte I + Akustik I | 13.11.2026 | Julian Popken
        footer-logo-link: https://www.hfk-bremen.de
        #header: Einführung Didaktik/Methodik
        #header-logo: Medien/00-HMTMH-Logo-1.png
