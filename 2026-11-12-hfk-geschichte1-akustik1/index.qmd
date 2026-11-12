@@ -1,9 +1,9 @@
 ---
-title: EINFÜHRUNG
+title: Geschichte I + Akustik I
 subtitle: Didaktik/Methodik Gesang
 author: Julian Popken
 institute: HfK Bremen
-date: 30 10 2026
+date: 12 11 2026
 date-format: "DD.MM.YYYY"
 from: markdown+emoji
 #validate-yaml: true
@@ -15,8 +15,11 @@ format:
    revealjs:
        lang: de-DE
        title-slide-attributes:
-         data-background-color: "#0FA3B1"
+         #data-background-color: "#0FA3B1"
          data-footer: Test
+         data-background-image: "../assets/degas_la-repetition-de-chant_1877.png"
+         data-background-size: "cover"
+         data-background-opacity: "0.4"
        #width: 1920
        #height: 1020
        slide-number: c
@@ -38,7 +41,7 @@ format:
        background-transition: fade
        incremental: true
        logo: ../assets/00-hfk-logo.png
-       footer: Einführung Didaktik/Methodik Gesang | 30.10.2026 | Julian Popken
+       footer: Geschichte I + Akustik I | 12.11.2026 | Julian Popken
        footer-logo-link: https://www.hfk-bremen.de
        #header: Einführung Didaktik/Methodik
        #header-logo: Medien/00-HMTMH-Logo-1.png
@@ -58,283 +61,13 @@ filters:
   #- multibib
 ---
 
+## Stimmbildung: Unterschiede Männer- und Frauenstimmen
 
-## Herzlich willkommen! {background-color="#0FA3B1"}
+#### [David Jones](https://voiceteacher.com): Tägliche Stimmübungsroutine
 
-#### Über mich {.smaller}
+<iframe data-preload class="r-stretch" src="../assets/jones_taegliche-einsinguebungen.pdf"></iframe>
 
-**Dozent:** Julian Popken
 
-- Geboren/aufgewachsen in Leer (Ostfriesland) :teapot::cow: 
-
-. . .
-
-::: {.nonincremental}
-- Studium:
-   - Kirchen- und Schulmusik (HMDK Stuttgart)
-   - Bachelor Operngesang + Bachelor Gesang (HfM Karlsruhe)
-   - Master Gesang in freiberuflicher Tätigkeit (HMTM Hannover)
-:::
-
-- Lehre: HMTM Hannover, HfK Bremen, Universität Osnabrück (bis 2025)
-
-
-. . .
-
-::: {.nonincremental}
-- Kontakt:
-  - Mail: [jpopken@hfk-bremen.de](mailto:j.popken@hfk-bremen.de) <br>
-  - Mobil (Signal/Whatsapp): ``0170-7022541``
-:::
-
-### {center=true}
-
-Stellen Sie sich kurz vor:
-
-- Name, Studiengang...
-- Schon Unterrichtserfahrung als LehrerIn gesammelt?
-- Haben Sie aktuell SchülerInnen?
-- Was haben Sie für Erwartungen an den Kurs?
-- Was interessiert Sie besonders? Gibt es Wunschthemen?
-
-## Organisation {background-color="#0FA3B1"}
-
-#### 
-
-#### Fragen?
-
-<div class="tenor-gif-embed" data-postid="20634871" data-share-method="host" data-aspect-ratio="1.81818" data-width="100%"><a href="https://tenor.com/view/doing-the-math-thinking-gif-20634871">Doing The Math Thinking GIF</a>from <a href="https://tenor.com/search/doing+the+math-gifs">Doing The Math GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-
-## Semesterausblick {background-color="#0FA3B1"}
-
-#### "Maximal"-Inhalte Methodik/Didaktik II (WS26/27 - SS27)
-
-<br>
-
-. . .
-
-**Didaktik**
-
-. . . 
-
-::: {.callout}
-## Geschichte der Gesangspädagogik
-Übersicht über Forschungsstand zu Methoden, Stimmidealen und Stimmtheorien <br>
-Antike – Mittelalter – Renaissance –  Belcanto 18. - 20. Jhd. – Vorstellung/Diskussion neuerer Literatur
-:::
-
-. . .
-
-::: {.callout}
-## Systematik von Gesangstechniken und deren Vermittlung
-Schwerpunkt Belcanto ab Barock: Rezitative - Canto fiorito - Portamento - Koloraturen - Kadenzen etc.
-Umgang mit zeitgenössischer Musik und ihren Techniken: Improvisation - Performance
-:::
-
-. . .
-
-#### "Maximal"-Inhalte Methodik/Didaktik II (WS26/27 - SS27)
-
-<br>
-
-. . .
-
-**Methodik**
-
-. . .
-
-::: {.callout}
-## Beobachtung und Auswertung des Unterrichts
-Übungen diagnostisches Hören – technische Probleme erkennen und Funktionsebenen zuordnen – Einsingen und Übungen entwickeln – Entwickeln eigener Supervisionsmodelle – Erproben von achtsamer Unterrichts- und Feedbacksprache – Überblick über Techniken der CCM ("Contemporary Commercial Music")
-:::
-
-. . .
-
-::: {.callout}
-## Planung des Unterrichts
-Verfassen von Stundenentwürfen: Allgemeine/spezielle Unterrichtsvoraussetzungen – Formulieren von Grobzielen/Feinzielen – Didaktisch-methodische Analyse – Literaturauswahl
-:::
-
-#### Literaturempfehlungen
-
-::::{.columns}
-
-:::{.column width="33%" .fragment}
-![](https://images.thalia.media/-/BF2000-2000/9d3d2396811e474284c85af40b2aeeba/die-stimme-gebundene-ausgabe-bernhard-richter.jpeg)
-<div style="font-size: 25px">@richter2014</div>
-:::
-
-:::{.column width="33%" .fragment}
-![](https://images.thalia.media/-/BF2000-2000/a9fdcbe1e03a4e1e9fb03e13598358a7/lehren-und-lernen-im-instrumentalunterricht-taschenbuch-anselm-ernst.jpeg)
-<div style="font-size: 25px; margin-top: 15px">@ernst2013</div>
-:::
-
-:::{.column width="33%" .fragment}
-![](https://bdg-online.org/wp-content/uploads/2025/06/lehrplan_gesang2025.jpg)
-<div style="font-size: 25px">@vdm2025</div>
-:::
-
-::::
-
-
-## Einführung Didaktik {background-color="#0FA3B1"}
-
-#### Grob gefragt: Was genau ist...
-
-<br>
-
-. . . 
-
-**Didaktik?**
-
-- Wissenschaft/Kunst des Lehrens und Lernens
-   - Leitfragen: "***Was?*** *Wozu? Warum?*"
-
-. . .
-
-**Methodik?**
-
-- Kunst/Lehre des "Wegs zu den Zielen"
-   - Leitfragen: "***Wie?*** *Auf welchem Weg?*"
-
-
-
-
-### Was macht klassischen Gesang aus? 
-
-#### Was macht (nicht-)klassischen Gesang aus?
-
-{{< video https://www.youtube.com/embed/B_ymY0xG0LI?si=pO3GQsFOLCAIdyRW&amp;start=907 width="100%" height="80%" >}}
-
-:::{style="font-size: 20px; margin-top: -60px"}
-*Moonchild - The List* [@nprmusic2019]
-:::
-
----
-
-#### Was macht (nicht-)klassischen Gesang aus?
-
-{{< video https://www.youtube-nocookie.com/embed/AFgzzWT3zX4?si=M9Pi0FAL5KhpO1vB&amp;start=1949 width="100%" height="80%" >}}
-
-:::{style="font-size: 20px; margin-top: -60px"}
-*Le Mystère de Voix Bulgares - Ergen Deda* [@kexp2017]
-:::
-
----
-
-#### Was macht (nicht-)klassischen Gesang aus?
-
-{{< video https://youtu.be/rkNS0iWKHOM?si=N5KUuhN0a7Y5qn4Z&;start=142 width="100%" height="80%" poster="https://youtube.com" >}}
-
-:::{style="font-size: 20px; margin-top: -60px"}
-Wagner: *Götterdämmerung - 2. Aufzug, 3. Szene* [@staatsoperstuttgart2023]
-:::
-
-####
-
-**Was macht klassischen Gesang aus?** 
-
-. . .
-
-<br>
-
-besser: 
-
-. . .
-
-<br>
-
-**Was macht den <span style="color: forestgreen;">westeuropäischen Kunstgesang</span> aus?**
-
-#### {.smaller}
-
-![](https://www.kunstkopie.de/kunst/gerrit_van_honthorst/Anbetung-der-Hirten.jpg){fig-align="left" .lightbox width=65%}
-
-:::{style="font-size: 20px; margin-top: -40px"}
-@honthorst1622 - Die Anbetung des Kindes
-:::
-
----
-
-![](https://cdn.thenetexperts.info/image/authenticated/s--njUtcYpZ--/q_80/artworks/GERARD-VAN-HONTHORST-1592_DER-LIEDERLICHE-STUDENT-391_206690_CC-BY-SA_BSTGS.jpg){fig-align="left" .lightbox width=65%}
-
-:::{style="font-size: 20px; margin-top: -50px"}
-@honthorst1625 - Der liederliche Student
-:::
-
----
-
-#### Chiaroscuro
-
-- ital. für "helldunkel" / fr. *clair-obscur*
-- Gestaltungsmittel in der Malerei der Spätrenaissance und des Barock
-- Dort: Starke Hell-Dunkel-Kontraste, dadurch quasi "leuchtender" Effekt
-
-. . .
-
-Übertragung als **Stimmideal** auf den Belcanto
-
-#### Was macht den westeuropäischen Kunstgesang aus? {.smaller}
-
-- Belcanto-Ideale (seit Barock!):
-    - Grund- und Obertonreichtum (*chiaroscuro*) 
-    - Verzierter Gesang (*canto fiorito*) 
-    - Legato / Vibrato u. a.
-- Verstärkung jener Obertöne, die im Orchesterklang wenig vorhanden sind:
-    - Generell Tiefstellung der Kehle
-    - Große Weite im Ansatzrohr
-    - Formantstrategien etc.
-
-. . .
-
-**Wichtig**: Ursprünglich "abendländisch" = Westeuropäische Perspektive!
-
-## Einführung Methodik {background-color="#0FA3B1"}
-
-#### Singen und Gesangslehre als hochkomplexes System
-
-. . .
-
-::: {.callout-warning}
-## Methodik: Gesangslehre muss eine Vielzahl verschiedener Perspektiven zulassen.
-- Gesang als hochkomplexes System: Wir müssen vereinfachen (können).
-- Sehr viele Aspekte sind nicht abschließend erforscht.
-- In vielen Bereichen gibt es kein klares "richtig" oder "falsch".
-- Ständiges Üben: Unklarheiten einordnen, Widersprüchlichkeiten aushalten.
-- Offen, neugierig und respektvoll ggü. anderen, evtl. abweichenden Lehrmeinungen.
-- Am Ende gilt: Wer nachhaltig gut singt/lehrt, hat "recht".
-:::
-
-. . .
-
-<br>
-
-*"Der Schüler ist die Methode"* <span style="font-size: 20px"> (Franziska Martienssen-Lohmann)^[Martienssen-Lohmann, Franziska: Ausbildung der Gesangsstimme. Rudolf Erdmann Musikverlag, Wiesbaden 1957, S. 17. Auch Peter Heilbut (1920-2005) zugeschrieben.]</span>
-
-#### Was nehmen Sie wahr?
-
-{{< video https://www.youtube.com/watch?v=nxTdD_eaJaE width="100%" height="80%" >}}
-
-:::{style="font-size: 20px; margin-top: -60px"}
-[@schlangenlinien1984]
-:::
-
-#### Was nehmen Sie wahr?
-
-<section>
-  <audio controls>
-    <source src="../assets/Schwalbe.mp3" type="audio/mpeg">
-    Ihr Browser unterstützt kein Audio-Element.
-  </audio>
-</section>
-
-:::{style="font-size: 20px; margin-top: 10px"}
-[Brahms: @carus2010]
-:::
-
-#### Stundenentwurfstabelle nach Anselm Ernst -<br>Pro und Contra?
-
-<iframe data-preload class="r-stretch" src="../assets/Muster_Unterrichtsentwurf.pdf"></iframe>
 
 ## Geschichte der Gesangspädagogik I - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
 
@@ -542,6 +275,118 @@ The oldest nearly complete piece, from ca. 1400-1250 BCE, is on a tablet shown i
   </audio>
 </section>
 
+## Geschichte II - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+#### Griechische Tragödie
+
+![](https://www.readersdigest.de/cdn/shop/articles/Theater_von_Epidauros_in_Griechenland_Peloponnes_1080x.jpg?v=1660901731){.r-stretch}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Theater von Epidauros, ca. 400 v. u. Z., Platz für 14.000 Zuschauer
+:::
+
+:::{.notes}
+- Ursprünglich Feiern zu Ehren des Gottes Dionysos (Wein)
+- Dionysoskult zum Staatskult erhoben - Große Dionysien als jährliches großes Fest
+- Gesungen, getanzt, Böcke geopfert - Tragos (Bock, Ziegenbock) und ode (Gesang) "Bocksgesang"
+- 534 v. Chr. erste Tragödie v. Thespis(singendem und tanzenden Chor wird ein Schauspieler gegenübergestellt)
+- später 2 Aischylos, dann 3 Sophokles
+- Chor spielt zentrale Rolle: Kommentierend, singend, tanzend in verschiedenen Formationen
+Im klassischen griechischen Theater (wie im berühmten Theater von Epidaurus) war der Chor das Herzstück. Die Sänger standen in der kreisförmigen Orchestra (dem Tanzplatz) und kommentierten singend und tanzend das Geschehen auf der Bühne.
+
+- Die Orchestra: ursprünglich Raum zum Tanzen/Singen um Altar von Dionysos, später Auftrittsraum für Chor und Schauspieler
+:::
+
+#### 
+
+::::{.columns}
+
+:::{.column width="50%" .fragment}
+![](https://a.1stdibscdn.com/greek-tragedy-black-terracotta-mask-france-1950s-for-sale/1121189/f_352846721689862228515/35284672_datamatics.jpg)
+:::
+
+:::{.column width="50%" .fragment .absolute top=150 right=20}
+![](https://ifigeneiaceramics.com/cdn/shop/files/Greek_Theater_Tragedy_Mask_Relief_terracotta_wall_Decor_24x20cm_2_1024x1024.jpg?v=1744998961)
+:::
+
+::::
+
+
+
+
+
+
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Nachbildungen griechischer Tragödienmasken
+:::
+
+:::{.notes}
+- Schauspieler (alles Männer) trugen Masken. Alles Nachbildungen von Vasen, Amphoren
+
+-   Die Maske gab ein starres, erschreckendes Aussehen.
+Die Individualität und Identität des Schauspielers wurde abgelegt.
+Sie vereinfachte dem Schauspieler das Rollenspiel.
+Eventuell zur akustischen Projektion.
+
+- Wie vorstellen? Wettbewerb dreier Tragödien hintereinander = mehrere Stunden. Leute aßen, sprachen, tranken währenddessen.
+
+:::
+
+
+
+
+
+#### Musikverständnis griech. Antike bis 5. Jhd. v. u. Z.
+
+- Musik als untrennbare Einheit von Wort, Ton und Tanz. Lehre als Ethos.
+- Ab ca. 5. Jhd. v. u. Z.: Professionalisierung und erste "Gesangsschulen". (Etwa d. "**Dionysische Verein**")
+- Steigende technische Anforderungen an die Stimme: Projektion, Textverständlichkeit
+
+
+:::{.notes}
+
+1
+- Philosophen wie Platon und Aristoteles ordneten der Musik eine direkte Wirkung auf das Gemüt und den Charakter zu (Ethos-Lehre). Richtiges Singen sollte Tugend, Disziplin und innere Harmonie fördern.
+• Der „musikalische Mensch“: Wer nicht singen und kein Saiteninstrument (wie die Lyra) spielen konnte, galt als ungebildet.
+• Methodik: Der Unterricht erfolgte rein mündlich und empirisch durch Nachahmung und ständige Wiederholung (Mimesis).
+
+2
+• *Die dionysischen Gilden:* Da die Laienchöre diesen Ansprüchen nicht mehr genügten, gründeten sich professionelle Vereinigungen. Um 500 v. Chr. entstand in Athen der Dionysische Verein. Diese Gilde bildete Schauspieler, Sänger und Musiker gezielt aus und gilt in der Forschung als die erste institutionalisierte Form einer Gesangspädagogik laut Wikipedia.
+
+Die dionysischen Vereine (historisch vor allem als dionysische Techniten bekannt) waren im antiken Griechenland und im Hellenismus berufsständische Vereinigungen von Künstlern und Mitwirkenden des Theaters und Kults.  
+:::
+
+#### Akustik: Theater von Epidauros
+
+<iframe width="100%" height="80%" src="https://www.youtube.com/embed/g7sYicYfPrs?si=z41-ImUMIwT-74yz&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[Youtube: Rick Steve's Europe]
+:::
+
+:::{.notes}
+- Kalksteine als Hochpassfilter
+:::
+
+#### Phonasken
+
+- Einzahl: Phonaske, von griechisch "phonaskéō = die Stimme üben"
+- Stimmlehrer und Rhetoriktrainer der griechisch-römischen Antike
+- Allgemeinbildung (!) durch regelmäßige Atem-, Deklamations- und Gesangsübungen
+
+:::{.notes}
+Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente Redner oder Schauspieler oft von einem Phonasken zu ihren Auftritten begleiten, um die Kehle zu schonen und die Tonhöhe zu kontrollieren. Vom römischen Politiker Gaius Gracchus ist beispielsweise bekannt, dass hinter ihm ein Sklave stand, der ihm mit einer Flöte oder Pfeife das richtige Register anzeigte.
+
+- Steinplatte auf Brust
+
+- 
+:::
+
 ## Akustik I {background-color="#0FA3B1"}
 
 #### Grundbegriffe
@@ -720,13 +565,3 @@ $$
 
 
 #### Quellen / Medien {.scrollable .smaller data-visibility="uncounted"} 
-
-<!--###### Monografien 
-::: {#refs-monografien}
-:::
-
-###### Medien
-::: {#refs-medien}
-:::-->
-
-
