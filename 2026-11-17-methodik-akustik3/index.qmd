@@ -1,5 +1,5 @@
 ---
-title: Geschichte III + Akustik III
+title: Methodik + Akustik III
 subtitle: Didaktik/Methodik Gesang
 author: Julian Popken
 institute: HMTM Hannover
@@ -41,7 +41,7 @@ format:
        background-transition: fade
        incremental: true
        logo: ../assets/00-HMTMH-Logo-1.png
-       footer: Geschichte III + Akustik III | 17.11.2026 | Julian Popken
+       footer: Methodik + Akustik III | 17.11.2026 | Julian Popken
        footer-logo-link: https://hmtm-hannover.de
        #header: Einführung Didaktik/Methodik
        #header-logo: ../assets/00-HMTMH-Logo-1.png
@@ -278,6 +278,179 @@ a' = **440 Hz**
 
 ![](../assets/Physikalische Grundlagen 05.png){.r-stretch .lightbox}
 
-## Geschichte III - Mittelalter {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+## Akustik III
+
+#### Unterschied Ton, Klang, Geräusch
+
+{{< video https://www.youtube.com/watch?v=8fwpYBSM-JA width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+physikdigital • de, Reg. Was ist der Unterschied zwischen einem Ton, einem Klang und einem Geräusch. 2018.
+^[physikdigital • de, Reg. Was ist der Unterschied zwischen einem Ton, einem Klang und einem Geräusch (physikdigital.de). 2018. 1:34. https://www.youtube.com/watch?v=8fwpYBSM-JA.]
+:::
+
+#### {.smaller}
+
+**Ton**
+
+- Einzelne Schwingung ohne weitere Überlagerung von Teilschwingungen. Oft als (künstlich erzeugte) Sinusschwingung dargestellt.
+
+. . .
+
+**Klang**
+
+- Komplexe Überlagerung mehrerer Einzelschwingungen. Im Vergleich zur Sinusschwingung komplexere Wellenform, aber regelmäßig (**Periodizität**).
+
+. . .
+
+**Geräusch**
+
+- Komplexe Überlagerung von Einzelschwingungen in "chaotischem" Muster. **Keine** Periodizität in Wellenlänge, Frequenz etc.
+
+####
+
+{{< video https://www.youtube.com/watch?v=3JUvuLpnedk width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+F. KTM - HLS Hannover, Reg. Akustik: Der Unterschied zwischen Ton, Klang und Geräusch. Was ist Klangfarbe? 2021.
+^[F. KTM - HLS Hannover, Reg. Akustik: Der Unterschied zwischen Ton, Klang und Geräusch. Was ist Klangfarbe? 2021. 3:28. https://www.youtube.com/watch?v=3JUvuLpnedk.
+]
+:::
+
+
+
+#### Resonanz {.smaller}
+
+- _sonare_ = klingen, schwingen
+- _resonare_ = widerklingen, mitschwingen
+
+- Ein elastischer Körper wird von einem anderen, schwingenden Medium zur Schwingung angeregt. 
+- Besonders stark, wenn externe Schwingung der **Eigenfrequenz** entspricht.
+
+. . .
+
+Beispiele:
+
+- Akustik: Ansatzraum, Luft im Bronchialraum, Knochen+Gewebe, Klaviersaite, Snare (Drumset)
+- Mechanik: Kinderschaukel, Suppenteller auf Tablett
+
+#### Primärschall
+
+- Schallsignal, das direkt oberhalb der Stimmlippen entsteht.
+
+- Vergleich: Trompetenmundstück ohne Korpus.
+
+- Ziel im klassischen Gesang: Möglichst komplexes (u. a. grund-/obertonreiches) Signal.
+
+- Schall-/Vibrationsempfindungen im Körper während der Phonation (z. B. im Brustkorb) **sekundäre** Schwingungen.
+
+:::{.notes}
+Bei der Stimmbildung versetzt die aus der Lunge strömende Luft die Stimmlippen in Schwingung. Dabei schließen sich die beiden Stimmlippen in der Mittellinie (Adduktion) und die Luft strömt durch den schmalen Spalt, die Rima glottidis. Der entstehende Unterdruck nach dem Bernoulli-Prinzip führt zum rhythmischen Öffnen und Schließen der Stimmlippen, wodurch periodische Druckwellen erzeugt werden. Hierbei handelt es sich um den sogenannten Primärschall.
+
+Dieser Primärschall wird anschließend durch die Resonanzräume des Rachens, des Mundes und der Nasenhöhle moduliert und als artikulierter Laut wahrgenommen. Die Tonhöhe ergibt sich aus der Spannung, Länge und Masse der Stimmlippen. Sie wird beeinflusst durch muskuläre Aktivität, vor allem durch den Musculus cricothyroideus und den Musculus vocalis.
+:::
+
+#### Resonanzräume {.smaller}
+
+- **Klangformung** im Wesentlichen in allen Räumen oberhalb der Stimmlippen zu äußeren Lippen
+   - Larynxeingang, Pharynxschlauch, Mundhöhle/Zunge, Lippen
+   - Nasenraum? (außer bei Nasalen durch Gaumensegel und Passavant'schen Wulst verschlossen)
+
+- Durchschnittliche **Länge**: Männer ca. 17,5 cm, Frauen ca. 15 cm
+
+- Uneinheitliche **Benennung**: Vokaltrakt, Ansatzräume, Ansatzrohr, Artikulations- / Resonanzraum ...
+
+- Sollen Orte empfundener sekundärer Schwingung (Brustkorb, "Vordersitz", "Maske") zu Resonanzräumen gezählt werden?
+
+#### Resonanzräume
+
+![](../assets/Resonanzräume (Richter).png)
+
+#### Vokaltrakt in 3D
+
+![](../assets/Vokaltrakt%20(Richter).png)
+
+#### Resonanzräume ggü. Vibrationsempfindung
+
+. . .
+
+::::{.columns}
+
+:::{.column width="50%"}
+![](../assets/Resonanz - Resonanzräume (DTV-Atlas).png){width="50%"}
+:::
+
+:::{.column width="50%" .fragment}
+![](../assets/Resonanz - Vibrationsempfinden (Husler, Rodd-Marling).png)
+:::
+
+::::
+
+#### Vibrationsempfindung (Lilli Lehmann 1913)
+
+![](../assets/Resonanz - Vibrationsempfinden (Lehmann).png)
+
+#### Teiltöne, Partialtöne, Obertöne
+
+- Durch Reflexionen entstehen Überlagerungen. Eine Saite oder Stimmlippe schwingt gleichzeitig nicht nur in der vollen Länge, sondern auch in der Hälfte, im Drittel etc.
+
+- U. a. dadurch entstehen die **Teiltöne**, auch Partialtöne (inklusive des Grundtons!) oder Obertöne genannt.
+
+#### Teilton-/Obertonreihe
+
+![](../assets/Obertonreihe.png){width="80%"}
+
+- Bei der Zählung beachten: Der Grundton ist 1. Teilton, aber nicht 1. Oberton (sondern quasi „nullter“= F0, Grundtonfrequenz). 
+
+- Obertöne sind alle Töne oberhalb des Grundtons. Die Nummerierung der Obertöne ist daher immer um 1 niedriger als die der Teiltöne.
+
+
+#### Faktoren für Anzahl/Ausprägung der Obertöne
+
+- F0: Frequenz des Grundtons (=Grundfrequenz)
+- Amplitude/Lautstärke
+- Register auf Larynxebene (Voll-/Randstimme, Falsett etc.)
+- Stimmschluss (Schlussquotient u. a.)
+- Unterschiede Frauen-/Männerstimme?
+
+#### Software-Empfehlung für Visualisierung der Stimme
+
+- KTH Stockholm:
+   - RTSect (Schallspektrum)
+   - Madde (Stimmsynthesizer)
+
+. . .
+
+Download kostenfrei unter [www.tolvan.com](www.tolvan.com)
+
+#### Spektografie Bariton [a] 200 Hz (RTsect)
+
+![](../assets/Rtsect%20A%20Bariton%20(Richter).png)
+
+#### Formanten
+
+- Vokaltrakt: "Resonator mit Filterwirkung" (Richter 2012)
+- Überträgt bestimmte Frequenzen besser als andere.
+- Amplitude der Obertöne nahe der Resonanzfrequenzen besonders groß. 
+- Diese Vokaltraktresonanzen werden **Formanten** (lat. _formans_ = bildend) genannt.
+   - Spitzen / Peaks akustischer Energie
+
+#### Wichtigste Formanten des Ansatzrohrs
+
+- Fünf **Formanten F1-F5** für den menschlichen  Stimmklang relevant.
+   - **F1** und **F2**: Erkennbarkeit und Qualität der Vokale (**Vokalformanten**).
+   - **F3 - F5**: Timbre (persönlicher Stimmklang) und **Tragfähigkeit** der Stimme.
+
+- Die Formantfrequenzen sind von der **Länge** und **Weite** des Ansatzrohres abhängig. 
+
+- Besonders die Weite ist stark abhängig von Kiefer- und Lippenöffnung sowie Zungenform.
+
+#### Vokalformanten F1 + F2
+
+![](../assets/Vokalformanten%20(Richter).png)
+
+#### Fragen?
+
+![](../assets/Omega.jpg)
 
 #### Quellen/Medien

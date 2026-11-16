@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="de-DE"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
+<link href="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/sc-sb-title-1.0.0/sc_sb_title.js" defer="true"></script>
+<link href="../site_libs/quarto-contrib/grid-no-htext-1.0.0/grid_no_htext.css" rel="stylesheet">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.10.18">
+
+  <meta name="author" content="Julian Popken">
+  <title>Vorlesung Didaktik/Methodik – Methodik + Akustik III</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-6fb681a4d01bc4290acd21addd28092a.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script>
+  window._input_file = new TextDecoder('utf-8').decode(
+    Uint8Array.from(atob('LS0tCnRpdGxlOiBNZXRob2RpayArIEFrdXN0aWsgSUlJCnN1YnRpdGxlOiBEaWRha3Rpay9NZXRob2RpayBHZXNhbmcKYXV0aG9yOiBKdWxpYW4gUG9wa2VuCmluc3RpdHV0ZTogSE1UTSBIYW5ub3ZlcgpkYXRlOiAxNyAxMSAyMDI2CmRhdGUtZm9ybWF0OiAiREQuTU0uWVlZWSIKZnJvbTogbWFya2Rvd24rZW1vamkKI3ZhbGlkYXRlLXlhbWw6IHRydWUKI2NpdGVwcm9jOiB0cnVlCmJpYmxpb2dyYXBoeTogLi4vcmVmZXJlbmNlcy5iaWIKICAgICNtb25vZ3JhZmllbjogbW9ub2dyYWZpZW4uYmliCiAgICAjbWVkaWVuOiBtZWRpZW4uYmliCmZvcm1hdDogCiAgIHJldmVhbGpzOgogICAgICAgbGFuZzogZGUtREUKICAgICAgIHRpdGxlLXNsaWRlLWF0dHJpYnV0ZXM6CiAgICAgICAgICNkYXRhLWJhY2tncm91bmQtY29sb3I6ICIjMEZBM0IxIgogICAgICAgICBkYXRhLWZvb3RlcjogVGVzdAogICAgICAgICBkYXRhLWJhY2tncm91bmQtaW1hZ2U6ICIuLi9hc3NldHMvZGVnYXNfbGEtcmVwZXRpdGlvbi1kZS1jaGFudF8xODc3LnBuZyIKICAgICAgICAgZGF0YS1iYWNrZ3JvdW5kLXNpemU6ICJjb3ZlciIKICAgICAgICAgZGF0YS1iYWNrZ3JvdW5kLW9wYWNpdHk6ICIwLjQiCiAgICAgICAjd2lkdGg6IDE5MjAKICAgICAgICNoZWlnaHQ6IDEwMjAKICAgICAgIHNsaWRlLW51bWJlcjogYwogICAgICAgc2xpZGUtbGV2ZWw6IDQKICAgICAgIHNjLXNiLXRpdGxlOiB0cnVlCiAgICAgICBjaGFsa2JvYXJkOiBmYWxzZQogICAgICAgICAjYnV0dG9uczogZmFsc2UKICAgICAgIGxpZ2h0Ym94OiB0cnVlCiAgICAgICAjc3VidGl0bGUtYXMtaGVhZGVyOiB0cnVlCiAgICAgICAjbmF2aWdhdGlvbi1tb2RlOiB2ZXJ0aWNhbAogICAgICAgY29udHJvbHMtbGF5b3V0OiBib3R0b20tcmlnaHQKICAgICAgIGNvbnRyb2xzLXR1dG9yaWFsOiB0cnVlCiAgICAgICB0b2M6IHRydWUKICAgICAgIHRvYy1kZXB0aDogMgogICAgICAgdG9jLXRpdGxlOiBJbmhhbHQKICAgICAgIHRoZW1lOiBobXRtaAogICAgICAgI3RyYW5zaXRpb246IHNsaWRlCiAgICAgICAjdHJhbnNpdGlvbi1zcGVlZDogZmFzdAogICAgICAgYmFja2dyb3VuZC10cmFuc2l0aW9uOiBmYWRlCiAgICAgICBpbmNyZW1lbnRhbDogdHJ1ZQogICAgICAgbG9nbzogLi4vYXNzZXRzLzAwLUhNVE1ILUxvZ28tMS5wbmcKICAgICAgIGZvb3RlcjogTWV0aG9kaWsgKyBBa3VzdGlrIElJSSB8IDE3LjExLjIwMjYgfCBKdWxpYW4gUG9wa2VuCiAgICAgICBmb290ZXItbG9nby1saW5rOiBodHRwczovL2htdG0taGFubm92ZXIuZGUKICAgICAgICNoZWFkZXI6IEVpbmbDvGhydW5nIERpZGFrdGlrL01ldGhvZGlrCiAgICAgICAjaGVhZGVyLWxvZ286IC4uL2Fzc2V0cy8wMC1ITVRNSC1Mb2dvLTEucG5nCiAgICAgICAjaGVhZGVyLWxvZ28tbGluazogaHR0cHM6Ly9obXRtLWhhbm5vdmVyLmRlCiAgICAgICBhdXRvLXN0cmV0Y2g6IHRydWUKICAgICAgICNjZW50ZXI6IHRydWUKICAgICAgICNjYXAtbG9jYXRpb246IG1hcmdpbgogICAgICAgI2xpbmstZXh0ZXJuYWwtaWNvbjogdHJ1ZQogICAgICAgbGluay1leHRlcm5hbC1uZXd3aW5kb3c6IHRydWUKICAgICAgIHJlZmVyZW5jZS1sb2NhdGlvbjogZG9jdW1lbnQKICAgICAgIApyZXZlYWwtcGx1Z2luczoKICAtIFJldmVhbENvbmZldHRpCiAgLSBlZGl0YWJsZQpmaWx0ZXJzOgogIC0gcmV2ZWFsLWhlYWRlcgogIC0gY29uZmV0dGkKICAtIGVkaXRhYmxlCiAgIy0gbXVsdGliaWIKLS0tCgojIyBXaWVkZXJob2x1bmcge2JhY2tncm91bmQtaW1hZ2U9Ii4uL2Fzc2V0cy9kZWdhc19sYS1yZXBldGl0aW9uLWRlLWNoYW50XzE4NzcucG5nIiBiYWNrZ3JvdW5kLW9wYWNpdHk9IjAuNCJ9CgojIyMgR2VzY2hpY2h0ZSBJSSAtIEFudGlrZSB7YmFja2dyb3VuZC1pbWFnZT0iLi4vYXNzZXRzL2RlZ2FzX2xhLXJlcGV0aXRpb24tZGUtY2hhbnRfMTg3Ny5wbmciIGJhY2tncm91bmQtb3BhY2l0eT0iMC40In0KCiMjIyMgR3JpZWNoaXNjaGUgVHJhZ8O2ZGllCgohW10oaHR0cHM6Ly93d3cucmVhZGVyc2RpZ2VzdC5kZS9jZG4vc2hvcC9hcnRpY2xlcy9UaGVhdGVyX3Zvbl9FcGlkYXVyb3NfaW5fR3JpZWNoZW5sYW5kX1BlbG9wb25uZXNfMTA4MHguanBnP3Y9MTY2MDkwMTczMSl7LnItc3RyZXRjaH0KCjo6OntzdHlsZT0iZm9udC1zaXplOiAyMHB4OyBtYXJnaW4tdG9wOiAtMzBweCJ9ClRoZWF0ZXIgdm9uIEVwaWRhdXJvcywgY2EuIDQwMCB2LiB1LiBaLiwgUGxhdHogZsO8ciAxNC4wMDAgWnVzY2hhdWVyCjo6OgoKOjo6ey5ub3Rlc30KLSBVcnNwcsO8bmdsaWNoIEZlaWVybiB6dSBFaHJlbiBkZXMgR290dGVzIERpb255c29zIChXZWluKQotIERpb255c29za3VsdCB6dW0gU3RhYXRza3VsdCBlcmhvYmVuIC0gR3Jvw59lIERpb255c2llbiBhbHMgasOkaHJsaWNoZXMgZ3Jvw59lcyBGZXN0Ci0gR2VzdW5nZW4sIGdldGFuenQsIELDtmNrZSBnZW9wZmVydCAtIFRyYWdvcyAoQm9jaywgWmllZ2VuYm9jaykgdW5kIG9kZSAoR2VzYW5nKSAiQm9ja3NnZXNhbmciCi0gNTM0IHYuIENoci4gZXJzdGUgVHJhZ8O2ZGllIHYuIFRoZXNwaXMoc2luZ2VuZGVtIHVuZCB0YW56ZW5kZW4gQ2hvciB3aXJkIGVpbiBTY2hhdXNwaWVsZXIgZ2VnZW7DvGJlcmdlc3RlbGx0KQotIHNww6R0ZXIgMiBBaXNjaHlsb3MsIGRhbm4gMyBTb3Bob2tsZXMKLSBDaG9yIHNwaWVsdCB6ZW50cmFsZSBSb2xsZTogS29tbWVudGllcmVuZCwgc2luZ2VuZCwgdGFuemVuZCBpbiB2ZXJzY2hpZWRlbmVuIEZvcm1hdGlvbmVuCkltIGtsYXNzaXNjaGVuIGdyaWVjaGlzY2hlbiBUaGVhdGVyICh3aWUgaW0gYmVyw7xobXRlbiBUaGVhdGVyIHZvbiBFcGlkYXVydXMpIHdhciBkZXIgQ2hvciBkYXMgSGVyenN0w7xjay4gRGllIFPDpG5nZXIgc3RhbmRlbiBpbiBkZXIga3JlaXNmw7ZybWlnZW4gT3JjaGVzdHJhIChkZW0gVGFuenBsYXR6KSB1bmQga29tbWVudGllcnRlbiBzaW5nZW5kIHVuZCB0YW56ZW5kIGRhcyBHZXNjaGVoZW4gYXVmIGRlciBCw7xobmUuCgotIERpZSBPcmNoZXN0cmE6IHVyc3Byw7xuZ2xpY2ggUmF1bSB6dW0gVGFuemVuL1NpbmdlbiB1bSBBbHRhciB2b24gRGlvbnlzb3MsIHNww6R0ZXIgQXVmdHJpdHRzcmF1bSBmw7xyIENob3IgdW5kIFNjaGF1c3BpZWxlcgo6OjoKCiMjIyMgCgo6Ojo6ey5jb2x1bW5zfQoKOjo6ey5jb2x1bW4gd2lkdGg9IjUwJSIgLmZyYWdtZW50fQohW10oaHR0cHM6Ly9hLjFzdGRpYnNjZG4uY29tL2dyZWVrLXRyYWdlZHktYmxhY2stdGVycmFjb3R0YS1tYXNrLWZyYW5jZS0xOTUwcy1mb3Itc2FsZS8xMTIxMTg5L2ZfMzUyODQ2NzIxNjg5ODYyMjI4NTE1LzM1Mjg0NjcyX2RhdGFtYXRpY3MuanBnKQo6OjoKCjo6OnsuY29sdW1uIHdpZHRoPSI1MCUiIC5mcmFnbWVudCAuYWJzb2x1dGUgdG9wPTE1MCByaWdodD0yMH0KIVtdKGh0dHBzOi8vaWZpZ2VuZWlhY2VyYW1pY3MuY29tL2Nkbi9zaG9wL2ZpbGVzL0dyZWVrX1RoZWF0ZXJfVHJhZ2VkeV9NYXNrX1JlbGllZl90ZXJyYWNvdHRhX3dhbGxfRGVjb3JfMjR4MjBjbV8yXzEwMjR4MTAyNC5qcGc/dj0xNzQ0OTk4OTYxKQo6OjoKCjo6OjoKCgoKCgoKCjo6OntzdHlsZT0iZm9udC1zaXplOiAyMHB4OyBtYXJnaW4tdG9wOiAtMzBweCJ9Ck5hY2hiaWxkdW5nZW4gZ3JpZWNoaXNjaGVyIFRyYWfDtmRpZW5tYXNrZW4KOjo6Cgo6Ojp7Lm5vdGVzfQotIFNjaGF1c3BpZWxlciAoYWxsZXMgTcOkbm5lcikgdHJ1Z2VuIE1hc2tlbi4gQWxsZXMgTmFjaGJpbGR1bmdlbiB2b24gVmFzZW4sIEFtcGhvcmVuCgotICAgRGllIE1hc2tlIGdhYiBlaW4gc3RhcnJlcywgZXJzY2hyZWNrZW5kZXMgQXVzc2VoZW4uCkRpZSBJbmRpdmlkdWFsaXTDpHQgdW5kIElkZW50aXTDpHQgZGVzIFNjaGF1c3BpZWxlcnMgd3VyZGUgYWJnZWxlZ3QuClNpZSB2ZXJlaW5mYWNodGUgZGVtIFNjaGF1c3BpZWxlciBkYXMgUm9sbGVuc3BpZWwuCkV2ZW50dWVsbCB6dXIgYWt1c3Rpc2NoZW4gUHJvamVrdGlvbi4KCi0gV2llIHZvcnN0ZWxsZW4/IFdldHRiZXdlcmIgZHJlaWVyIFRyYWfDtmRpZW4gaGludGVyZWluYW5kZXIgPSBtZWhyZXJlIFN0dW5kZW4uIExldXRlIGHDn2VuLCBzcHJhY2hlbiwgdHJhbmtlbiB3w6RocmVuZGRlc3Nlbi4KCjo6OgoKCgoKCiMjIyMgTXVzaWt2ZXJzdMOkbmRuaXMgZ3JpZWNoLiBBbnRpa2UgYmlzIDUuIEpoZC4gdi4gdS4gWi4KCi0gTXVzaWsgYWxzIHVudHJlbm5iYXJlIEVpbmhlaXQgdm9uIFdvcnQsIFRvbiB1bmQgVGFuei4gTGVocmUgYWxzIEV0aG9zLgotIEFiIGNhLiA1LiBKaGQuIHYuIHUuIFouOiBQcm9mZXNzaW9uYWxpc2llcnVuZyB1bmQgZXJzdGUgIkdlc2FuZ3NzY2h1bGVuIi4gKEV0d2EgZC4gIioqRGlvbnlzaXNjaGUgVmVyZWluKioiKQotIFN0ZWlnZW5kZSB0ZWNobmlzY2hlIEFuZm9yZGVydW5nZW4gYW4gZGllIFN0aW1tZTogUHJvamVrdGlvbiwgVGV4dHZlcnN0w6RuZGxpY2hrZWl0CgoKOjo6ey5ub3Rlc30KCjEKLSBQaGlsb3NvcGhlbiB3aWUgUGxhdG9uIHVuZCBBcmlzdG90ZWxlcyBvcmRuZXRlbiBkZXIgTXVzaWsgZWluZSBkaXJla3RlIFdpcmt1bmcgYXVmIGRhcyBHZW3DvHQgdW5kIGRlbiBDaGFyYWt0ZXIgenUgKEV0aG9zLUxlaHJlKS4gUmljaHRpZ2VzIFNpbmdlbiBzb2xsdGUgVHVnZW5kLCBEaXN6aXBsaW4gdW5kIGlubmVyZSBIYXJtb25pZSBmw7ZyZGVybi4K4oCiIERlciDigJ5tdXNpa2FsaXNjaGUgTWVuc2No4oCcOiBXZXIgbmljaHQgc2luZ2VuIHVuZCBrZWluIFNhaXRlbmluc3RydW1lbnQgKHdpZSBkaWUgTHlyYSkgc3BpZWxlbiBrb25udGUsIGdhbHQgYWxzIHVuZ2ViaWxkZXQuCuKAoiBNZXRob2RpazogRGVyIFVudGVycmljaHQgZXJmb2xndGUgcmVpbiBtw7xuZGxpY2ggdW5kIGVtcGlyaXNjaCBkdXJjaCBOYWNoYWhtdW5nIHVuZCBzdMOkbmRpZ2UgV2llZGVyaG9sdW5nIChNaW1lc2lzKS4KCjIK4oCiICpEaWUgZGlvbnlzaXNjaGVuIEdpbGRlbjoqIERhIGRpZSBMYWllbmNow7ZyZSBkaWVzZW4gQW5zcHLDvGNoZW4gbmljaHQgbWVociBnZW7DvGd0ZW4sIGdyw7xuZGV0ZW4gc2ljaCBwcm9mZXNzaW9uZWxsZSBWZXJlaW5pZ3VuZ2VuLiBVbSA1MDAgdi4gQ2hyLiBlbnRzdGFuZCBpbiBBdGhlbiBkZXIgRGlvbnlzaXNjaGUgVmVyZWluLiBEaWVzZSBHaWxkZSBiaWxkZXRlIFNjaGF1c3BpZWxlciwgU8OkbmdlciB1bmQgTXVzaWtlciBnZXppZWx0IGF1cyB1bmQgZ2lsdCBpbiBkZXIgRm9yc2NodW5nIGFscyBkaWUgZXJzdGUgaW5zdGl0dXRpb25hbGlzaWVydGUgRm9ybSBlaW5lciBHZXNhbmdzcMOkZGFnb2dpayBsYXV0IFdpa2lwZWRpYS4KCkRpZSBkaW9ueXNpc2NoZW4gVmVyZWluZSAoaGlzdG9yaXNjaCB2b3IgYWxsZW0gYWxzIGRpb255c2lzY2hlIFRlY2huaXRlbiBiZWthbm50KSB3YXJlbiBpbSBhbnRpa2VuIEdyaWVjaGVubGFuZCB1bmQgaW0gSGVsbGVuaXNtdXMgYmVydWZzc3TDpG5kaXNjaGUgVmVyZWluaWd1bmdlbiB2b24gS8O8bnN0bGVybiB1bmQgTWl0d2lya2VuZGVuIGRlcyBUaGVhdGVycyB1bmQgS3VsdHMuICAKOjo6CgojIyMjIEFrdXN0aWs6IFRoZWF0ZXIgdm9uIEVwaWRhdXJvcwoKPGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI4MCUiIHNyYz0iaHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvZzdzWWljWWZQcnM/c2k9ejQxLUltVU1Jd1QtNzR5eiZhbXA7c3RhcnQ9NDciIHRpdGxlPSJZb3VUdWJlIHZpZGVvIHBsYXllciIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlOyB3ZWItc2hhcmUiIHJlZmVycmVycG9saWN5PSJzdHJpY3Qtb3JpZ2luLXdoZW4tY3Jvc3Mtb3JpZ2luIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+CgoKCgoKOjo6e3N0eWxlPSJmb250LXNpemU6IDIwcHg7IG1hcmdpbi10b3A6IC0zMHB4In0KW1lvdXR1YmU6IFJpY2sgU3RldmUncyBFdXJvcGVdCjo6OgoKOjo6ey5ub3Rlc30KLSBLYWxrc3RlaW5lIGFscyBIb2NocGFzc2ZpbHRlcgo6OjoKCiMjIyMgUGhvbmFza2VuCgotIEVpbnphaGw6IFBob25hc2tlLCB2b24gZ3JpZWNoaXNjaCAicGhvbmFza8OpxY0gPSBkaWUgU3RpbW1lIMO8YmVuIgotIFN0aW1tbGVocmVyIHVuZCBSaGV0b3Jpa3RyYWluZXIgZGVyIGdyaWVjaGlzY2gtcsO2bWlzY2hlbiBBbnRpa2UKLSBBbGxnZW1laW5iaWxkdW5nICghKSBkdXJjaCByZWdlbG3DpMOfaWdlIEF0ZW0tLCBEZWtsYW1hdGlvbnMtIHVuZCBHZXNhbmdzw7xidW5nZW4KCjo6Onsubm90ZXN9CktvbnRyb2xsZSBiZWltIEF1ZnRyaXR0OiBIaXN0b3Jpc2NoZW4gQmVyaWNodGVuIHp1Zm9sZ2UgbGllw59lbiBzaWNoIHByb21pbmVudGUgUmVkbmVyIG9kZXIgU2NoYXVzcGllbGVyIG9mdCB2b24gZWluZW0gUGhvbmFza2VuIHp1IGlocmVuIEF1ZnRyaXR0ZW4gYmVnbGVpdGVuLCB1bSBkaWUgS2VobGUgenUgc2Nob25lbiB1bmQgZGllIFRvbmjDtmhlIHp1IGtvbnRyb2xsaWVyZW4uIFZvbSByw7ZtaXNjaGVuIFBvbGl0aWtlciBHYWl1cyBHcmFjY2h1cyBpc3QgYmVpc3BpZWxzd2Vpc2UgYmVrYW5udCwgZGFzcyBoaW50ZXIgaWhtIGVpbiBTa2xhdmUgc3RhbmQsIGRlciBpaG0gbWl0IGVpbmVyIEZsw7Z0ZSBvZGVyIFBmZWlmZSBkYXMgcmljaHRpZ2UgUmVnaXN0ZXIgYW56ZWlndGUuCgotIFN0ZWlucGxhdHRlIGF1ZiBCcnVzdAoKLSAKOjo6CgojIyMgQWt1c3RpayBJSSB7YmFja2dyb3VuZC1jb2xvcj0iIzBGQTNCMSJ9CgojIyMjIAoKIVtdKC4uL2Fzc2V0cy9QaHlzaWthbGlzY2hlIEdydW5kbGFnZW4gMDIucG5nKQoKPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMjBweCI+UXVlbGxlOiBIYWxsLCBEb25hbGQgRS46IDxlbT5NdXNpa2FsaXNjaGUgQWt1c3Rpay4gRWluIEhhbmRidWNoLjwvZW0+IE1haW4sIDE5OTcuPC9zcGFuPgoKIyMjIyBBbXBsaXR1ZGUKCi0gTWHDnyBkZXIgQXVzbGVua3VuZyA9IFNjaGFsbGRydWNrCi0gQW5nZWdlYmVuIGluIERlemliZWwgKCoqZEIqKikgPSBMb2dhcml0aG1pc2NoZXIgTWHDn3N0YWIKCjxicj4KCi0gT3JjaGVzdGVyZm9ydGlzc2ltbzogOTAgLSAxMDAgZEIKLSBPcmNoZXN0ZXJwaWFuaXNzaW1vOiA0MCAtIDQ1IGRCCi0gT3Blcm5zw6RuZ2VySW46IGJpcyAxMDUgZEIgKEZvcm1hbnRlbikKCjo6Onsubm90ZXN9CkxvZ2FyaXRobWlzY2hlciBNYcOfc3RhYiAoTG9nYXJpdGhtdXM6IGRpZSBaYWhsIG1pdCBkZXIgbWFuIGVpbmUgQmFzaXN6YWhsIHBvdGVuemllcmVuCm11c3MsIHVtIGRpZSB2b3JnZWdlYmVuZSBaYWhsIE51bWVydXMgenUgZXJoYWx0ZW4pLgo6OjoKCiMjIyMgV2VsbGVubMOkbmdlICgqKs67KiopCgotIEFic3RhbmQgendpc2NoZW4gendlaSBXZWxsZW5ow7xnZWxuIChEcnVjay0gb2RlciBWZXJkaWNodHVuZ3NtYXhpbWEpLgotIEplIGdyw7bDn2VyIGRpZSBXZWxsZW5sw6RuZ2UsIGRlc3RvIHRpZWZlciBkZXIgVG9uLgoKLiAuIC4KCiQkCldlbGxlbmzDpG5nZSA9IFxmcmFje1NjaGFsbGdlc2Nod2luZGlna2VpdH17RnJlcXVlbnp9CiQkCgouIC4gLgoKJCQKzrsgPSBcZnJhY3tjfXtmfQokJAoKIyMjIyBGcmVxdWVueiAoKipmKiopCgotIEFuemFobCBkZXIgRHJ1Y2tzY2h3YW5rdW5nZW4gYnp3LiBTY2h3aW5ndW5nZW4gcHJvIFNla3VuZGUuCi0gR2VtZXNzZW4gaW4gKipIZXJ0eioqICg9SHopLgotIEFiaMOkbmdpZyB2b24gV2VsbGVubMOkbmdlICoqzrsqKiB1bmQgU2NoYWxsZ2VzY2h3aW5kaWdrZWl0ICoqYyoqIAotIEJlcmVjaG51bmcgYmVpIHRyb2NrZW5lciBMdWZ0LCAyMMKwQzoKCi4gLiAuCgokJApmID0gXGZyYWN7Y317zrt9CiQkCgojIyMjIEZyZXF1ZW56YmVpc3BpZWxlCgohW10oLi4vYXNzZXRzL1BoeXNpa2FsaXNjaGUgR3J1bmRsYWdlbiAwNC5wbmcpCgojIyMjIEF1c251dHp1bmcgdm9uIEjDtnJncmVuemVuCgo8aWZyYW1lIGRhdGEtcHJlbG9hZCBjbGFzcz0ici1zdHJldGNoIiBzcmM9Ii4uL2Fzc2V0cy9Nb3NxdWl0byBGbHllciAoRCkgU3RhbmQgMyAyMDI1IERJR0kucGRmIj48L2lmcmFtZT4KCjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDIwcHgiPlF1ZWxsZTogPHNwYW4+W0FudGl2YW5kYWxpc211cy5kZV0oaHR0cHM6Ly93d3cuYW50aXZhbmRhbGlzbXVzLmRlLyk8L3NwYW4+CgojIyMjIFNjaGFsbGdlc2Nod2luZGlna2VpdCAoKipjKiopCgotIEZvcnRwZmxhbnp1bmdzZ2VzY2h3aW5kaWdrZWl0LCBtaXQgZGVyIHNpY2ggRHJ1Y2tzY2h3YW5rdW5nZW4gw7xiZXIgZGVuIEx1ZnRyYXVtIGF1c2JyZWl0ZW4uCi0gSW4gZGVyIEx1ZnQgdS4gYS4gYWJow6RuZ2lnIHZvbiBkZXIgVGVtcGVyYXR1ciwgKipjKiogbmltbXQgYmVpIGFuc3RlaWdlbmRlciBUZW1wZXJhdHVyIHp1LiAoQmVpc3BpZWwgRnJlaWx1ZnRhdWZmw7xocnVuZ2VuLCBldHdhIMO8YmVyIGVpbmVtIEdld8Okc3Nlci4pCgojIyMjIFNjaGFsbGdlc2Nod2luZGlna2VpdCBpbiB2ZXJzY2hpZWRlbmVuIE1lZGllbgoKIVtdKC4uL2Fzc2V0cy9QaHlzaWthbGlzY2hlIEdydW5kbGFnZW4gMDYucG5nKXt3aWR0aD0iMzUlIn0KCiMjIyMgS2FtbWVydG9uIHsuc21hbGxlcn0gCgouIC4gLgoKYScgPSAqKjQ0MCBIeioqIAoKLSBGZXN0Z2VsZWd0IDE5MzkgYXVmIGRlciBJbnRlcm5hdGlvbmFsZW4gU3RpbW10b25rb25mZXJlbnogaW4gTG9uZG9uLiAKLSBGcsO8aGVyIEFiZ3Jlbnp1bmcgS2FtbWVydG9uIHp1IENob3ItL09yZ2VsdG9uLiAKLSBPcmNoZXN0ZXJzdGltbXRvbiA0NDMgSHogKERldXRzY2hsYW5kL8OWc3RlcnJlaWNoKSwgNDQyIEh6IChTY2h3ZWl6L0l0YWxpZW4gKQotIMOcYmxpY2hlLCBoaXN0b3Jpc2NoIG9yaWVudGllcnRlIFN0aW1tdMO2bmU6IAogICAgLSA0MTUgSHogKEJhcm9jaykgCiAgICAtIDQzMCBIeiAoS2xhc3NpaykgCiAgICAtIDQzOCBIeiAoUm9tYW50aWspCgotIFRlbmRlbnogZ2VodCBpbiBSaWNodHVuZyB6dW5laG1lbmQgaMO2aGVyZXIgU3RpbW10w7ZuZSAoQnJpbGxhbnogU3RyZWljaGVyIHUuIGEuKQotIFp1IHNjaG5lbGxlIEVudHdpY2tsdW5nIGbDvHIgZGllIG1lbnNjaGxpY2hlIFN0aW1tZS4gCi0gRm9ydHfDpGhyZW5kZSBFdm9sdXRpb24gUmljaHR1bmcgdGllZmVyZSBTdGltbWU/CgojIyMjIMOcYmVybGFnZXJ1bmcgdm9uIChTY2hhbGwtKVdlbGxlbiAoSW50ZXJmZXJlbnopCgotICoqQWNodHVuZyoqOiBHcmFmaXNjaGUgRGFyc3RlbGx1bmcgdm9uIExvbmdpdHVkaW5hbHdlbGxlbiAoU2NoYWxsKSBpbiBkZXIgUmVnZWwgYWxzIFRyYW5zdmVyc2Fsd2VsbGUhCgotIFZlcnNjaGllZGVuZSBTY2hhbGx3ZWxsZW4gc3TDtnJlbiBzaWNoIG5pY2h0LCBzb25kZXJuIGFkZGllcmVuIHNpY2ggenUgZWluZXIgbmV1ZW4gU2NoYWxsd2VsbGUuCgojIyMjIMOcYmVybGFnZXJ1bmcgdm9uIFRlaWx0w7ZuZW4genUgZWluZW0gS2xhbmcKCiFbXSguLi9hc3NldHMvUGh5c2lrYWxpc2NoZSBHcnVuZGxhZ2VuIDA1LnBuZyl7LnItc3RyZXRjaCAubGlnaHRib3h9CgojIyBBa3VzdGlrIElJSQoKIyMjIyBVbnRlcnNjaGllZCBUb24sIEtsYW5nLCBHZXLDpHVzY2gKCnt7PCB2aWRlbyBodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PThmd3BZQlNNLUpBIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjgwJSIgPn19Cgo6Ojp7c3R5bGU9ImZvbnQtc2l6ZTogMjBweDsgbWFyZ2luLXRvcDogLTYwcHgifQpwaHlzaWtkaWdpdGFsIOKAoiBkZSwgUmVnLiBXYXMgaXN0IGRlciBVbnRlcnNjaGllZCB6d2lzY2hlbiBlaW5lbSBUb24sIGVpbmVtIEtsYW5nIHVuZCBlaW5lbSBHZXLDpHVzY2guIDIwMTguCl5bcGh5c2lrZGlnaXRhbCDigKIgZGUsIFJlZy4gV2FzIGlzdCBkZXIgVW50ZXJzY2hpZWQgendpc2NoZW4gZWluZW0gVG9uLCBlaW5lbSBLbGFuZyB1bmQgZWluZW0gR2Vyw6R1c2NoIChwaHlzaWtkaWdpdGFsLmRlKS4gMjAxOC4gMTozNC4gaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj04ZndwWUJTTS1KQS5dCjo6OgoKIyMjIyB7LnNtYWxsZXJ9CgoqKlRvbioqCgotIEVpbnplbG5lIFNjaHdpbmd1bmcgb2huZSB3ZWl0ZXJlIMOcYmVybGFnZXJ1bmcgdm9uIFRlaWxzY2h3aW5ndW5nZW4uIE9mdCBhbHMgKGvDvG5zdGxpY2ggZXJ6ZXVndGUpIFNpbnVzc2Nod2luZ3VuZyBkYXJnZXN0ZWxsdC4KCi4gLiAuCgoqKktsYW5nKioKCi0gS29tcGxleGUgw5xiZXJsYWdlcnVuZyBtZWhyZXJlciBFaW56ZWxzY2h3aW5ndW5nZW4uIEltIFZlcmdsZWljaCB6dXIgU2ludXNzY2h3aW5ndW5nIGtvbXBsZXhlcmUgV2VsbGVuZm9ybSwgYWJlciByZWdlbG3DpMOfaWcgKCoqUGVyaW9kaXppdMOkdCoqKS4KCi4gLiAuCgoqKkdlcsOkdXNjaCoqCgotIEtvbXBsZXhlIMOcYmVybGFnZXJ1bmcgdm9uIEVpbnplbHNjaHdpbmd1bmdlbiBpbiAiY2hhb3Rpc2NoZW0iIE11c3Rlci4gKipLZWluZSoqIFBlcmlvZGl6aXTDpHQgaW4gV2VsbGVubMOkbmdlLCBGcmVxdWVueiBldGMuCgojIyMjCgp7ezwgdmlkZW8gaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0zSlV2dUxwbmVkayB3aWR0aD0iMTAwJSIgaGVpZ2h0PSI4MCUiID59fQoKOjo6e3N0eWxlPSJmb250LXNpemU6IDIwcHg7IG1hcmdpbi10b3A6IC02MHB4In0KRi4gS1RNIC0gSExTIEhhbm5vdmVyLCBSZWcuIEFrdXN0aWs6IERlciBVbnRlcnNjaGllZCB6d2lzY2hlbiBUb24sIEtsYW5nIHVuZCBHZXLDpHVzY2guIFdhcyBpc3QgS2xhbmdmYXJiZT8gMjAyMS4KXltGLiBLVE0gLSBITFMgSGFubm92ZXIsIFJlZy4gQWt1c3RpazogRGVyIFVudGVyc2NoaWVkIHp3aXNjaGVuIFRvbiwgS2xhbmcgdW5kIEdlcsOkdXNjaC4gV2FzIGlzdCBLbGFuZ2ZhcmJlPyAyMDIxLiAzOjI4LiBodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTNKVXZ1THBuZWRrLgpdCjo6OgoKCgojIyMjIFJlc29uYW56IHsuc21hbGxlcn0KCi0gX3NvbmFyZV8gPSBrbGluZ2VuLCBzY2h3aW5nZW4KLSBfcmVzb25hcmVfID0gd2lkZXJrbGluZ2VuLCBtaXRzY2h3aW5nZW4KCi0gRWluIGVsYXN0aXNjaGVyIEvDtnJwZXIgd2lyZCB2b24gZWluZW0gYW5kZXJlbiwgc2Nod2luZ2VuZGVuIE1lZGl1bSB6dXIgU2Nod2luZ3VuZyBhbmdlcmVndC4gCi0gQmVzb25kZXJzIHN0YXJrLCB3ZW5uIGV4dGVybmUgU2Nod2luZ3VuZyBkZXIgKipFaWdlbmZyZXF1ZW56KiogZW50c3ByaWNodC4KCi4gLiAuCgpCZWlzcGllbGU6CgotIEFrdXN0aWs6IEFuc2F0enJhdW0sIEx1ZnQgaW0gQnJvbmNoaWFscmF1bSwgS25vY2hlbitHZXdlYmUsIEtsYXZpZXJzYWl0ZSwgU25hcmUgKERydW1zZXQpCi0gTWVjaGFuaWs6IEtpbmRlcnNjaGF1a2VsLCBTdXBwZW50ZWxsZXIgYXVmIFRhYmxldHQKCiMjIyMgUHJpbcOkcnNjaGFsbAoKLSBTY2hhbGxzaWduYWwsIGRhcyBkaXJla3Qgb2JlcmhhbGIgZGVyIFN0aW1tbGlwcGVuIGVudHN0ZWh0LgoKLSBWZXJnbGVpY2g6IFRyb21wZXRlbm11bmRzdMO8Y2sgb2huZSBLb3JwdXMuCgotIFppZWwgaW0ga2xhc3Npc2NoZW4gR2VzYW5nOiBNw7ZnbGljaHN0IGtvbXBsZXhlcyAodS4gYS4gZ3J1bmQtL29iZXJ0b25yZWljaGVzKSBTaWduYWwuCgotIFNjaGFsbC0vVmlicmF0aW9uc2VtcGZpbmR1bmdlbiBpbSBLw7ZycGVyIHfDpGhyZW5kIGRlciBQaG9uYXRpb24gKHouIEIuIGltIEJydXN0a29yYikgKipzZWt1bmTDpHJlKiogU2Nod2luZ3VuZ2VuLgoKOjo6ey5ub3Rlc30KQmVpIGRlciBTdGltbWJpbGR1bmcgdmVyc2V0enQgZGllIGF1cyBkZXIgTHVuZ2Ugc3Ryw7ZtZW5kZSBMdWZ0IGRpZSBTdGltbWxpcHBlbiBpbiBTY2h3aW5ndW5nLiBEYWJlaSBzY2hsaWXDn2VuIHNpY2ggZGllIGJlaWRlbiBTdGltbWxpcHBlbiBpbiBkZXIgTWl0dGVsbGluaWUgKEFkZHVrdGlvbikgdW5kIGRpZSBMdWZ0IHN0csO2bXQgZHVyY2ggZGVuIHNjaG1hbGVuIFNwYWx0LCBkaWUgUmltYSBnbG90dGlkaXMuIERlciBlbnRzdGVoZW5kZSBVbnRlcmRydWNrIG5hY2ggZGVtIEJlcm5vdWxsaS1QcmluemlwIGbDvGhydCB6dW0gcmh5dGhtaXNjaGVuIMOWZmZuZW4gdW5kIFNjaGxpZcOfZW4gZGVyIFN0aW1tbGlwcGVuLCB3b2R1cmNoIHBlcmlvZGlzY2hlIERydWNrd2VsbGVuIGVyemV1Z3Qgd2VyZGVuLiBIaWVyYmVpIGhhbmRlbHQgZXMgc2ljaCB1bSBkZW4gc29nZW5hbm50ZW4gUHJpbcOkcnNjaGFsbC4KCkRpZXNlciBQcmltw6Ryc2NoYWxsIHdpcmQgYW5zY2hsaWXDn2VuZCBkdXJjaCBkaWUgUmVzb25hbnpyw6R1bWUgZGVzIFJhY2hlbnMsIGRlcyBNdW5kZXMgdW5kIGRlciBOYXNlbmjDtmhsZSBtb2R1bGllcnQgdW5kIGFscyBhcnRpa3VsaWVydGVyIExhdXQgd2Focmdlbm9tbWVuLiBEaWUgVG9uaMO2aGUgZXJnaWJ0IHNpY2ggYXVzIGRlciBTcGFubnVuZywgTMOkbmdlIHVuZCBNYXNzZSBkZXIgU3RpbW1saXBwZW4uIFNpZSB3aXJkIGJlZWluZmx1c3N0IGR1cmNoIG11c2t1bMOkcmUgQWt0aXZpdMOkdCwgdm9yIGFsbGVtIGR1cmNoIGRlbiBNdXNjdWx1cyBjcmljb3RoeXJvaWRldXMgdW5kIGRlbiBNdXNjdWx1cyB2b2NhbGlzLgo6OjoKCiMjIyMgUmVzb25hbnpyw6R1bWUgey5zbWFsbGVyfQoKLSAqKktsYW5nZm9ybXVuZyoqIGltIFdlc2VudGxpY2hlbiBpbiBhbGxlbiBSw6R1bWVuIG9iZXJoYWxiIGRlciBTdGltbWxpcHBlbiB6dSDDpHXDn2VyZW4gTGlwcGVuCiAgIC0gTGFyeW54ZWluZ2FuZywgUGhhcnlueHNjaGxhdWNoLCBNdW5kaMO2aGxlL1p1bmdlLCBMaXBwZW4KICAgLSBOYXNlbnJhdW0/IChhdcOfZXIgYmVpIE5hc2FsZW4gZHVyY2ggR2F1bWVuc2VnZWwgdW5kIFBhc3NhdmFudCdzY2hlbiBXdWxzdCB2ZXJzY2hsb3NzZW4pCgotIER1cmNoc2Nobml0dGxpY2hlICoqTMOkbmdlKio6IE3DpG5uZXIgY2EuIDE3LDUgY20sIEZyYXVlbiBjYS4gMTUgY20KCi0gVW5laW5oZWl0bGljaGUgKipCZW5lbm51bmcqKjogVm9rYWx0cmFrdCwgQW5zYXR6csOkdW1lLCBBbnNhdHpyb2hyLCBBcnRpa3VsYXRpb25zLSAvIFJlc29uYW56cmF1bSAuLi4KCi0gU29sbGVuIE9ydGUgZW1wZnVuZGVuZXIgc2VrdW5kw6RyZXIgU2Nod2luZ3VuZyAoQnJ1c3Rrb3JiLCAiVm9yZGVyc2l0eiIsICJNYXNrZSIpIHp1IFJlc29uYW56csOkdW1lbiBnZXrDpGhsdCB3ZXJkZW4/CgojIyMjIFJlc29uYW56csOkdW1lCgohW10oLi4vYXNzZXRzL1Jlc29uYW56csOkdW1lIChSaWNodGVyKS5wbmcpCgojIyMjIFZva2FsdHJha3QgaW4gM0QKCiFbXSguLi9hc3NldHMvVm9rYWx0cmFrdCUyMChSaWNodGVyKS5wbmcpCgojIyMjIFJlc29uYW56csOkdW1lIGdnw7wuIFZpYnJhdGlvbnNlbXBmaW5kdW5nCgouIC4gLgoKOjo6OnsuY29sdW1uc30KCjo6OnsuY29sdW1uIHdpZHRoPSI1MCUifQohW10oLi4vYXNzZXRzL1Jlc29uYW56IC0gUmVzb25hbnpyw6R1bWUgKERUVi1BdGxhcykucG5nKXt3aWR0aD0iNTAlIn0KOjo6Cgo6Ojp7LmNvbHVtbiB3aWR0aD0iNTAlIiAuZnJhZ21lbnR9CiFbXSguLi9hc3NldHMvUmVzb25hbnogLSBWaWJyYXRpb25zZW1wZmluZGVuIChIdXNsZXIsIFJvZGQtTWFybGluZykucG5nKQo6OjoKCjo6OjoKCiMjIyMgVmlicmF0aW9uc2VtcGZpbmR1bmcgKExpbGxpIExlaG1hbm4gMTkxMykKCiFbXSguLi9hc3NldHMvUmVzb25hbnogLSBWaWJyYXRpb25zZW1wZmluZGVuIChMZWhtYW5uKS5wbmcpCgojIyMjIFRlaWx0w7ZuZSwgUGFydGlhbHTDtm5lLCBPYmVydMO2bmUKCi0gRHVyY2ggUmVmbGV4aW9uZW4gZW50c3RlaGVuIMOcYmVybGFnZXJ1bmdlbi4gRWluZSBTYWl0ZSBvZGVyIFN0aW1tbGlwcGUgc2Nod2luZ3QgZ2xlaWNoemVpdGlnIG5pY2h0IG51ciBpbiBkZXIgdm9sbGVuIEzDpG5nZSwgc29uZGVybiBhdWNoIGluIGRlciBIw6RsZnRlLCBpbSBEcml0dGVsIGV0Yy4KCi0gVS4gYS4gZGFkdXJjaCBlbnRzdGVoZW4gZGllICoqVGVpbHTDtm5lKiosIGF1Y2ggUGFydGlhbHTDtm5lIChpbmtsdXNpdmUgZGVzIEdydW5kdG9ucyEpIG9kZXIgT2JlcnTDtm5lIGdlbmFubnQuCgojIyMjIFRlaWx0b24tL09iZXJ0b25yZWloZQoKIVtdKC4uL2Fzc2V0cy9PYmVydG9ucmVpaGUucG5nKXt3aWR0aD0iODAlIn0KCi0gQmVpIGRlciBaw6RobHVuZyBiZWFjaHRlbjogRGVyIEdydW5kdG9uIGlzdCAxLiBUZWlsdG9uLCBhYmVyIG5pY2h0IDEuIE9iZXJ0b24gKHNvbmRlcm4gcXVhc2kg4oCebnVsbHRlcuKAnD0gRjAsIEdydW5kdG9uZnJlcXVlbnopLiAKCi0gT2JlcnTDtm5lIHNpbmQgYWxsZSBUw7ZuZSBvYmVyaGFsYiBkZXMgR3J1bmR0b25zLiBEaWUgTnVtbWVyaWVydW5nIGRlciBPYmVydMO2bmUgaXN0IGRhaGVyIGltbWVyIHVtIDEgbmllZHJpZ2VyIGFscyBkaWUgZGVyIFRlaWx0w7ZuZS4KCgojIyMjIEZha3RvcmVuIGbDvHIgQW56YWhsL0F1c3Byw6RndW5nIGRlciBPYmVydMO2bmUKCi0gRjA6IEZyZXF1ZW56IGRlcyBHcnVuZHRvbnMgKD1HcnVuZGZyZXF1ZW56KQotIEFtcGxpdHVkZS9MYXV0c3TDpHJrZQotIFJlZ2lzdGVyIGF1ZiBMYXJ5bnhlYmVuZSAoVm9sbC0vUmFuZHN0aW1tZSwgRmFsc2V0dCBldGMuKQotIFN0aW1tc2NobHVzcyAoU2NobHVzc3F1b3RpZW50IHUuIGEuKQotIFVudGVyc2NoaWVkZSBGcmF1ZW4tL03DpG5uZXJzdGltbWU/CgojIyMjIFNvZnR3YXJlLUVtcGZlaGx1bmcgZsO8ciBWaXN1YWxpc2llcnVuZyBkZXIgU3RpbW1lCgotIEtUSCBTdG9ja2hvbG06CiAgIC0gUlRTZWN0IChTY2hhbGxzcGVrdHJ1bSkKICAgLSBNYWRkZSAoU3RpbW1zeW50aGVzaXplcikKCi4gLiAuCgpEb3dubG9hZCBrb3N0ZW5mcmVpIHVudGVyIFt3d3cudG9sdmFuLmNvbV0od3d3LnRvbHZhbi5jb20pCgojIyMjIFNwZWt0b2dyYWZpZSBCYXJpdG9uIFthXSAyMDAgSHogKFJUc2VjdCkKCiFbXSguLi9hc3NldHMvUnRzZWN0JTIwQSUyMEJhcml0b24lMjAoUmljaHRlcikucG5nKQoKIyMjIyBGb3JtYW50ZW4KCi0gVm9rYWx0cmFrdDogIlJlc29uYXRvciBtaXQgRmlsdGVyd2lya3VuZyIgKFJpY2h0ZXIgMjAxMikKLSDDnGJlcnRyw6RndCBiZXN0aW1tdGUgRnJlcXVlbnplbiBiZXNzZXIgYWxzIGFuZGVyZS4KLSBBbXBsaXR1ZGUgZGVyIE9iZXJ0w7ZuZSBuYWhlIGRlciBSZXNvbmFuemZyZXF1ZW56ZW4gYmVzb25kZXJzIGdyb8OfLiAKLSBEaWVzZSBWb2thbHRyYWt0cmVzb25hbnplbiB3ZXJkZW4gKipGb3JtYW50ZW4qKiAobGF0LiBfZm9ybWFuc18gPSBiaWxkZW5kKSBnZW5hbm50LgogICAtIFNwaXR6ZW4gLyBQZWFrcyBha3VzdGlzY2hlciBFbmVyZ2llCgojIyMjIFdpY2h0aWdzdGUgRm9ybWFudGVuIGRlcyBBbnNhdHpyb2hycwoKLSBGw7xuZiAqKkZvcm1hbnRlbiBGMS1GNSoqIGbDvHIgZGVuIG1lbnNjaGxpY2hlbiAgU3RpbW1rbGFuZyByZWxldmFudC4KICAgLSAqKkYxKiogdW5kICoqRjIqKjogRXJrZW5uYmFya2VpdCB1bmQgUXVhbGl0w6R0IGRlciBWb2thbGUgKCoqVm9rYWxmb3JtYW50ZW4qKikuCiAgIC0gKipGMyAtIEY1Kio6IFRpbWJyZSAocGVyc8O2bmxpY2hlciBTdGltbWtsYW5nKSB1bmQgKipUcmFnZsOkaGlna2VpdCoqIGRlciBTdGltbWUuCgotIERpZSBGb3JtYW50ZnJlcXVlbnplbiBzaW5kIHZvbiBkZXIgKipMw6RuZ2UqKiB1bmQgKipXZWl0ZSoqIGRlcyBBbnNhdHpyb2hyZXMgYWJow6RuZ2lnLiAKCi0gQmVzb25kZXJzIGRpZSBXZWl0ZSBpc3Qgc3RhcmsgYWJow6RuZ2lnIHZvbiBLaWVmZXItIHVuZCBMaXBwZW7DtmZmbnVuZyBzb3dpZSBadW5nZW5mb3JtLgoKIyMjIyBWb2thbGZvcm1hbnRlbiBGMSArIEYyCgohW10oLi4vYXNzZXRzL1Zva2FsZm9ybWFudGVuJTIwKFJpY2h0ZXIpLnBuZykKCiMjIyMgRnJhZ2VuPwoKIVtdKC4uL2Fzc2V0cy9PbWVnYS5qcGcpCgojIyMjIFF1ZWxsZW4vTWVkaWVuCg=='), function(c) { return c.charCodeAt(0); })
+  );
+  window._input_filename = '/home/Julian/Dokumente/Hochschulseminare/2026-11-17-methodik-akustik3/index.qmd';
+  </script>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="../assets/degas_la-repetition-de-chant_1877.png" data-background-opacity="0.4" data-background-size="cover" data-footer="Test" class="quarto-title-block center">
+  <h1 class="title">Methodik + Akustik III</h1>
+  <p class="subtitle">Didaktik/Methodik Gesang</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Julian Popken
+</div>
+        <p class="quarto-title-affiliation">
+            HMTM Hannover
+          </p>
+    </div>
+</div>
+
+  <p class="date">17.11.2026</p>
+</section><section id="TOC">
+<nav role="doc-toc"> 
+<h2 id="toc-title">Inhalt</h2>
+<ul>
+<li class="fragment"><a href="#/wiederholung" id="/toc-wiederholung">Wiederholung</a></li>
+<li class="fragment"><a href="#/akustik-iii" id="/toc-akustik-iii">Akustik III</a></li>
+</ul>
+</nav>
+</section>
+<section>
+<section id="wiederholung" class="title-slide slide level2 center" data-background-image="../assets/degas_la-repetition-de-chant_1877.png" data-background-opacity="0.4">
+<h2>Wiederholung</h2>
+
+</section>
+<section id="geschichte-ii---antike" class="title-slide slide level3 center" data-background-image="../assets/degas_la-repetition-de-chant_1877.png" data-background-opacity="0.4">
+<h3>Geschichte II - Antike</h3>
+
+</section>
+<section id="griechische-tragödie" class="slide level4">
+<h4>Griechische Tragödie</h4>
+
+<img data-src="https://www.readersdigest.de/cdn/shop/articles/Theater_von_Epidauros_in_Griechenland_Peloponnes_1080x.jpg?v=1660901731" class="r-stretch"><div style="font-size: 20px; margin-top: -30px">
+<p>Theater von Epidauros, ca. 400 v. u. Z., Platz für 14.000 Zuschauer</p>
+</div>
+<aside class="notes">
+<ul>
+<li><p>Ursprünglich Feiern zu Ehren des Gottes Dionysos (Wein)</p></li>
+<li><p>Dionysoskult zum Staatskult erhoben - Große Dionysien als jährliches großes Fest</p></li>
+<li><p>Gesungen, getanzt, Böcke geopfert - Tragos (Bock, Ziegenbock) und ode (Gesang) “Bocksgesang”</p></li>
+<li><p>534 v. Chr. erste Tragödie v. Thespis(singendem und tanzenden Chor wird ein Schauspieler gegenübergestellt)</p></li>
+<li><p>später 2 Aischylos, dann 3 Sophokles</p></li>
+<li><p>Chor spielt zentrale Rolle: Kommentierend, singend, tanzend in verschiedenen Formationen Im klassischen griechischen Theater (wie im berühmten Theater von Epidaurus) war der Chor das Herzstück. Die Sänger standen in der kreisförmigen Orchestra (dem Tanzplatz) und kommentierten singend und tanzend das Geschehen auf der Bühne.</p></li>
+<li><p>Die Orchestra: ursprünglich Raum zum Tanzen/Singen um Altar von Dionysos, später Auftrittsraum für Chor und Schauspieler</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section" class="slide level4">
+<h4></h4>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<p><a href="https://a.1stdibscdn.com/greek-tragedy-black-terracotta-mask-france-1950s-for-sale/1121189/f_352846721689862228515/35284672_datamatics.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="https://a.1stdibscdn.com/greek-tragedy-black-terracotta-mask-france-1950s-for-sale/1121189/f_352846721689862228515/35284672_datamatics.jpg"></a></p>
+</div><div class="column fragment absolute" style="top: 150px; right: 20px; width: 50%; ">
+<p><a href="https://ifigeneiaceramics.com/cdn/shop/files/Greek_Theater_Tragedy_Mask_Relief_terracotta_wall_Decor_24x20cm_2_1024x1024.jpg?v=1744998961" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="https://ifigeneiaceramics.com/cdn/shop/files/Greek_Theater_Tragedy_Mask_Relief_terracotta_wall_Decor_24x20cm_2_1024x1024.jpg?v=1744998961"></a></p>
+</div></div>
+<div style="font-size: 20px; margin-top: -30px">
+<p>Nachbildungen griechischer Tragödienmasken</p>
+</div>
+<aside class="notes">
+<ul>
+<li><p>Schauspieler (alles Männer) trugen Masken. Alles Nachbildungen von Vasen, Amphoren</p></li>
+<li><p>Die Maske gab ein starres, erschreckendes Aussehen. Die Individualität und Identität des Schauspielers wurde abgelegt. Sie vereinfachte dem Schauspieler das Rollenspiel. Eventuell zur akustischen Projektion.</p></li>
+<li><p>Wie vorstellen? Wettbewerb dreier Tragödien hintereinander = mehrere Stunden. Leute aßen, sprachen, tranken währenddessen.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="musikverständnis-griech.-antike-bis-5.-jhd.-v.-u.-z." class="slide level4">
+<h4>Musikverständnis griech. Antike bis 5. Jhd. v. u. Z.</h4>
+<ul>
+<li class="fragment">Musik als untrennbare Einheit von Wort, Ton und Tanz. Lehre als Ethos.</li>
+<li class="fragment">Ab ca. 5. Jhd. v. u. Z.: Professionalisierung und erste “Gesangsschulen”. (Etwa d.&nbsp;“<strong>Dionysische Verein</strong>”)</li>
+<li class="fragment">Steigende technische Anforderungen an die Stimme: Projektion, Textverständlichkeit</li>
+</ul>
+<aside class="notes">
+<p>1 - Philosophen wie Platon und Aristoteles ordneten der Musik eine direkte Wirkung auf das Gemüt und den Charakter zu (Ethos-Lehre). Richtiges Singen sollte Tugend, Disziplin und innere Harmonie fördern. • Der „musikalische Mensch“: Wer nicht singen und kein Saiteninstrument (wie die Lyra) spielen konnte, galt als ungebildet. • Methodik: Der Unterricht erfolgte rein mündlich und empirisch durch Nachahmung und ständige Wiederholung (Mimesis).</p>
+<p>2 • <em>Die dionysischen Gilden:</em> Da die Laienchöre diesen Ansprüchen nicht mehr genügten, gründeten sich professionelle Vereinigungen. Um 500 v. Chr. entstand in Athen der Dionysische Verein. Diese Gilde bildete Schauspieler, Sänger und Musiker gezielt aus und gilt in der Forschung als die erste institutionalisierte Form einer Gesangspädagogik laut Wikipedia.</p>
+<p>Die dionysischen Vereine (historisch vor allem als dionysische Techniten bekannt) waren im antiken Griechenland und im Hellenismus berufsständische Vereinigungen von Künstlern und Mitwirkenden des Theaters und Kults.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="akustik-theater-von-epidauros" class="slide level4">
+<h4>Akustik: Theater von Epidauros</h4>
+<iframe width="100%" height="80%" src="https://www.youtube.com/embed/g7sYicYfPrs?si=z41-ImUMIwT-74yz&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<div style="font-size: 20px; margin-top: -30px">
+<p>[Youtube: Rick Steve’s Europe]</p>
+</div>
+<aside class="notes">
+<ul>
+<li>Kalksteine als Hochpassfilter</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="phonasken" class="slide level4">
+<h4>Phonasken</h4>
+<ul>
+<li class="fragment">Einzahl: Phonaske, von griechisch “phonaskéō = die Stimme üben”</li>
+<li class="fragment">Stimmlehrer und Rhetoriktrainer der griechisch-römischen Antike</li>
+<li class="fragment">Allgemeinbildung (!) durch regelmäßige Atem-, Deklamations- und Gesangsübungen</li>
+</ul>
+<aside class="notes">
+<p>Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente Redner oder Schauspieler oft von einem Phonasken zu ihren Auftritten begleiten, um die Kehle zu schonen und die Tonhöhe zu kontrollieren. Vom römischen Politiker Gaius Gracchus ist beispielsweise bekannt, dass hinter ihm ein Sklave stand, der ihm mit einer Flöte oder Pfeife das richtige Register anzeigte.</p>
+<ul>
+<li><p>Steinplatte auf Brust</p></li>
+<li></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+
+<section id="akustik-ii" class="title-slide slide level3 center" data-background-color="#0FA3B1">
+<h3>Akustik II</h3>
+
+</section>
+<section id="section-1" class="slide level4">
+<h4></h4>
+<p><a href="../assets/Physikalische Grundlagen 02.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="../assets/Physikalische Grundlagen 02.png"></a></p>
+<p><span style="font-size: 20px">Quelle: Hall, Donald E.: <em>Musikalische Akustik. Ein Handbuch.</em> Main, 1997.</span></p>
+</section>
+<section id="amplitude" class="slide level4">
+<h4>Amplitude</h4>
+<ul>
+<li class="fragment">Maß der Auslenkung = Schalldruck</li>
+<li class="fragment">Angegeben in Dezibel (<strong>dB</strong>) = Logarithmischer Maßstab</li>
+</ul>
+<p><br></p>
+<ul>
+<li class="fragment">Orchesterfortissimo: 90 - 100 dB</li>
+<li class="fragment">Orchesterpianissimo: 40 - 45 dB</li>
+<li class="fragment">OpernsängerIn: bis 105 dB (Formanten)</li>
+</ul>
+<aside class="notes">
+<p>Logarithmischer Maßstab (Logarithmus: die Zahl mit der man eine Basiszahl potenzieren muss, um die vorgegebene Zahl Numerus zu erhalten).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="wellenlänge-λ" class="slide level4">
+<h4>Wellenlänge (<strong>λ</strong>)</h4>
+<ul>
+<li class="fragment">Abstand zwischen zwei Wellenhügeln (Druck- oder Verdichtungsmaxima).</li>
+<li class="fragment">Je größer die Wellenlänge, desto tiefer der Ton.</li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[
+Wellenlänge = \frac{Schallgeschwindigkeit}{Frequenz}
+\]</span></p>
+</div>
+<div class="fragment">
+<p><span class="math display">\[
+λ = \frac{c}{f}
+\]</span></p>
+</div>
+</section>
+<section id="frequenz-f" class="slide level4">
+<h4>Frequenz (<strong>f</strong>)</h4>
+<ul>
+<li class="fragment">Anzahl der Druckschwankungen bzw. Schwingungen pro Sekunde.</li>
+<li class="fragment">Gemessen in <strong>Hertz</strong> (=Hz).</li>
+<li class="fragment">Abhängig von Wellenlänge <strong>λ</strong> und Schallgeschwindigkeit <strong>c</strong></li>
+<li class="fragment">Berechnung bei trockener Luft, 20°C:</li>
+</ul>
+<div class="fragment">
+<p><span class="math display">\[
+f = \frac{c}{λ}
+\]</span></p>
+</div>
+</section>
+<section id="frequenzbeispiele" class="slide level4">
+<h4>Frequenzbeispiele</h4>
+<p><a href="../assets/Physikalische Grundlagen 04.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="../assets/Physikalische Grundlagen 04.png"></a></p>
+</section>
+<section id="ausnutzung-von-hörgrenzen" class="slide level4">
+<h4>Ausnutzung von Hörgrenzen</h4>
+<iframe data-preload="" class="r-stretch" src="../assets/Mosquito Flyer (D) Stand 3 2025 DIGI.pdf">
+</iframe>
+<p><span style="font-size: 20px">Quelle: <span><a href="https://www.antivandalismus.de/">Antivandalismus.de</a></span></span></p>
+</section>
+<section id="schallgeschwindigkeit-c" class="slide level4">
+<h4>Schallgeschwindigkeit (<strong>c</strong>)</h4>
+<ul>
+<li class="fragment">Fortpflanzungsgeschwindigkeit, mit der sich Druckschwankungen über den Luftraum ausbreiten.</li>
+<li class="fragment">In der Luft u. a. abhängig von der Temperatur, <strong>c</strong> nimmt bei ansteigender Temperatur zu. (Beispiel Freiluftaufführungen, etwa über einem Gewässer.)</li>
+</ul>
+</section>
+<section id="schallgeschwindigkeit-in-verschiedenen-medien" class="slide level4">
+<h4>Schallgeschwindigkeit in verschiedenen Medien</h4>
+<p><a href="../assets/Physikalische Grundlagen 06.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="../assets/Physikalische Grundlagen 06.png" style="width:35.0%"></a></p>
+</section>
+<section id="kammerton" class="slide level4 smaller">
+<h4>Kammerton</h4>
+<div class="fragment">
+<p>a’ = <strong>440 Hz</strong></p>
+<ul>
+<li class="fragment">Festgelegt 1939 auf der Internationalen Stimmtonkonferenz in London.</li>
+<li class="fragment">Früher Abgrenzung Kammerton zu Chor-/Orgelton.</li>
+<li class="fragment">Orchesterstimmton 443 Hz (Deutschland/Österreich), 442 Hz (Schweiz/Italien )</li>
+<li class="fragment">Übliche, historisch orientierte Stimmtöne:
+<ul>
+<li class="fragment">415 Hz (Barock)</li>
+<li class="fragment">430 Hz (Klassik)</li>
+<li class="fragment">438 Hz (Romantik)</li>
+</ul></li>
+<li class="fragment">Tendenz geht in Richtung zunehmend höherer Stimmtöne (Brillanz Streicher u. a.)</li>
+<li class="fragment">Zu schnelle Entwicklung für die menschliche Stimme.</li>
+<li class="fragment">Fortwährende Evolution Richtung tiefere Stimme?</li>
+</ul>
+</div>
+</section>
+<section id="überlagerung-von-schall-wellen-interferenz" class="slide level4">
+<h4>Überlagerung von (Schall-)Wellen (Interferenz)</h4>
+<ul>
+<li class="fragment"><p><strong>Achtung</strong>: Grafische Darstellung von Longitudinalwellen (Schall) in der Regel als Transversalwelle!</p></li>
+<li class="fragment"><p>Verschiedene Schallwellen stören sich nicht, sondern addieren sich zu einer neuen Schallwelle.</p></li>
+</ul>
+</section>
+<section id="überlagerung-von-teiltönen-zu-einem-klang" class="slide level4">
+<h4>Überlagerung von Teiltönen zu einem Klang</h4>
+
+<img data-src="../assets/Physikalische Grundlagen 05.png" class="r-stretch"></section>
+</section>
+<section>
+<section id="akustik-iii" class="title-slide slide level2 center">
+<h2>Akustik III</h2>
+
+</section>
+<section id="unterschied-ton-klang-geräusch" class="slide level4">
+<h4>Unterschied Ton, Klang, Geräusch</h4>
+<iframe data-external="1" src="https://www.youtube.com/embed/8fwpYBSM-JA" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div style="font-size: 20px; margin-top: -60px">
+<p>physikdigital • de, Reg. Was ist der Unterschied zwischen einem Ton, einem Klang und einem Geräusch. 2018. <a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a></p>
+</div>
+<aside></aside></section>
+<section id="section-2" class="slide level4 smaller">
+<h4></h4>
+<p><strong>Ton</strong></p>
+<ul>
+<li class="fragment">Einzelne Schwingung ohne weitere Überlagerung von Teilschwingungen. Oft als (künstlich erzeugte) Sinusschwingung dargestellt.</li>
+</ul>
+<div class="fragment">
+<p><strong>Klang</strong></p>
+<ul>
+<li class="fragment">Komplexe Überlagerung mehrerer Einzelschwingungen. Im Vergleich zur Sinusschwingung komplexere Wellenform, aber regelmäßig (<strong>Periodizität</strong>).</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Geräusch</strong></p>
+<ul>
+<li class="fragment">Komplexe Überlagerung von Einzelschwingungen in “chaotischem” Muster. <strong>Keine</strong> Periodizität in Wellenlänge, Frequenz etc.</li>
+</ul>
+</div>
+</section>
+<section id="section-3" class="slide level4">
+<h4></h4>
+<iframe data-external="1" src="https://www.youtube.com/embed/3JUvuLpnedk" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<div style="font-size: 20px; margin-top: -60px">
+<p>F. KTM - HLS Hannover, Reg. Akustik: Der Unterschied zwischen Ton, Klang und Geräusch. Was ist Klangfarbe? 2021. <a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a></p>
+</div>
+<aside></aside></section>
+<section id="resonanz" class="slide level4 smaller">
+<h4>Resonanz</h4>
+<ul>
+<li class="fragment"><p><em>sonare</em> = klingen, schwingen</p></li>
+<li class="fragment"><p><em>resonare</em> = widerklingen, mitschwingen</p></li>
+<li class="fragment"><p>Ein elastischer Körper wird von einem anderen, schwingenden Medium zur Schwingung angeregt.</p></li>
+<li class="fragment"><p>Besonders stark, wenn externe Schwingung der <strong>Eigenfrequenz</strong> entspricht.</p></li>
+</ul>
+<div class="fragment">
+<p>Beispiele:</p>
+<ul>
+<li class="fragment">Akustik: Ansatzraum, Luft im Bronchialraum, Knochen+Gewebe, Klaviersaite, Snare (Drumset)</li>
+<li class="fragment">Mechanik: Kinderschaukel, Suppenteller auf Tablett</li>
+</ul>
+</div>
+</section>
+<section id="primärschall" class="slide level4">
+<h4>Primärschall</h4>
+<ul>
+<li class="fragment"><p>Schallsignal, das direkt oberhalb der Stimmlippen entsteht.</p></li>
+<li class="fragment"><p>Vergleich: Trompetenmundstück ohne Korpus.</p></li>
+<li class="fragment"><p>Ziel im klassischen Gesang: Möglichst komplexes (u. a. grund-/obertonreiches) Signal.</p></li>
+<li class="fragment"><p>Schall-/Vibrationsempfindungen im Körper während der Phonation (z. B. im Brustkorb) <strong>sekundäre</strong> Schwingungen.</p></li>
+</ul>
+<aside class="notes">
+<p>Bei der Stimmbildung versetzt die aus der Lunge strömende Luft die Stimmlippen in Schwingung. Dabei schließen sich die beiden Stimmlippen in der Mittellinie (Adduktion) und die Luft strömt durch den schmalen Spalt, die Rima glottidis. Der entstehende Unterdruck nach dem Bernoulli-Prinzip führt zum rhythmischen Öffnen und Schließen der Stimmlippen, wodurch periodische Druckwellen erzeugt werden. Hierbei handelt es sich um den sogenannten Primärschall.</p>
+<p>Dieser Primärschall wird anschließend durch die Resonanzräume des Rachens, des Mundes und der Nasenhöhle moduliert und als artikulierter Laut wahrgenommen. Die Tonhöhe ergibt sich aus der Spannung, Länge und Masse der Stimmlippen. Sie wird beeinflusst durch muskuläre Aktivität, vor allem durch den Musculus cricothyroideus und den Musculus vocalis.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="resonanzräume" class="slide level4 smaller">
+<h4>Resonanzräume</h4>
+<ul>
+<li class="fragment"><p><strong>Klangformung</strong> im Wesentlichen in allen Räumen oberhalb der Stimmlippen zu äußeren Lippen</p>
+<ul>
+<li class="fragment">Larynxeingang, Pharynxschlauch, Mundhöhle/Zunge, Lippen</li>
+<li class="fragment">Nasenraum? (außer bei Nasalen durch Gaumensegel und Passavant’schen Wulst verschlossen)</li>
+</ul></li>
+<li class="fragment"><p>Durchschnittliche <strong>Länge</strong>: Männer ca. 17,5 cm, Frauen ca. 15 cm</p></li>
+<li class="fragment"><p>Uneinheitliche <strong>Benennung</strong>: Vokaltrakt, Ansatzräume, Ansatzrohr, Artikulations- / Resonanzraum …</p></li>
+<li class="fragment"><p>Sollen Orte empfundener sekundärer Schwingung (Brustkorb, “Vordersitz”, “Maske”) zu Resonanzräumen gezählt werden?</p></li>
+</ul>
+</section>
+<section id="resonanzräume-1" class="slide level4">
+<h4>Resonanzräume</h4>
+<p><a href="../assets/Resonanzräume (Richter).png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="../assets/Resonanzräume (Richter).png"></a></p>
+</section>
+<section id="vokaltrakt-in-3d" class="slide level4">
+<h4>Vokaltrakt in 3D</h4>
+<p><a href="../assets/Vokaltrakt (Richter).png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="../assets/Vokaltrakt (Richter).png"></a></p>
+</section>
+<section id="resonanzräume-ggü.-vibrationsempfindung" class="slide level4">
+<h4>Resonanzräume ggü. Vibrationsempfindung</h4>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><a href="../assets/Resonanz - Resonanzräume (DTV-Atlas).png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="../assets/Resonanz - Resonanzräume (DTV-Atlas).png" style="width:50.0%"></a></p>
+</div><div class="column fragment" style="width:50%;">
+<p><a href="../assets/Resonanz - Vibrationsempfinden (Husler, Rodd-Marling).png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img data-src="../assets/Resonanz - Vibrationsempfinden (Husler, Rodd-Marling).png"></a></p>
+</div></div>
+</div>
+</section>
+<section id="vibrationsempfindung-lilli-lehmann-1913" class="slide level4">
+<h4>Vibrationsempfindung (Lilli Lehmann 1913)</h4>
+<p><a href="../assets/Resonanz - Vibrationsempfinden (Lehmann).png" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="../assets/Resonanz - Vibrationsempfinden (Lehmann).png"></a></p>
+</section>
+<section id="teiltöne-partialtöne-obertöne" class="slide level4">
+<h4>Teiltöne, Partialtöne, Obertöne</h4>
+<ul>
+<li class="fragment"><p>Durch Reflexionen entstehen Überlagerungen. Eine Saite oder Stimmlippe schwingt gleichzeitig nicht nur in der vollen Länge, sondern auch in der Hälfte, im Drittel etc.</p></li>
+<li class="fragment"><p>U. a. dadurch entstehen die <strong>Teiltöne</strong>, auch Partialtöne (inklusive des Grundtons!) oder Obertöne genannt.</p></li>
+</ul>
+</section>
+<section id="teilton-obertonreihe" class="slide level4">
+<h4>Teilton-/Obertonreihe</h4>
+<p><a href="../assets/Obertonreihe.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="../assets/Obertonreihe.png" style="width:80.0%"></a></p>
+<ul>
+<li class="fragment"><p>Bei der Zählung beachten: Der Grundton ist 1. Teilton, aber nicht 1. Oberton (sondern quasi „nullter“= F0, Grundtonfrequenz).</p></li>
+<li class="fragment"><p>Obertöne sind alle Töne oberhalb des Grundtons. Die Nummerierung der Obertöne ist daher immer um 1 niedriger als die der Teiltöne.</p></li>
+</ul>
+</section>
+<section id="faktoren-für-anzahlausprägung-der-obertöne" class="slide level4">
+<h4>Faktoren für Anzahl/Ausprägung der Obertöne</h4>
+<ul>
+<li class="fragment">F0: Frequenz des Grundtons (=Grundfrequenz)</li>
+<li class="fragment">Amplitude/Lautstärke</li>
+<li class="fragment">Register auf Larynxebene (Voll-/Randstimme, Falsett etc.)</li>
+<li class="fragment">Stimmschluss (Schlussquotient u. a.)</li>
+<li class="fragment">Unterschiede Frauen-/Männerstimme?</li>
+</ul>
+</section>
+<section id="software-empfehlung-für-visualisierung-der-stimme" class="slide level4">
+<h4>Software-Empfehlung für Visualisierung der Stimme</h4>
+<ul>
+<li class="fragment">KTH Stockholm:
+<ul>
+<li class="fragment">RTSect (Schallspektrum)</li>
+<li class="fragment">Madde (Stimmsynthesizer)</li>
+</ul></li>
+</ul>
+<div class="fragment">
+<p>Download kostenfrei unter <a href="www.tolvan.com">www.tolvan.com</a></p>
+</div>
+</section>
+<section id="spektografie-bariton-a-200-hz-rtsect" class="slide level4">
+<h4>Spektografie Bariton [a] 200 Hz (RTsect)</h4>
+<p><a href="../assets/Rtsect A Bariton (Richter).png" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="../assets/Rtsect A Bariton (Richter).png"></a></p>
+</section>
+<section id="formanten" class="slide level4">
+<h4>Formanten</h4>
+<ul>
+<li class="fragment">Vokaltrakt: “Resonator mit Filterwirkung” (Richter 2012)</li>
+<li class="fragment">Überträgt bestimmte Frequenzen besser als andere.</li>
+<li class="fragment">Amplitude der Obertöne nahe der Resonanzfrequenzen besonders groß.</li>
+<li class="fragment">Diese Vokaltraktresonanzen werden <strong>Formanten</strong> (lat. <em>formans</em> = bildend) genannt.
+<ul>
+<li class="fragment">Spitzen / Peaks akustischer Energie</li>
+</ul></li>
+</ul>
+</section>
+<section id="wichtigste-formanten-des-ansatzrohrs" class="slide level4">
+<h4>Wichtigste Formanten des Ansatzrohrs</h4>
+<ul>
+<li class="fragment"><p>Fünf <strong>Formanten F1-F5</strong> für den menschlichen Stimmklang relevant.</p>
+<ul>
+<li class="fragment"><strong>F1</strong> und <strong>F2</strong>: Erkennbarkeit und Qualität der Vokale (<strong>Vokalformanten</strong>).</li>
+<li class="fragment"><strong>F3 - F5</strong>: Timbre (persönlicher Stimmklang) und <strong>Tragfähigkeit</strong> der Stimme.</li>
+</ul></li>
+<li class="fragment"><p>Die Formantfrequenzen sind von der <strong>Länge</strong> und <strong>Weite</strong> des Ansatzrohres abhängig.</p></li>
+<li class="fragment"><p>Besonders die Weite ist stark abhängig von Kiefer- und Lippenöffnung sowie Zungenform.</p></li>
+</ul>
+</section>
+<section id="vokalformanten-f1-f2" class="slide level4">
+<h4>Vokalformanten F1 + F2</h4>
+<p><a href="../assets/Vokalformanten (Richter).png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="../assets/Vokalformanten (Richter).png"></a></p>
+</section>
+<section id="fragen" class="slide level4">
+<h4>Fragen?</h4>
+<p><a href="../assets/Omega.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img data-src="../assets/Omega.jpg"></a></p>
+</section>
+<section id="quellenmedien" class="slide level4">
+<h4>Quellen/Medien</h4>
+
+
+<div class="reveal-header">
+<div class="header-logo" data-footer-logo-link="https://hmtm-hannover.de">
+<img data-src="">
+</div>
+<div class="sc-title">
+<p> </p>
+</div>
+<div class="header-text">
+<p> </p>
+</div>
+<div class="sb-title">
+<p> </p>
+</div>
+</div>
+</section></section>
+<section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h4>Fußnoten</h4>
+
+<ol>
+<li id="fn1"><p>physikdigital • de, Reg. Was ist der Unterschied zwischen einem Ton, einem Klang und einem Geräusch (physikdigital.de). 2018. 1:34. https://www.youtube.com/watch?v=8fwpYBSM-JA.</p></li>
+<li id="fn2"><p>F. KTM - HLS Hannover, Reg. Akustik: Der Unterschied zwischen Ton, Klang und Geräusch. Was ist Klangfarbe? 2021. 3:28. https://www.youtube.com/watch?v=3JUvuLpnedk.</p></li>
+</ol>
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="../assets/00-HMTMH-Logo-1.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>Methodik + Akustik III | 17.11.2026 | Julian Popken</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Kopiert");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Kopiert");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+                // target, if specified
+                link.setAttribute("target", "_blank");
+                if (link.getAttribute("rel") === null) {
+                  link.setAttribute("rel", "noopener");
+                }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
+    
+
+</body></html>
