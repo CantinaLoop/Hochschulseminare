@@ -63,93 +63,6 @@ filters:
 
 ## Wiederholung
 
-### Stimmbildung: Unterschiede Männer- und Frauenstimmen
-
-#### [David Jones](https://voiceteacher.com): Tägliche Stimmübungsroutine
-
-<iframe data-preload class="r-stretch" src="../assets/jones_taegliche-einsinguebungen.pdf"></iframe>
-
-#### Neu: Passaggi/Segmente nach Rabine
-
-![](../assets/register-tonhoehe-tonleiter_rabine_1994.png)
-
-### Geschichte der Gesangspädagogik I - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
-
-### Westeuropäische Musik: <br> Welche Quellen gibt es?
-
-#### Wiederholung: Geschichte der ganzen Welt (Selbststudium)
-
-. . .
-
-<iframe width="1120" height="500" src="https://www.youtube.com/embed/xuCn8ux2gbs?si=wE6_uLhOtgO0Y1Tz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-:::{style="font-size: 20px; margin-top: -30px"}
-Bill Wurtz: *history of the entire world, i guess* ([Youtube 2017](https://www.youtube.com/watch?v=xuCn8ux2gbs))
-:::
-
-#### Antiker Naher Osten
-
-![](../assets/burkholder_karte-naher-osten-antike_s6.png){width="80%"}
-
-:::{style="font-size: 20px; margin-top: -30px"}
-[@grout2019, 6]
-:::
-
-:::{.notes}
-- Westeuropäische Kultur der Amerikas und Europas in Abgrenzung zu (fern)-östlichen Kulturen. 
-- Wichtigste Regionen für unsere Mathematik, Kalender, Astronomie, Medizin: Mesopotamien, Ägypten und vor allem: Antikes Griechenland, Römisches Reich
-:::
-
-#### Griechische Siedlungen (ca. 550 v. u. Z.)
-
-![](../assets/burkholder_griechen-550vchr_s8.png){width="80%"}
-
-:::{style="font-size: 20px; margin-top: -30px"}
-[@grout2019, 8]
-:::
-
-:::{.notes}
-- Unsere Philosophie: Platon und Aristoteles
-- Wichtig: Quasi Zufall, könnten je nach Entwicklung auch andere Zivilisationen stärker gewesen sein.
-- Griechische Schriften stärkste Quelle für heutiges Musikverständnis.
-- Musik ist Kunst in der Zeit und daher nicht permanent. 
-- Spuren also:
-:::
-
-### Materielle/physische Überreste
-
-- Musikinstrumente, Aufführungsorte
-
-. . .
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d155522.7769690091!2d9.766364198705007!3d48.380101280739225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sde!2sde!4v1789310076742!5m2!1sde!2sde" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="r-stretch"></iframe>
-
-#### Hohle Fels Schelklingen (ca. 40.000 v. u. Z.)
-
-::::{.columns}
-
-:::{.column width="50%" .fragment}
-### Geschichte der Gesangspädagogik I - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
-
-
-:::
-
-:::{.column width="50%" .fragment}
-![](../assets/burkholder_floete-steinzeit-40000vchr_s5.png){width="35%"}
-
-:::{style="font-size: 20px; margin-top: -30px"}
-[@grout2019, 5]
-:::
-:::
-
-::::
-
-:::{.notes}
-Die Karsthöhle Hohler Fels liegt etwa einen Kilometer östlich des Stadtkerns von Schelklingen im baden-württembergischen Alb-Donau-Kreis in Deutschland. Sie ist seit dem 19. Jahrhundert einer der bedeutendsten archäologischen Fundplätze des Jungpaläolithikums in Mitteleuropa.
-
-Front view of a bone flute made from the radius (wing bone) of a griffon vulture, unearthed in 2008 at Hohle Fels Cave in the Ach Valley in Swabia (southwestern Germany) and estimated to date from about 40,000 to 42,000 years ago. With five finger holes, it is the most complete of the early flutes yet recovered.
-:::
-
 #### Nachbau sumerische Stierleier (ca. 2500 v. u. Z.)
 
 ![](../assets/burkholder_stierharfe-friedhof-ur-nachbau-2500vchr_s7.png){.r-stretch}
@@ -162,8 +75,8 @@ Front view of a bone flute made from the radius (wing bone) of a griffon vulture
 
 {{< video https://www.youtube.com/watch?v=dDRD3c-WAec width="100%" height="80%" >}}
 
-:::{style="font-size: 20px; margin-top: -60px"}
-### Geschichte der Gesangspädagogik I - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}:::{.notes}
+
+:::{.notes}
 This video is a performance of a Sumerian incantation and lament upon the death of the hero, GILGAMESH. For those who are interested, the translation and transliteration of the Sumerian cuneiform tablets can be found online at the University of Oxford website - The Electronic Text Corpus Of Sumerian Literature.
 
 “The Gold Lyre of Ur” was unearthed by archaeologist, Sir Leonard Woolley, in the 1920’s during his excavations in the Sumerian city of Ur, in modern day Iraq. Unfortunately, as you can see from the photo at the top of the video, there was little left of the lyre because the Sumerians simply put it into the ground 5000 years ago and covered it over with tons of earth. In the intervening millennia, everything that was degradable turned to dust, and only the imprint of the instrument was left, along with the stone mosaic decorations, the four vignettes made of shell, and the gold. 
@@ -306,29 +219,9 @@ Im klassischen griechischen Theater (wie im berühmten Theater von Epidaurus) wa
 
 ::::
 
-
-
-
-
-
-
 :::{style="font-size: 20px; margin-top: -30px"}
 Nachbildungen griechischer Tragödienmasken
 :::
-
-:::{.notes}
-- Schauspieler (alles Männer) trugen Masken. Alles Nachbildungen von Vasen, Amphoren
-
--   Die Maske gab ein starres, erschreckendes Aussehen.
-Die Individualität und Identität des Schauspielers wurde abgelegt.
-Sie vereinfachte dem Schauspieler das Rollenspiel.
-Eventuell zur akustischen Projektion.
-
-- Wie vorstellen? Wettbewerb dreier Tragödien hintereinander = mehrere Stunden. Leute aßen, sprachen, tranken währenddessen.
-
-:::
-
-
 
 
 
@@ -338,19 +231,6 @@ Eventuell zur akustischen Projektion.
 - Ab ca. 5. Jhd. v. u. Z.: Professionalisierung und erste "Gesangsschulen". (Etwa d. "**Dionysische Verein**")
 - Steigende technische Anforderungen an die Stimme: Projektion, Textverständlichkeit
 
-
-:::{.notes}
-
-1
-- Philosophen wie Platon und Aristoteles ordneten der Musik eine direkte Wirkung auf das Gemüt und den Charakter zu (Ethos-Lehre). Richtiges Singen sollte Tugend, Disziplin und innere Harmonie fördern.
-• Der „musikalische Mensch“: Wer nicht singen und kein Saiteninstrument (wie die Lyra) spielen konnte, galt als ungebildet.
-• Methodik: Der Unterricht erfolgte rein mündlich und empirisch durch Nachahmung und ständige Wiederholung (Mimesis).
-
-2
-• *Die dionysischen Gilden:* Da die Laienchöre diesen Ansprüchen nicht mehr genügten, gründeten sich professionelle Vereinigungen. Um 500 v. Chr. entstand in Athen der Dionysische Verein. Diese Gilde bildete Schauspieler, Sänger und Musiker gezielt aus und gilt in der Forschung als die erste institutionalisierte Form einer Gesangspädagogik laut Wikipedia.
-
-Die dionysischen Vereine (historisch vor allem als dionysische Techniten bekannt) waren im antiken Griechenland und im Hellenismus berufsständische Vereinigungen von Künstlern und Mitwirkenden des Theaters und Kults.  
-:::
 
 #### Akustik: Theater von Epidauros
 
@@ -394,7 +274,7 @@ Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente 
 
 #### Claudius Galenus (129-199 u. Z.)
 
-![](../assets/fehlow_galenus_s10.png)
+![](../assets/fehlow_galenus_s10.png){.r-stretch}
 
 
 :::{.notes}

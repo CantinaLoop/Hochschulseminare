@@ -1,0 +1,456 @@
+---
+title: Geschichte III + Akustik IV
+subtitle: Didaktik/Methodik Gesang
+author: Julian Popken
+institute: HMTM Hannover
+date: 24 11 2026
+date-format: "DD.MM.YYYY"
+from: markdown+emoji
+#validate-yaml: true
+#citeproc: true
+bibliography: ../references.bib
+    #monografien: monografien.bib
+    #medien: medien.bib
+format: 
+   revealjs:
+       lang: de-DE
+       title-slide-attributes:
+         #data-background-color: "#0FA3B1"
+         data-footer: Test
+         data-background-image: "../assets/degas_la-repetition-de-chant_1877.png"
+         data-background-size: "cover"
+         data-background-opacity: "0.4"
+       #width: 1920
+       #height: 1020
+       slide-number: c
+       slide-level: 4
+       sc-sb-title: true
+       chalkboard: false
+         #buttons: false
+       lightbox: true
+       #subtitle-as-header: true
+       #navigation-mode: vertical
+       controls-layout: bottom-right
+       controls-tutorial: true
+       toc: true
+       toc-depth: 2
+       toc-title: Inhalt
+       theme: hmtmh
+       #transition: slide
+       #transition-speed: fast
+       background-transition: fade
+       incremental: true
+       logo: ../assets/00-HMTMH-Logo-1.png
+       footer: Geschichte III + Akustik IV | 24.11.2026 | Julian Popken
+       footer-logo-link: https://hmtm-hannover.de
+       #header: Einführung Didaktik/Methodik
+       #header-logo: ../assets/00-HMTMH-Logo-1.png
+       #header-logo-link: https://hmtm-hannover.de
+       auto-stretch: true
+       #center: true
+       #cap-location: margin
+       #link-external-icon: true
+       link-external-newwindow: true
+       reference-location: document
+       
+reveal-plugins:
+  - RevealConfetti
+  - editable
+filters:
+  - reveal-header
+  - confetti
+  - editable
+  #- multibib
+---
+
+## Wiederholung {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+### Geschichte II - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+#### Griechische Tragödie
+
+![](https://www.readersdigest.de/cdn/shop/articles/Theater_von_Epidauros_in_Griechenland_Peloponnes_1080x.jpg?v=1660901731){.r-stretch}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Theater von Epidauros, ca. 400 v. u. Z., Platz für 14.000 Zuschauer
+:::
+
+:::{.notes}
+- Ursprünglich Feiern zu Ehren des Gottes Dionysos (Wein)
+- Dionysoskult zum Staatskult erhoben - Große Dionysien als jährliches großes Fest
+- Gesungen, getanzt, Böcke geopfert - Tragos (Bock, Ziegenbock) und ode (Gesang) "Bocksgesang"
+- 534 v. Chr. erste Tragödie v. Thespis(singendem und tanzenden Chor wird ein Schauspieler gegenübergestellt)
+- später 2 Aischylos, dann 3 Sophokles
+- Chor spielt zentrale Rolle: Kommentierend, singend, tanzend in verschiedenen Formationen
+Im klassischen griechischen Theater (wie im berühmten Theater von Epidaurus) war der Chor das Herzstück. Die Sänger standen in der kreisförmigen Orchestra (dem Tanzplatz) und kommentierten singend und tanzend das Geschehen auf der Bühne.
+
+- Die Orchestra: ursprünglich Raum zum Tanzen/Singen um Altar von Dionysos, später Auftrittsraum für Chor und Schauspieler
+:::
+
+#### 
+
+::::{.columns}
+
+:::{.column width="50%" .fragment}
+![](https://a.1stdibscdn.com/greek-tragedy-black-terracotta-mask-france-1950s-for-sale/1121189/f_352846721689862228515/35284672_datamatics.jpg)
+:::
+
+:::{.column width="50%" .fragment .absolute top=150 right=20}
+![](https://ifigeneiaceramics.com/cdn/shop/files/Greek_Theater_Tragedy_Mask_Relief_terracotta_wall_Decor_24x20cm_2_1024x1024.jpg?v=1744998961)
+:::
+
+::::
+
+
+
+
+
+
+
+:::{style="font-size: 20px; margin-top: -30px"}
+Nachbildungen griechischer Tragödienmasken
+:::
+
+:::{.notes}
+- Schauspieler (alles Männer) trugen Masken. Alles Nachbildungen von Vasen, Amphoren
+
+-   Die Maske gab ein starres, erschreckendes Aussehen.
+Die Individualität und Identität des Schauspielers wurde abgelegt.
+Sie vereinfachte dem Schauspieler das Rollenspiel.
+Eventuell zur akustischen Projektion.
+
+- Wie vorstellen? Wettbewerb dreier Tragödien hintereinander = mehrere Stunden. Leute aßen, sprachen, tranken währenddessen.
+
+:::
+
+
+
+
+
+#### Musikverständnis griech. Antike bis 5. Jhd. v. u. Z.
+
+- Musik als untrennbare Einheit von Wort, Ton und Tanz. Lehre als Ethos.
+- Ab ca. 5. Jhd. v. u. Z.: Professionalisierung und erste "Gesangsschulen". (Etwa d. "**Dionysische Verein**")
+- Steigende technische Anforderungen an die Stimme: Projektion, Textverständlichkeit
+
+
+:::{.notes}
+
+1
+- Philosophen wie Platon und Aristoteles ordneten der Musik eine direkte Wirkung auf das Gemüt und den Charakter zu (Ethos-Lehre). Richtiges Singen sollte Tugend, Disziplin und innere Harmonie fördern.
+• Der „musikalische Mensch“: Wer nicht singen und kein Saiteninstrument (wie die Lyra) spielen konnte, galt als ungebildet.
+• Methodik: Der Unterricht erfolgte rein mündlich und empirisch durch Nachahmung und ständige Wiederholung (Mimesis).
+
+2
+• *Die dionysischen Gilden:* Da die Laienchöre diesen Ansprüchen nicht mehr genügten, gründeten sich professionelle Vereinigungen. Um 500 v. Chr. entstand in Athen der Dionysische Verein. Diese Gilde bildete Schauspieler, Sänger und Musiker gezielt aus und gilt in der Forschung als die erste institutionalisierte Form einer Gesangspädagogik laut Wikipedia.
+
+Die dionysischen Vereine (historisch vor allem als dionysische Techniten bekannt) waren im antiken Griechenland und im Hellenismus berufsständische Vereinigungen von Künstlern und Mitwirkenden des Theaters und Kults.  
+:::
+
+#### Akustik: Theater von Epidauros
+
+<iframe width="100%" height="80%" src="https://www.youtube.com/embed/g7sYicYfPrs?si=z41-ImUMIwT-74yz&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[Youtube: Rick Steve's Europe]
+:::
+
+:::{.notes}
+- Kalksteine als Hochpassfilter
+:::
+
+#### Phonasken
+
+- Einzahl: Phonaske, von griechisch "phonaskéō = die Stimme üben"
+- Stimmlehrer und Rhetoriktrainer der griechisch-römischen Antike
+- Allgemeinbildung (!) durch regelmäßige Atem-, Deklamations- und Gesangsübungen
+
+:::{.notes}
+Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente Redner oder Schauspieler oft von einem Phonasken zu ihren Auftritten begleiten, um die Kehle zu schonen und die Tonhöhe zu kontrollieren. Vom römischen Politiker Gaius Gracchus ist beispielsweise bekannt, dass hinter ihm ein Sklave stand, der ihm mit einer Flöte oder Pfeife das richtige Register anzeigte.
+
+- Steinplatte auf Brust
+
+- 
+:::
+
+### Akustik II {background-color="#0FA3B1"}
+
+#### 
+
+![](../assets/Physikalische Grundlagen 02.png)
+
+<span style="font-size: 20px">Quelle: Hall, Donald E.: <em>Musikalische Akustik. Ein Handbuch.</em> Main, 1997.</span>
+
+#### Amplitude
+
+- Maß der Auslenkung = Schalldruck
+- Angegeben in Dezibel (**dB**) = Logarithmischer Maßstab
+
+<br>
+
+- Orchesterfortissimo: 90 - 100 dB
+- Orchesterpianissimo: 40 - 45 dB
+- OpernsängerIn: bis 105 dB (Formanten)
+
+:::{.notes}
+Logarithmischer Maßstab (Logarithmus: die Zahl mit der man eine Basiszahl potenzieren
+muss, um die vorgegebene Zahl Numerus zu erhalten).
+:::
+
+#### Wellenlänge (**λ**)
+
+- Abstand zwischen zwei Wellenhügeln (Druck- oder Verdichtungsmaxima).
+- Je größer die Wellenlänge, desto tiefer der Ton.
+
+. . .
+
+$$
+Wellenlänge = \frac{Schallgeschwindigkeit}{Frequenz}
+$$
+
+. . .
+
+$$
+λ = \frac{c}{f}
+$$
+
+#### Frequenz (**f**)
+
+- Anzahl der Druckschwankungen bzw. Schwingungen pro Sekunde.
+- Gemessen in **Hertz** (=Hz).
+- Abhängig von Wellenlänge **λ** und Schallgeschwindigkeit **c** 
+- Berechnung bei trockener Luft, 20°C:
+
+. . .
+
+$$
+f = \frac{c}{λ}
+$$
+
+#### Frequenzbeispiele
+
+![](../assets/Physikalische Grundlagen 04.png)
+
+#### Ausnutzung von Hörgrenzen
+
+<iframe data-preload class="r-stretch" src="../assets/Mosquito Flyer (D) Stand 3 2025 DIGI.pdf"></iframe>
+
+<span style="font-size: 20px">Quelle: <span>[Antivandalismus.de](https://www.antivandalismus.de/)</span>
+
+#### Schallgeschwindigkeit (**c**)
+
+- Fortpflanzungsgeschwindigkeit, mit der sich Druckschwankungen über den Luftraum ausbreiten.
+- In der Luft u. a. abhängig von der Temperatur, **c** nimmt bei ansteigender Temperatur zu. (Beispiel Freiluftaufführungen, etwa über einem Gewässer.)
+
+#### Schallgeschwindigkeit in verschiedenen Medien
+
+![](../assets/Physikalische Grundlagen 06.png){width="35%"}
+
+#### Kammerton {.smaller} 
+
+. . .
+
+a' = **440 Hz** 
+
+- Festgelegt 1939 auf der Internationalen Stimmtonkonferenz in London. 
+- Früher Abgrenzung Kammerton zu Chor-/Orgelton. 
+- Orchesterstimmton 443 Hz (Deutschland/Österreich), 442 Hz (Schweiz/Italien )
+- Übliche, historisch orientierte Stimmtöne: 
+    - 415 Hz (Barock) 
+    - 430 Hz (Klassik) 
+    - 438 Hz (Romantik)
+
+- Tendenz geht in Richtung zunehmend höherer Stimmtöne (Brillanz Streicher u. a.)
+- Zu schnelle Entwicklung für die menschliche Stimme. 
+- Fortwährende Evolution Richtung tiefere Stimme?
+
+#### Überlagerung von (Schall-)Wellen (Interferenz)
+
+- **Achtung**: Grafische Darstellung von Longitudinalwellen (Schall) in der Regel als Transversalwelle!
+
+- Verschiedene Schallwellen stören sich nicht, sondern addieren sich zu einer neuen Schallwelle.
+
+#### Überlagerung von Teiltönen zu einem Klang
+
+![](../assets/Physikalische Grundlagen 05.png){.r-stretch .lightbox}
+
+## Akustik III
+
+#### Unterschied Ton, Klang, Geräusch
+
+{{< video https://www.youtube.com/watch?v=8fwpYBSM-JA width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+physikdigital • de, Reg. Was ist der Unterschied zwischen einem Ton, einem Klang und einem Geräusch. 2018.
+^[physikdigital • de, Reg. Was ist der Unterschied zwischen einem Ton, einem Klang und einem Geräusch (physikdigital.de). 2018. 1:34. https://www.youtube.com/watch?v=8fwpYBSM-JA.]
+:::
+
+#### {.smaller}
+
+**Ton**
+
+- Einzelne Schwingung ohne weitere Überlagerung von Teilschwingungen. Oft als (künstlich erzeugte) Sinusschwingung dargestellt.
+
+. . .
+
+**Klang**
+
+- Komplexe Überlagerung mehrerer Einzelschwingungen. Im Vergleich zur Sinusschwingung komplexere Wellenform, aber regelmäßig (**Periodizität**).
+
+. . .
+
+**Geräusch**
+
+- Komplexe Überlagerung von Einzelschwingungen in "chaotischem" Muster. **Keine** Periodizität in Wellenlänge, Frequenz etc.
+
+####
+
+{{< video https://www.youtube.com/watch?v=3JUvuLpnedk width="100%" height="80%" >}}
+
+:::{style="font-size: 20px; margin-top: -60px"}
+F. KTM - HLS Hannover, Reg. Akustik: Der Unterschied zwischen Ton, Klang und Geräusch. Was ist Klangfarbe? 2021.
+^[F. KTM - HLS Hannover, Reg. Akustik: Der Unterschied zwischen Ton, Klang und Geräusch. Was ist Klangfarbe? 2021. 3:28. https://www.youtube.com/watch?v=3JUvuLpnedk.
+]
+:::
+
+
+
+#### Resonanz {.smaller}
+
+- _sonare_ = klingen, schwingen
+- _resonare_ = widerklingen, mitschwingen
+
+- Ein elastischer Körper wird von einem anderen, schwingenden Medium zur Schwingung angeregt. 
+- Besonders stark, wenn externe Schwingung der **Eigenfrequenz** entspricht.
+
+. . .
+
+Beispiele:
+
+- Akustik: Ansatzraum, Luft im Bronchialraum, Knochen+Gewebe, Klaviersaite, Snare (Drumset)
+- Mechanik: Kinderschaukel, Suppenteller auf Tablett
+
+#### Primärschall
+
+- Schallsignal, das direkt oberhalb der Stimmlippen entsteht.
+
+- Vergleich: Trompetenmundstück ohne Korpus.
+
+- Ziel im klassischen Gesang: Möglichst komplexes (u. a. grund-/obertonreiches) Signal.
+
+- Schall-/Vibrationsempfindungen im Körper während der Phonation (z. B. im Brustkorb) **sekundäre** Schwingungen.
+
+:::{.notes}
+Bei der Stimmbildung versetzt die aus der Lunge strömende Luft die Stimmlippen in Schwingung. Dabei schließen sich die beiden Stimmlippen in der Mittellinie (Adduktion) und die Luft strömt durch den schmalen Spalt, die Rima glottidis. Der entstehende Unterdruck nach dem Bernoulli-Prinzip führt zum rhythmischen Öffnen und Schließen der Stimmlippen, wodurch periodische Druckwellen erzeugt werden. Hierbei handelt es sich um den sogenannten Primärschall.
+
+Dieser Primärschall wird anschließend durch die Resonanzräume des Rachens, des Mundes und der Nasenhöhle moduliert und als artikulierter Laut wahrgenommen. Die Tonhöhe ergibt sich aus der Spannung, Länge und Masse der Stimmlippen. Sie wird beeinflusst durch muskuläre Aktivität, vor allem durch den Musculus cricothyroideus und den Musculus vocalis.
+:::
+
+#### Resonanzräume {.smaller}
+
+- **Klangformung** im Wesentlichen in allen Räumen oberhalb der Stimmlippen zu äußeren Lippen
+   - Larynxeingang, Pharynxschlauch, Mundhöhle/Zunge, Lippen
+   - Nasenraum? (außer bei Nasalen durch Gaumensegel und Passavant'schen Wulst verschlossen)
+
+- Durchschnittliche **Länge**: Männer ca. 17,5 cm, Frauen ca. 15 cm
+
+- Uneinheitliche **Benennung**: Vokaltrakt, Ansatzräume, Ansatzrohr, Artikulations- / Resonanzraum ...
+
+- Sollen Orte empfundener sekundärer Schwingung (Brustkorb, "Vordersitz", "Maske") zu Resonanzräumen gezählt werden?
+
+#### Resonanzräume
+
+![](../assets/Resonanzräume (Richter).png)
+
+#### Vokaltrakt in 3D
+
+![](../assets/Vokaltrakt%20(Richter).png)
+
+#### Resonanzräume ggü. Vibrationsempfindung
+
+. . .
+
+::::{.columns}
+
+:::{.column width="50%"}
+![](../assets/Resonanz - Resonanzräume (DTV-Atlas).png){width="50%"}
+:::
+
+:::{.column width="50%" .fragment}
+![](../assets/Resonanz - Vibrationsempfinden (Husler, Rodd-Marling).png)
+:::
+
+::::
+
+#### Vibrationsempfindung (Lilli Lehmann 1913)
+
+![](../assets/Resonanz - Vibrationsempfinden (Lehmann).png)
+
+#### Teiltöne, Partialtöne, Obertöne
+
+- Durch Reflexionen entstehen Überlagerungen. Eine Saite oder Stimmlippe schwingt gleichzeitig nicht nur in der vollen Länge, sondern auch in der Hälfte, im Drittel etc.
+
+- U. a. dadurch entstehen die **Teiltöne**, auch Partialtöne (inklusive des Grundtons!) oder Obertöne genannt.
+
+#### Teilton-/Obertonreihe
+
+![](../assets/Obertonreihe.png){width="80%"}
+
+- Bei der Zählung beachten: Der Grundton ist 1. Teilton, aber nicht 1. Oberton (sondern quasi „nullter“= F0, Grundtonfrequenz). 
+
+- Obertöne sind alle Töne oberhalb des Grundtons. Die Nummerierung der Obertöne ist daher immer um 1 niedriger als die der Teiltöne.
+
+
+#### Faktoren für Anzahl/Ausprägung der Obertöne
+
+- F0: Frequenz des Grundtons (=Grundfrequenz)
+- Amplitude/Lautstärke
+- Register auf Larynxebene (Voll-/Randstimme, Falsett etc.)
+- Stimmschluss (Schlussquotient u. a.)
+- Unterschiede Frauen-/Männerstimme?
+
+#### Software-Empfehlung für Visualisierung der Stimme
+
+- KTH Stockholm:
+   - RTSect (Schallspektrum)
+   - Madde (Stimmsynthesizer)
+
+. . .
+
+Download kostenfrei unter [www.tolvan.com](www.tolvan.com)
+
+#### Spektografie Bariton [a] 200 Hz (RTsect)
+
+![](../assets/Rtsect%20A%20Bariton%20(Richter).png)
+
+#### Formanten
+
+- Vokaltrakt: "Resonator mit Filterwirkung" (Richter 2012)
+- Überträgt bestimmte Frequenzen besser als andere.
+- Amplitude der Obertöne nahe der Resonanzfrequenzen besonders groß. 
+- Diese Vokaltraktresonanzen werden **Formanten** (lat. _formans_ = bildend) genannt.
+   - Spitzen / Peaks akustischer Energie
+
+#### Wichtigste Formanten des Ansatzrohrs
+
+- Fünf **Formanten F1-F5** für den menschlichen  Stimmklang relevant.
+   - **F1** und **F2**: Erkennbarkeit und Qualität der Vokale (**Vokalformanten**).
+   - **F3 - F5**: Timbre (persönlicher Stimmklang) und **Tragfähigkeit** der Stimme.
+
+- Die Formantfrequenzen sind von der **Länge** und **Weite** des Ansatzrohres abhängig. 
+
+- Besonders die Weite ist stark abhängig von Kiefer- und Lippenöffnung sowie Zungenform.
+
+#### Vokalformanten F1 + F2
+
+![](../assets/Vokalformanten%20(Richter).png)
+
+#### Fragen?
+
+![](../assets/Omega.jpg)
+
+#### Quellen/Medien
