@@ -25,8 +25,9 @@ format:
        slide-number: c
        slide-level: 4
        sc-sb-title: true
-       chalkboard: false
-         #buttons: false
+       chalkboard:
+         buttons: false
+         theme: whiteboard
        lightbox: true
        #subtitle-as-header: true
        #navigation-mode: vertical
@@ -65,220 +66,7 @@ filters:
 
 ## Wiederholung {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
 
-### Geschichte II - Antike {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
-
-#### Griechische Tragödie
-
-![](https://www.readersdigest.de/cdn/shop/articles/Theater_von_Epidauros_in_Griechenland_Peloponnes_1080x.jpg?v=1660901731){.r-stretch}
-
-:::{style="font-size: 20px; margin-top: -30px"}
-Theater von Epidauros, ca. 400 v. u. Z., Platz für 14.000 Zuschauer
-:::
-
-:::{.notes}
-- Ursprünglich Feiern zu Ehren des Gottes Dionysos (Wein)
-- Dionysoskult zum Staatskult erhoben - Große Dionysien als jährliches großes Fest
-- Gesungen, getanzt, Böcke geopfert - Tragos (Bock, Ziegenbock) und ode (Gesang) "Bocksgesang"
-- 534 v. Chr. erste Tragödie v. Thespis(singendem und tanzenden Chor wird ein Schauspieler gegenübergestellt)
-- später 2 Aischylos, dann 3 Sophokles
-- Chor spielt zentrale Rolle: Kommentierend, singend, tanzend in verschiedenen Formationen
-Im klassischen griechischen Theater (wie im berühmten Theater von Epidaurus) war der Chor das Herzstück. Die Sänger standen in der kreisförmigen Orchestra (dem Tanzplatz) und kommentierten singend und tanzend das Geschehen auf der Bühne.
-
-- Die Orchestra: ursprünglich Raum zum Tanzen/Singen um Altar von Dionysos, später Auftrittsraum für Chor und Schauspieler
-:::
-
-#### 
-
-::::{.columns}
-
-:::{.column width="50%" .fragment}
-![](https://a.1stdibscdn.com/greek-tragedy-black-terracotta-mask-france-1950s-for-sale/1121189/f_352846721689862228515/35284672_datamatics.jpg)
-:::
-
-:::{.column width="50%" .fragment .absolute top=150 right=20}
-![](https://ifigeneiaceramics.com/cdn/shop/files/Greek_Theater_Tragedy_Mask_Relief_terracotta_wall_Decor_24x20cm_2_1024x1024.jpg?v=1744998961)
-:::
-
-::::
-
-
-
-
-
-
-
-:::{style="font-size: 20px; margin-top: -30px"}
-Nachbildungen griechischer Tragödienmasken
-:::
-
-:::{.notes}
-- Schauspieler (alles Männer) trugen Masken. Alles Nachbildungen von Vasen, Amphoren
-
--   Die Maske gab ein starres, erschreckendes Aussehen.
-Die Individualität und Identität des Schauspielers wurde abgelegt.
-Sie vereinfachte dem Schauspieler das Rollenspiel.
-Eventuell zur akustischen Projektion.
-
-- Wie vorstellen? Wettbewerb dreier Tragödien hintereinander = mehrere Stunden. Leute aßen, sprachen, tranken währenddessen.
-
-:::
-
-
-
-
-
-#### Musikverständnis griech. Antike bis 5. Jhd. v. u. Z.
-
-- Musik als untrennbare Einheit von Wort, Ton und Tanz. Lehre als Ethos.
-- Ab ca. 5. Jhd. v. u. Z.: Professionalisierung und erste "Gesangsschulen". (Etwa d. "**Dionysische Verein**")
-- Steigende technische Anforderungen an die Stimme: Projektion, Textverständlichkeit
-
-
-:::{.notes}
-
-1
-- Philosophen wie Platon und Aristoteles ordneten der Musik eine direkte Wirkung auf das Gemüt und den Charakter zu (Ethos-Lehre). Richtiges Singen sollte Tugend, Disziplin und innere Harmonie fördern.
-• Der „musikalische Mensch“: Wer nicht singen und kein Saiteninstrument (wie die Lyra) spielen konnte, galt als ungebildet.
-• Methodik: Der Unterricht erfolgte rein mündlich und empirisch durch Nachahmung und ständige Wiederholung (Mimesis).
-
-2
-• *Die dionysischen Gilden:* Da die Laienchöre diesen Ansprüchen nicht mehr genügten, gründeten sich professionelle Vereinigungen. Um 500 v. Chr. entstand in Athen der Dionysische Verein. Diese Gilde bildete Schauspieler, Sänger und Musiker gezielt aus und gilt in der Forschung als die erste institutionalisierte Form einer Gesangspädagogik laut Wikipedia.
-
-Die dionysischen Vereine (historisch vor allem als dionysische Techniten bekannt) waren im antiken Griechenland und im Hellenismus berufsständische Vereinigungen von Künstlern und Mitwirkenden des Theaters und Kults.  
-:::
-
-#### Akustik: Theater von Epidauros
-
-<iframe width="100%" height="80%" src="https://www.youtube.com/embed/g7sYicYfPrs?si=z41-ImUMIwT-74yz&amp;start=47" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-
-
-
-:::{style="font-size: 20px; margin-top: -30px"}
-[Youtube: Rick Steve's Europe]
-:::
-
-:::{.notes}
-- Kalksteine als Hochpassfilter
-:::
-
-#### Phonasken
-
-- Einzahl: Phonaske, von griechisch "phonaskéō = die Stimme üben"
-- Stimmlehrer und Rhetoriktrainer der griechisch-römischen Antike
-- Allgemeinbildung (!) durch regelmäßige Atem-, Deklamations- und Gesangsübungen
-
-:::{.notes}
-Kontrolle beim Auftritt: Historischen Berichten zufolge ließen sich prominente Redner oder Schauspieler oft von einem Phonasken zu ihren Auftritten begleiten, um die Kehle zu schonen und die Tonhöhe zu kontrollieren. Vom römischen Politiker Gaius Gracchus ist beispielsweise bekannt, dass hinter ihm ein Sklave stand, der ihm mit einer Flöte oder Pfeife das richtige Register anzeigte.
-
-- Steinplatte auf Brust
-
-- 
-:::
-
-### Akustik II {background-color="#0FA3B1"}
-
-#### 
-
-![](../assets/Physikalische Grundlagen 02.png)
-
-<span style="font-size: 20px">Quelle: Hall, Donald E.: <em>Musikalische Akustik. Ein Handbuch.</em> Main, 1997.</span>
-
-#### Amplitude
-
-- Maß der Auslenkung = Schalldruck
-- Angegeben in Dezibel (**dB**) = Logarithmischer Maßstab
-
-<br>
-
-- Orchesterfortissimo: 90 - 100 dB
-- Orchesterpianissimo: 40 - 45 dB
-- OpernsängerIn: bis 105 dB (Formanten)
-
-:::{.notes}
-Logarithmischer Maßstab (Logarithmus: die Zahl mit der man eine Basiszahl potenzieren
-muss, um die vorgegebene Zahl Numerus zu erhalten).
-:::
-
-#### Wellenlänge (**λ**)
-
-- Abstand zwischen zwei Wellenhügeln (Druck- oder Verdichtungsmaxima).
-- Je größer die Wellenlänge, desto tiefer der Ton.
-
-. . .
-
-$$
-Wellenlänge = \frac{Schallgeschwindigkeit}{Frequenz}
-$$
-
-. . .
-
-$$
-λ = \frac{c}{f}
-$$
-
-#### Frequenz (**f**)
-
-- Anzahl der Druckschwankungen bzw. Schwingungen pro Sekunde.
-- Gemessen in **Hertz** (=Hz).
-- Abhängig von Wellenlänge **λ** und Schallgeschwindigkeit **c** 
-- Berechnung bei trockener Luft, 20°C:
-
-. . .
-
-$$
-f = \frac{c}{λ}
-$$
-
-#### Frequenzbeispiele
-
-![](../assets/Physikalische Grundlagen 04.png)
-
-#### Ausnutzung von Hörgrenzen
-
-<iframe data-preload class="r-stretch" src="../assets/Mosquito Flyer (D) Stand 3 2025 DIGI.pdf"></iframe>
-
-<span style="font-size: 20px">Quelle: <span>[Antivandalismus.de](https://www.antivandalismus.de/)</span>
-
-#### Schallgeschwindigkeit (**c**)
-
-- Fortpflanzungsgeschwindigkeit, mit der sich Druckschwankungen über den Luftraum ausbreiten.
-- In der Luft u. a. abhängig von der Temperatur, **c** nimmt bei ansteigender Temperatur zu. (Beispiel Freiluftaufführungen, etwa über einem Gewässer.)
-
-#### Schallgeschwindigkeit in verschiedenen Medien
-
-![](../assets/Physikalische Grundlagen 06.png){width="35%"}
-
-#### Kammerton {.smaller} 
-
-. . .
-
-a' = **440 Hz** 
-
-- Festgelegt 1939 auf der Internationalen Stimmtonkonferenz in London. 
-- Früher Abgrenzung Kammerton zu Chor-/Orgelton. 
-- Orchesterstimmton 443 Hz (Deutschland/Österreich), 442 Hz (Schweiz/Italien )
-- Übliche, historisch orientierte Stimmtöne: 
-    - 415 Hz (Barock) 
-    - 430 Hz (Klassik) 
-    - 438 Hz (Romantik)
-
-- Tendenz geht in Richtung zunehmend höherer Stimmtöne (Brillanz Streicher u. a.)
-- Zu schnelle Entwicklung für die menschliche Stimme. 
-- Fortwährende Evolution Richtung tiefere Stimme?
-
-#### Überlagerung von (Schall-)Wellen (Interferenz)
-
-- **Achtung**: Grafische Darstellung von Longitudinalwellen (Schall) in der Regel als Transversalwelle!
-
-- Verschiedene Schallwellen stören sich nicht, sondern addieren sich zu einer neuen Schallwelle.
-
-#### Überlagerung von Teiltönen zu einem Klang
-
-![](../assets/Physikalische Grundlagen 05.png){.r-stretch .lightbox}
-
-## Akustik III
+### Akustik III
 
 #### Unterschied Ton, Klang, Geräusch
 
@@ -309,7 +97,7 @@ physikdigital • de, Reg. Was ist der Unterschied zwischen einem Ton, einem Kla
 
 ####
 
-{{< video https://www.youtube.com/watch?v=3JUvuLpnedk width="100%" height="80%" >}}
+{{< video https://www.yohttp://localhost:4830/2026-11-24-geschichte3-akustik4/index.html#/section-1utube.com/watch?v=3JUvuLpnedk width="100%" height="80%" >}}
 
 :::{style="font-size: 20px; margin-top: -60px"}
 F. KTM - HLS Hannover, Reg. Akustik: Der Unterschied zwischen Ton, Klang und Geräusch. Was ist Klangfarbe? 2021.
@@ -388,7 +176,260 @@ Dieser Primärschall wird anschließend durch die Resonanzräume des Rachens, de
 
 #### Vibrationsempfindung (Lilli Lehmann 1913)
 
-![](../assets/Resonanz - Vibrationsempfinden (Lehmann).png)
+![](../assets/Resonanz - Vibrationsempfinden (Lehmann).png){.r-stretch}
+
+## Geschichte der Gesangspädagogik III - Mittelalter {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+#### Ergänzung Antike
+
+::::{.columns}
+
+:::{.column width="40%"}
+![](../assets/fehlow_galenus_s10.png)
+
+:::{style="font-size: 20px; margin-top: -40px"}
+[Claudius Galenus (129-199 u. Z.)]()
+:::
+:::
+
+:::{.column width="4%"}
+
+:::
+
+:::{.column width="48%" .fragment style="font-size: 0.75em;"}
+- Griechischer Anatom, Arzt u. a. in Pergamon, später Rom
+- Zunächst u. a. Gladiatorenarzt, später Leibarzt römischer Kaiser (Mark Aurel, Lucius Verus, Commodus u.a.)
+- Kehlkopfstudien durch Tiersektionen: Prägt Begriff der *Glottis*
+- [*Glottis*]{style="color: red;"} [= Spalt zwischen den beiden Stimmlippen]{.fragment} 
+:::
+
+::::
+
+:::{.notes}
+- War das Wissen um die physiologischen Vorgänge bei der Stimmgebung in der Antike noch reichlich verschwommen, so begründete erst im 2. Jahrhundert n. Chr. Claudius Galenus (129-199 n. Chr.) (Abb. 1), „der aus Griechenland stammende Leibarzt des römischen Kaisers Marcus Aurelius, die Wissenschaft vom Kehlkopf durch eine Beschreibung der  Stimmbänder, dem bei der Öffnung der Stimmlippen gebildeten Spalt hat er den Namen Glottis gegeben.“2
+:::
+
+
+
+
+#### Definition Europäisches "Mittelalter"
+
+::::{.columns}
+
+:::{.column width="48%"}
+- Grobe Zeitspanne 500-1500 u. Z.
+
+- Wertende Bezeichnung als *medium aevum* erst später ab der Renaissance
+
+- Europäische Perspektive!
+:::
+
+:::{.column width="4%"}
+:::
+
+:::{.column width="48%"}
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_Janvier.jpg/960px-Les_Tr%C3%A8s_Riches_Heures_du_duc_de_Berry_Janvier.jpg?utm_source=de.wikipedia.org&utm_campaign=index&utm_content=thumbnail){width="65%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[1412-1416](https://de.wikipedia.org/wiki/Tr%C3%A8s_Riches_Heures)
+:::
+:::
+
+::::
+
+#### Sekundärliteratur
+
+::::{.columns}
+
+:::{.column width="35%"}
+![](https://m.media-amazon.com/images/I/61-zPo8F64L._AC_UF894,1000_QL80_.jpg)
+
+:::{style="font-size: 20px; margin-top: -30px"}
+[@grout2019]
+:::
+:::
+
+:::{.column width="20%"}
+:::
+
+:::{.column width="35%"}
+![](https://m.media-amazon.com/images/I/91r1fQFQiwL._SL1500_.jpg)
+
+:::{style="font-size: 20px; margin-top: -30px"}
+([Tuchman 1980]())
+:::
+:::
+
+::::
+
+#### Cantus Romanus (4. bis 9. Jahrhundert)
+
+- Einstimmiger, zunächst unbegleiteter liturgischer Gesang der frühen christlich-römischen Kirche.
+- Überwiegend solistisch vorgetragen, später *responsorisch* und *antiphonal*
+- Lateinische Texte, überwiegend aus der Bibel und den Psalmen.
+- Tief verwurzelt in der jüdischen Tradition (Jubilus, Melismatik)
+
+:::{.notes}
+Zentrale Einflüsse aus dem Judentum
+
+In den ersten christlichen Jahrhunderten entstanden unter den Einflüssen der jüdischen Ritualmusik einfache Melodien; deren Vortrag blieb meist auf Solisten beschränkt, die in der Lage waren, alle Verse eines Psalmes in einem Zug vorzutragen. Diese Gesänge waren meist syllabisch, es wurden vereinzelt aber auch schon Melismen verwendet. Am Ende des 4. Jahrhunderts begann die Gemeinde mit einfachen, kurzen Gesängen auf die solistischen Gesänge zu antworten (Responsorium). Mit der Entstehung von Mönchsorden gab es während der Gottesdienste viele Sänger, die die Psalmen auswendig kannten, so dass diese sich regelmäßig in zwei Chöre aufteilen konnten und abwechselnd sangen
+
+• Psalmodie (Psalmenvortrag): Das Singen und Rezitieren von Psalmen auf festen Rezitationstönen (Lektionstönen) mit einfachen Anfangs- und Schlussfloskeln stammt unmittelbar aus der jüdischen Gebetspraxis.
+• Responsorial- und Antiphonalgesang: Der Wechselgesang zwischen einem Vorsänger (Kantor) und der Gemeinde (responsorisch) oder zwischen zwei Chören (antiphonal) wurde aus der Synagoge in die römische Liturgie übertragen.
+• Kantillation (musikalische Textdeklamation): Die Art, heilige Texte in einem erhöhten, melodischen Sprechgesang vorzutragen, um den Sinn der Worte hervorzuheben, geht auf die jüdische Schriftlesung zurück.
+• Jubilus und Melismen: Ausgedehnte Tonfolgen auf einer einzelnen Silbe – besonders beim hebräischen Ausruf Halleluja – haben Vorbilder in den ekstatischen Lobgesängen der jüdischen Tradition.
+• Verzicht auf Instrumente: Nach der Zerstörung des Jerusalemer Tempels (70 n. Chr.) verzichtete der synagogale Gottesdienst aus Trauer weitgehend auf Musikinstrumente – ein Prinzip, das der Cantus Romanus mit seiner reinen Vokalmusik übernahm.
+:::
+
+
+#### Melismatik/Syllabik
+
+![](../assets/fehlow_alleluia-vokalise_s11.png)
+
+- *Melismatischer* Gesang: Mehrere Töne pro Silbe
+
+- *Syllabischer* Gesang: Ein Ton pro Silbe
+
+
+
+#### Gregorianischer Choral
+
+::::{.columns}
+
+:::{.column width="48%" style="font-size: 0.75em;"}
+- Zuschreibung an Papst Gregor I. "Der Große" (ca. 540-604) im 9. Jhd.
+- Eigentliche Komponisten und Bearbeiter nicht namentlich überliefert
+- Gregor I. zugeschrieben: Gründung der ersten päpstlichen *Schola Cantorum* (7 Mitglieder)
+:::
+
+:::{.column width="45%"}
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Gregory_I_-_Antiphonary_of_Hartker_of_Sankt_Gallen.jpg/960px-Gregory_I_-_Antiphonary_of_Hartker_of_Sankt_Gallen.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+
+:::{style="font-size: 20px; margin-top: -30px"}
+ca. 1000
+:::
+:::
+
+::::
+
+:::{.notes}
+• Späte Legendenbildung: Die Zuschreibung an Gregor den Großen taucht erst rund 200 Jahre nach seinem Tod auf. Besonders Johannes Diaconus prägte um 870 in seiner Gregor-Biografie das Bild des Papstes als Schöpfer der Gesänge (oft mit dem Motiv einer Taube, die ihm die Melodien eingibt).
+• Politischer Zweck im Frankenreich: Pippin und Karl der Große förderten die Vereinheitlichung der Liturgie nach römischem Vorbild. Die Verbindung zu einem berühmten römischen Papst verlieh dem Repertoire Autorität und Einheitlichkeit.
+• Anonyme Entstehung: Die eigentlichen Komponisten und Bearbeiter der Gesänge sind nicht namentlich überliefert; der Choral wuchs über Jahrhunderte durch mündliche Weitergabe und Bearbeitung.
+
+Was wirklich geschah
+
+• Römische Wurzeln: Um das 7./8. Jahrhundert existierte in Rom bereits ein liturgisches Repertoire (oft als altrömischer Choral bezeichnet) und eine Schola cantorum.
+• Fränkische Umgestaltung: Ab etwa der Mitte des 8. Jahrhunderts kamen römische Gesänge ins Frankenreich und wurden dort von fränkischen Kantoren umgeformt und weiterentwickelt. Im Vergleich zum altrömischen Repertoire wirkt der gregorianische Choral oft straffer und komprimierter.
+• Verschriftlichung: Erst ab dem 9. Jahrhundert setzte eine breitere schriftliche Überlieferung mit Neumen ein, die das Repertoire fixierte.
+:::
+
+#### Sänger- und Schreibschulen des mittelalterlichen Chorals
+
+![](../assets/fehlow-karte-singschulen-choral_s309.png){width="40%"}
+
+:::{style="font-size: 20px; margin-top: -30px"}
+@fehlow2009
+:::
+
+#### Neumen 
+
+- (griechisch νεῦμα *neuma*, deutsch ‚Wink‘)
+
+![](../assets/neumen.jpg){.fragment}
+
+
+
+:::{.notes}
+EINZELNE TÖNE ODER AUCH TONFOLGEN
+
+Der größte Unterschied der Neumen zu den Noten, die wir heute benutzen: ein Neumen-Zeichen kann nicht nur einen Ton darstellen, sondern auch eine Folge von zwei oder drei Tönen. Die Neumen-Schreiber des Mittelalters schöpften dazu aus einem großen Pool verschiedener Zeichen. Jedes dieser Zeichen steht für eine bestimmte Tonfolge: zum Beispiel gibt es eine spezielle Neume für die Folge Hochton – Tiefton – Hochton, oder eine andere für die Folge tief – höher – noch höher. Die exakte Tonhöhe zeigen die meisten Neumenschriften nicht an.
+MÜNDLICH VERSUS SCHRIFTLICH
+
+Warum aber begann man im 9. Jahrhundert, den gregorianischen Choral mit Neumen aufzuschreiben? Die liturgische Musik wurde im frühen Mittelalter mündlich weitergetragen: Die älteren Mönche unterrichteten die jüngeren und brachten ihnen alle Choräle bei. Eigentlich hätte man also diese Gesänge gar nicht aufzeichnen müssen – sie waren bekannt. Nun war es aber so, dass der Choral überall in Europa etwas anders gesungen wurde. Als die Karolinger im 9. Jahrhundert den größten Teil des Kontinents unter ihrer Herrschaft vereinten, wollten sie auch einen einheitlichen Gottesdienst einführen. Sie erklärten den römischen Ritus zur verbindlichen Form und schickten Mönche aus, ihn überall zu lehren.
+FÜR DIE EWIGKEIT NOTIERT
+
+Neuerlerntes bleibt nicht so leicht hängen wie das gewohnte – deshalb behalf man sich mit Melodiezeichen als Gedächtnisstütze. Die Neumen waren der Anstoß zu einem Phänomen, das es in dieser Form nur in Europa gibt: einer Musikpraxis, die bis heute auf dem scheinbar widersinnigen Unterfangen beruht, etwas so flüchtiges wie Töne durch Schriftzeichen einfangen zu wollen.
+:::
+
+#### Johanneshymnus in moderner Quadratnotation
+
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ut_queant_laxis_Gregorian_notation_Benedictine_tradition.gif/1920px-Ut_queant_laxis_Gregorian_notation_Benedictine_tradition.gif?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){.r-stretch}
+
+
+
+#### Guido von Arezzo (ca. 992-1050)
+
+::::{.columns}
+
+:::{.column width="50%" .fragment style="font-size: 0.75em;"}
+- Benediktinermönch und Musiktheoretiker
+- Hauptwerk *Micrologus de disciplina artis musicae* (Kirchentonarten und Intervalle)
+- Entwickelt Musiknotation basierend auf vier Linien im Terzabstand
+:::
+
+:::{.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/commons/5/53/Guido_van_Arezzo.jpg?utm_source=als.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
+:::
+
+::::
+
+:::{.notes}
+- Monochord
+:::
+
+
+
+
+
+
+#### Hexachorde
+
+- Grundlage/Tonvorrat zum Erlernen der gregorianischen Choräle
+
+- Folge von sechs Tönen von C, F oder G ausgehend
+- 2 Ganztonschritte, 1 Halbtonschritt, 2 Ganztonschritte 
+
+<br>
+
+- *hexachordum naturale* (natürliches Hexachord) C-D-E-F-G-A
+- *hexachordum molle* (weiches Hexachord) F-G-A-B-C-D
+- *hexachordum durum* (hartes Hexachord) G-A-H-C-D-E.
+
+#### Johanneshymnus in moderner Quadratnotation
+
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ut_queant_laxis_Gregorian_notation_Benedictine_tradition.gif/1920px-Ut_queant_laxis_Gregorian_notation_Benedictine_tradition.gif?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){.r-stretch}
+
+#### Solmisationssilben aus dem Johanneshymnus {.smaller}
+
+<br>
+
+| Tonsilbe             | Lateinischer Text       | Deutsche Übersetzung                 |
+| -------------------- | ----------------------- | ------------------------------------ |
+| **Ut** _(später Do)_ | **Ut** queant laxis     | Auf dass mit lockeren (Stimmbändern) |
+| **Re**               | **re**sonare fibris     | zum Klingen bringen können           |
+| **Mi**               | **Mi**ra gestorum       | die Wunder deiner Taten              |
+| **Fa**               | **fa**muli tuorum,      | deine Diener,                        |
+| **Sol**              | **Sol**ve polluti       | löse der befleckten                  |
+| **La**               | **la**bii reatum,       | Lippe Schuld,                        |
+| **Si** _(ergänzt)_   | **S**ancte **I**oannes. | Heiliger Johannes.                   |
+
+#### Guidonische Hand (Arezzo nur zugeschrieben)
+
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Guidonian_hand.jpg/960px-Guidonian_hand.jpg?utm_source=de.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail){.r-stretch}
+
+#### Moderne Darstellung
+
+![](https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Guidonischehand.gif/500px-Guidonischehand.gif?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail)
+
+
+
+
+
+
+## Praktische Methodik {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
+
+## Akustik IV {background-image="../assets/degas_la-repetition-de-chant_1877.png" background-opacity="0.4"}
 
 #### Teiltöne, Partialtöne, Obertöne
 
@@ -425,7 +466,7 @@ Download kostenfrei unter [www.tolvan.com](www.tolvan.com)
 
 #### Spektografie Bariton [a] 200 Hz (RTsect)
 
-![](../assets/Rtsect%20A%20Bariton%20(Richter).png)
+![](../assets/Rtsect%20A%20Bariton%20(Richter).png){.r-stretch}
 
 #### Formanten
 
@@ -435,7 +476,7 @@ Download kostenfrei unter [www.tolvan.com](www.tolvan.com)
 - Diese Vokaltraktresonanzen werden **Formanten** (lat. _formans_ = bildend) genannt.
    - Spitzen / Peaks akustischer Energie
 
-#### Wichtigste Formanten des Ansatzrohrs
+#### Wichtigste Formanten des Ansatzrohrs{.smaller}
 
 - Fünf **Formanten F1-F5** für den menschlichen  Stimmklang relevant.
    - **F1** und **F2**: Erkennbarkeit und Qualität der Vokale (**Vokalformanten**).
@@ -447,10 +488,11 @@ Download kostenfrei unter [www.tolvan.com](www.tolvan.com)
 
 #### Vokalformanten F1 + F2
 
-![](../assets/Vokalformanten%20(Richter).png)
+![](../assets/Vokalformanten%20(Richter).png){.r-stretch}
 
 #### Fragen?
 
-![](../assets/Omega.jpg)
+![](../assets/Omega.jpg){.r-stretch}
 
 #### Quellen/Medien
+
